@@ -32,20 +32,20 @@ updatedAt: 2020-12-30 09:08:12
 1. 运行安装命令：
  ```shell
 npm install agora-rtc-sdk-ng --save
-```
+ ```
 
 2. 在你的项目的 JavaScript 引入这个模块：
  ```js
 import AgoraRTC from "agora-rtc-sdk-ng"
 const client = AgoraRTC.createClient({ mode: "rtc", codec: "vp8" });
-```
+ ```
 
  如果你使用 TypeScript, 还可以引入 SDK 中的类型对象：
 
  ```typescript
 import AgoraRTC, { IAgoraRTCClient } from "agora-rtc-sdk-ng"
 const client: IAgoraRTCClient = AgoraRTC.createClient({ mode: "rtc", codec: "vp8" });
-```
+ ```
 
 ### 方法 2. 使用 CDN 方法获取 SDK
 该方法无需下载安装包。在项目 html 文件中，添加如下代码：
@@ -63,7 +63,7 @@ const client: IAgoraRTCClient = AgoraRTC.createClient({ mode: "rtc", codec: "vp8
 
  ```html
 <script src="./AgoraRTC_N-4.2.0.js"></script>
-```
+ ```
 
 > - 在方法 2 和方法 3 中，SDK 都会在全局导出一个 `AgoraRTC` 对象，直接访问这个对象即可操作 SDK。
 > - 在我们的示例项目中，为方便起见，我们选择第二种方法，直接使用 CDN 链接。
