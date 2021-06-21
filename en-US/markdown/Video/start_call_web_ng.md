@@ -37,7 +37,7 @@ In order to follow the procedure in this page, you must have:
   - An Intel 2.2GHz Core i3/i5/i7 processor (2nd generation) or equivalent
 - [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-## Create a Web project
+## Create a Web project 
 
 Create a new directory named `agora_web_quickstart`. For a minimal Web app client, create the following files in the directory :
 
