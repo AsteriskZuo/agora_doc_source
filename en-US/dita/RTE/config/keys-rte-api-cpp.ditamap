@@ -937,7 +937,7 @@
         <keydef keys="OnAudioFrame" href="../API/api_onaudioframe.dita">
             <topicmeta>
                 <keywords>
-                    <keyword></keyword>
+                    <keyword>OnAudioFrame</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
@@ -1947,6 +1947,13 @@
             <topicmeta>
                 <keywords>
                     <keyword>LogConfig</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RtePlayerStatus" href="../API/class_rteplayerstatus.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RtePlayerStatus</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
