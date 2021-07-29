@@ -32,11 +32,11 @@
             <parml>
                 <plentry>
                     <pt>audio_stats</pt>
-                    <pd>Audio statistics. See <xref keyhref="RteLocalAudioStats"/>.</pd>
+                    <pd>Audio statistics. See <xref keyref="RteLocalAudioStats"/>.</pd>
                 </plentry>
                 <plentry>
                     <pt>video_stats</pt>
-                    <pd>Video statistics. See <xref keyhref="RteLocalVideoStats"/>.</pd>
+                    <pd>Video statistics. See <xref keyref="RteLocalVideoStats"/>.</pd>
                 </plentry>
             </parml>
         </section>
