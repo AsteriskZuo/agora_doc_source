@@ -92,47 +92,46 @@
         <keydef keys="CreateCameraVideoTrack" href="../API/api_createcameravideotrack.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>CreateCameraVideoTrack</keyword>
+                    <keyword>createCameraVideoTrack</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
         <keydef keys="CreateCustomAudioTrack" href="../API/api_createcustomaudiotrack.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>CreateCustomAudioTrack</keyword>
+                    <keyword>createCustomAudioTrack</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
         <keydef keys="CreateCustomVideoTrack" href="../API/api_createcustomvideotrack.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>CreateCustomVideoTrack</keyword>
+                    <keyword>createCustomVideoTrack</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
         <keydef keys="CreateMediaPlayer" href="../API/api_createmediaplayer.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>CreateMediaPlayer</keyword>
+                    <keyword>createMediaPlayer</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
         <keydef keys="CreateMicrophoneAudioTrack" href="../API/api_createmicrophoneaudiotrack.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>CreateMicrophoneAudioTrack</keyword>
+                    <keyword>createMicrophoneAudioTrack</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
         <keydef keys="CreateMixedVideoTrack" href="../API/api_createmixedvideotrack.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>CreateMixedVideoTrack</keyword>
+                    <keyword>createMixedVideoTrack</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
-        <keydef keys="CreateOrUpdateDirectCDNStream"
-            href="../API/api_createorupdatedirectcdnstream.dita">
+        <keydef keys="CreateOrUpdateDirectCDNStream" href="../API/api_createorupdatedirectcdnstream.dita">
             <topicmeta>
                 <keywords>
                     <keyword>CreateOrUpdateDirectCDNStream</keyword>
@@ -171,14 +170,14 @@
         <keydef keys="CreateScreenVideoTrack" href="../API/api_createscreenvideotrack.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>CreateScreenVideoTrack</keyword>
+                    <keyword>createScreenVideoTrack</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
         <keydef keys="CreateStreamingSource" href="../API/api_createstreamingsource.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>CreateStreamingSource</keyword>
+                    <keyword>createStreamingSource</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
@@ -765,7 +764,7 @@
         <keydef keys="OnFrame" href="../API/api_onframe.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>OnFrame</keyword>
+                    <keyword>onFrame</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
@@ -794,7 +793,7 @@
         <keydef keys="OnMixedAudioFrame" href="../API/api_onmixedaudioframe.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>OnMixedAudioFrame</keyword>
+                    <keyword>onMixedAudioFrame</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
@@ -809,7 +808,7 @@
         <keydef keys="OnPlaybackAudioFrame" href="../API/api_onplaybackaudioframe.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>OnPlaybackAudioFrame</keyword>
+                    <keyword>onPlaybackAudioFrame</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
@@ -817,7 +816,7 @@
             href="../API/api_onplaybackaudioframebeforemixing.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>OnPlaybackAudioFrameBeforeMixing</keyword>
+                    <keyword>onPlaybackAudioFrameBeforeMixing</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
@@ -860,7 +859,7 @@
           <keydef keys="OnRecordAudioFrame" href="../API/api_onrecordaudioframe.dita">  
           <topicmeta>
                 <keywords>
-                    <keyword>OnRecordAudioFrame</keyword>
+                    <keyword>onRecordAudioFrame</keyword>
                 </keywords>
             </topicmeta>
         </keydef>

@@ -13,7 +13,7 @@
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-                <codeblock props="android" outputclass="language-java"/>
+                <codeblock props="android" outputclass="language-java">boolean onRecordAudioFrame(AudioFrame audioFrame);</codeblock>
                 <codeblock props="ios mac" outputclass="language-objectivec"/>
                 <codeblock props="windows" outputclass="language-cpp">virtual bool OnRecordAudioFrame(AudioFrame&amp; audio_frame) = 0;</codeblock>
                 <codeblock props="electron" outputclass="language-typescript"/>
@@ -34,7 +34,7 @@
             <parml>
                 <plentry>
                     <pt>audio_Frame</pt>
-                    <pd>Reference to the recorded audio frame: <xref keyref="AudioFrame"/>.</pd>
+                    <pd>The recorded audio frame: <xref keyref="AudioFrame"/>.</pd>
                 </plentry>
             </parml>
         </section>

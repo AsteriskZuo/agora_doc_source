@@ -13,7 +13,7 @@
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-                <codeblock props="android" outputclass="language-java"/>
+                <codeblock props="android" outputclass="language-java">void onFrame(String streamId, VideoFrame videoFrame);</codeblock>
                 <codeblock props="ios mac" outputclass="language-objectivec"/>
                 <codeblock props="windows" outputclass="language-cpp">virtual void OnFrame(const std::string stream_id,
                        const media::base::VideoFrame&amp; video_frame) = 0;</codeblock>
@@ -41,7 +41,7 @@
                 </plentry>
                 <plentry>
                     <pt>video_frame</pt>
-                    <pd>Reference to the video frame: <xref keyref="VideoFrame"/>.</pd>
+                    <pd>The video frame: <xref keyref="VideoFrame"/>.</pd>
                 </plentry>
             </parml>
         </section>
