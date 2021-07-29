@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_rteremoteaudiostats">
     <title>RteRemoteAudioStats</title>
-    <shortdesc id="short"><ph id="shortdesc"><?oxy-placeholder content="Provide a short description for this class."?></ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">Statistics of the remote audio.</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">

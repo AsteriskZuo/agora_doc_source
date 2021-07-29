@@ -223,7 +223,6 @@
             <topicref keyref="OnPlayerStateChanged" toc="no"/>
             <topicref keyref="OnPositionChanged" toc="no"/>
             <topicref keyref="OnVideoFrame" toc="no"/>
-            
         </topicref>
         <topicref chunk="to-content" keyref="IAgoraRtePlayList">      
             <topicref keyref="AppendFile" toc="no"/>
@@ -251,7 +250,6 @@
             <topicref keyref="GetRemoteStreams" toc="no"/>
             <topicref keyref="GetRemoteStreamsByUserId" toc="no"/>
             <topicref keyref="CreateOrUpdateRTCStream" toc="no"/>
-            <topicref keyref="CreateOrUpdateDirectCDNStream" toc="no"/>
             <topicref keyref="DestroyStream" toc="no"/>
             <topicref keyref="SetAudioEncoderConfiguration" toc="no"/>
             <topicref keyref="SetVideoEncoderConfiguration" toc="no"/>
@@ -293,12 +291,20 @@
             <topicref keyref="OnRemoteStreamStats" toc="no"/>
         </topicref>
         <topicref href="API/rte_api_data_type.dita" chunk="to-content">
+            <topicref keyref="AudioFrame" toc="no"/>
             <topicref keyref="AUDIO_FRAME_TYPE" toc="no"/>
+            <topicref keyref="AUDIO_PROFILE_TYPE" toc="no"/>
             <topicref keyref="AUDIO_REVERB_PRESET" toc="no"/>
             <topicref keyref="BYTES_PER_SAMPLE" toc="no"/>
             <topicref keyref="CameraSource" toc="no"/>
             <topicref keyref="CameraState" toc="no"/>
+            <topicref keyref="CanvasConfig" toc="no"/>
+            <topicref keyref="DEGRADATION_PREFERENCE" toc="no"/>
             <topicref keyref="EGL_CONTEXT_TYPE" toc="no"/>
+            <topicref keyref="ExternalVideoFrame" toc="no"/>
+            <topicref keyref="FRAME_RATE" toc="no"/>
+            <topicref keyref="LayoutConfig" toc="no"/>
+            <topicref keyref="LayoutConfigs" toc="no"/>
             <topicref keyref="LayoutType" toc="no"/>
             <topicref keyref="MEDIA_PLAYER_ERROR" toc="no"/>
             <topicref keyref="MEDIA_PLAYER_EVENT" toc="no"/>
@@ -308,6 +314,8 @@
             <topicref keyref="MEDIA_STREAM_TYPE" toc="no"/>
             <topicref keyref="MediaType" toc="no"/>
             <topicref keyref="OPTIONAL_ENUM_SIZE_T" toc="no"/>
+            <topicref keyref="ORIENTATION_MODE" toc="no"/>
+            <topicref keyref="Rectangle" toc="no"/>
             <topicref keyref="RENDER_MODE_TYPE" toc="no"/>
             <topicref keyref="STREAMING_SRC_ERR" toc="no"/>
             <topicref keyref="SourceType" toc="no"/>
@@ -315,19 +323,13 @@
             <topicref keyref="StreamStateChangedReason" toc="no"/>
             <topicref keyref="StreamType" toc="no"/>
             <topicref keyref="VIDEO_BUFFER_TYPE" toc="no"/>
+            <topicref keyref="VideoCanvas"/>
+            <topicref keyref="VideoDimensions" toc="no"/>
             <topicref keyref="VIDEO_MIRROR_MODE_TYPE" toc="no"/>
             <topicref keyref="VIDEO_ORIENTATION" toc="no"/>
             <topicref keyref="VIDEO_PIXEL_FORMAT" toc="no"/>
             <topicref keyref="VIDEO_SOURCE_TYPE" toc="no"/>
             <topicref keyref="VOICE_CHANGER_PRESET" toc="no"/>
-            <topicref keyref="AudioFrame" toc="no"/>
-            <topicref keyref="CanvasConfig" toc="no"/>
-            <topicref keyref="ExternalVideoFrame" toc="no"/>
-            <topicref keyref="LayoutConfig" toc="no"/>
-            <topicref keyref="LayoutConfigs" toc="no"/>
-            <topicref keyref="Rectangle" toc="no"/>
-            <topicref keyref="VideoCanvas"/>
-            <topicref keyref="VideoDimensions" toc="no"/>
         </topicref>
     </topichead>    
 </map>

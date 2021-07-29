@@ -25,7 +25,7 @@
                 </plentry>
                 <plentry>
                     <pt><ph keyref="kCdnStream"/></pt>
-                    <pd>CDN stream.</pd>
+                    <pd>Reserved parameter.</pd>
                 </plentry>
             </parml>
         </section></refbody>

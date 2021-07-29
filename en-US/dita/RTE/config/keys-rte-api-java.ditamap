@@ -131,14 +131,6 @@
                 </keywords>
             </topicmeta>
         </keydef>
-        <keydef keys="CreateOrUpdateDirectCDNStream"
-            href="../API/api_createorupdatedirectcdnstream.dita">
-            <topicmeta>
-                <keywords>
-                    <keyword>CreateOrUpdateDirectCDNStream</keyword>
-                </keywords>
-            </topicmeta>
-        </keydef>
         <keydef keys="CreateOrUpdateRTCStream" href="../API/api_createorupdatertcstream.dita">
             <topicmeta>
                 <keywords>
@@ -857,7 +849,7 @@
                 </keywords>
             </topicmeta>
         </keydef>
-          <keydef keys="OnRecordAudioFrame" href="../API/api_onrecordaudioframe.dita">  
+          <keydef keys="OnRecordAudioFrame" href="../API/api_onrecordaudioframe.dita">
           <topicmeta>
                 <keywords>
                     <keyword>OnRecordAudioFrame</keyword>
@@ -1698,6 +1690,15 @@
             <topicmeta>
                 <keywords>
                     <keyword>null</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </topichead>
+    <topichead navtitle="Parameters">
+        <keydef keys="current_file_info">
+            <topicmeta>
+                <keywords>
+                    <keyword>currentFileInfo</keyword>
                 </keywords>
             </topicmeta>
         </keydef>

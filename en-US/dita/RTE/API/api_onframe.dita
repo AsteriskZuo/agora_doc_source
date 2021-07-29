@@ -41,7 +41,7 @@
                 </plentry>
                 <plentry>
                     <pt>video_frame</pt>
-                    <pd>Reference to the video frame: <xref keyref="VideoFrame"/>.</pd>
+                    <pd>The video frame: <xref keyref="VideoFrame"/>.</pd>
                 </plentry>
             </parml>
         </section>

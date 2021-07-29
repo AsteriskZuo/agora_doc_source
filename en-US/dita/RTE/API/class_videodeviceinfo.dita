@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_videodeviceinfo">
     <title>VideoDeviceInfo</title>
-    <shortdesc id="short"><ph id="shortdesc"><?oxy-placeholder content="Provide a short description for this class."?></ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">Information of the video device.</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">

@@ -2,25 +2,15 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_remoteaudioobserveroptions">
     <title>RemoteAudioObserverOptions</title>
-    <shortdesc id="short"><ph id="shortdesc"><?oxy-placeholder content="Provide a short description for this class."?></ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">Options for the remote audio observer.</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
             <codeblock props="android" outputclass="language-java"></codeblock>
             <codeblock props="ios mac" outputclass="language-objectivec"></codeblock>
             <codeblock props="windows" outputclass="language-cpp">struct RemoteAudioObserverOptions {
-  /**
-   * The audio frame will be captured before we mix the audio frame with others,
-   * Observer onPlaybackAudioFrameBeforeMixing() function will be called
-   */
   bool after_playback_before_mix = false;
-  /**
-   * Set the channel of captured audio frame
-   */
   size_t numberOfChannels = 1;
-  /**
-   * Set the sample rate of captured audio frame
-   */
   uint32_t sampleRateHz = 32000;
 };</codeblock>
             <codeblock props="electron" outputclass="language-typescript"></codeblock>
@@ -42,8 +32,21 @@
             <title><text conref="../conref/conref_api_metadata.dita#metadata/property"/></title>
             <parml>
                 <plentry>
-                    <pt><?oxy-placeholder content="The name of the attribute or property."?></pt>
-                    <pd><?oxy-placeholder content="The description of the attribute or property."?></pd>
+                    <pt>after_playback_before_mix</pt>
+                    <pd>Whether the SDK captures the audio frames after they are played and before they are mixed. The <xref keyref="onPlaybackAudioFrameBeforeMixing"/> callback is triggered.
+                        <ul>
+                            <li><ph keyref="true"/>: The SDK captures the audio frames after they are played and before they are mixed. The <xref keyref="onPlaybackAudioFrameBeforeMixing"/> callback is triggered.</li>
+                            <li><ph keyref="false"/>: (Default) The SDK does not capture the audio frames after they are played and before they are mixed. The <xref keyref="onPlaybackAudioFrameBeforeMixing"/> callback is not triggered.</li>
+                        </ul>
+                    </pd>
+                </plentry>
+                <plentry>
+                    <pt>numberOfChannels</pt>
+                    <pd>The number of channels of the captured audio frames (data is interleaved, if stereo). The default is 1.</pd>
+                </plentry>
+                <plentry>
+                    <pt>sampleRateHz</pt>
+                    <pd>Sample rate (Hz) of the captured audio frames. The default is 32000 Hz.</pd>
                 </plentry>
             </parml>
         </section>

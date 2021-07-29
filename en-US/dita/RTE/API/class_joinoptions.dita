@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_joinoptions">
     <title>JoinOptions</title>
-    <shortdesc id="short"><ph id="shortdesc"><?oxy-placeholder content="Provide a short description for this class."?></ph></shortdesc>
+    <shortdesc id="short"><ph>Options to join the scene.</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
@@ -31,7 +31,7 @@
             <parml>
                 <plentry>
                     <pt>is_user_visible_to_remote</pt>
-                    <pd>Whether the SDK notifies remote users when the local user joins the scene. 
+                    <pd>Whether the SDK notifies remote users when the local user joins the scene.
                     <ul>
                         <li><ph keyref="true"/>: (Default) The SDK notifies remote users when the local user joins the scene.</li>
                         <li><ph keyref="false"/>: The SDK does not notify remote users when the local user joins the scene.</li>

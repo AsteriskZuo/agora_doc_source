@@ -296,14 +296,6 @@
                 </keywords>
             </topicmeta>
         </keydef>
-        <keydef keys="CreateOrUpdateDirectCDNStream"
-            href="../API/api_createorupdatedirectcdnstream.dita">
-            <topicmeta>
-                <keywords>
-                    <keyword>CreateOrUpdateDirectCDNStream</keyword>
-                </keywords>
-            </topicmeta>
-        </keydef>
         <keydef keys="CreateOrUpdateRTCStream" href="../API/api_createorupdatertcstream.dita">
             <topicmeta>
                 <keywords>
@@ -1022,7 +1014,7 @@
                 </keywords>
             </topicmeta>
         </keydef>
-          <keydef keys="OnRecordAudioFrame" href="../API/api_onrecordaudioframe.dita">  
+          <keydef keys="OnRecordAudioFrame" href="../API/api_onrecordaudioframe.dita">
           <topicmeta>
                 <keywords>
                     <keyword>OnRecordAudioFrame</keyword>
@@ -1887,13 +1879,6 @@
                 </keywords>
             </topicmeta>
         </keydef>
-        <keydef keys="DirectCdnStreamOptions" href="../API/class_directcdnstreamoptions.dita">
-            <topicmeta>
-                <keywords>
-                    <keyword>DirectCdnStreamOptions</keyword>
-                </keywords>
-            </topicmeta>
-        </keydef>
         <keydef keys="ExternalVideoFrame" href="../API/class_externalvideoframe.dita">
             <topicmeta>
                 <keywords>
@@ -2338,6 +2323,34 @@
                 </keywords>
             </topicmeta>
         </keydef>
+        <keydef keys="DEGRADATION_PREFERENCE" href="../API/enum_degradation_preference.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>DEGRADATION_PREFERENCE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MAINTAIN_QUALITY">
+            <topicmeta>
+                <keywords>
+                    <keyword>MAINTAIN_QUALITY</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MAINTAIN_FRAMERATE">
+            <topicmeta>
+                <keywords>
+                    <keyword>MAINTAIN_FRAMERATE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MAINTAIN_BALANCED">
+            <topicmeta>
+                <keywords>
+                    <keyword>MAINTAIN_BALANCED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
         <keydef keys="EGL_CONTEXT_TYPE" href="../API/enum_eglcontexttype.dita">
             <topicmeta>
                 <keywords>
@@ -2356,6 +2369,62 @@
             <topicmeta>
                 <keywords>
                     <keyword>EGL_CONTEXT14</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="FRAME_RATE" href="../API/enum_frame_rate.dita">
+            <topicmeta>
+                <keywords>
+           <keyword>FRAME_RATE</keyword>
+                </keywords>
+            </topicmeta>
+                 </keydef>
+                 <keydef keys="FRAME_RATE_FPS_1">
+            <topicmeta>
+                <keywords>
+           <keyword>FRAME_RATE_FPS_1</keyword>
+                </keywords>
+            </topicmeta>
+                 </keydef>
+                 <keydef keys="FRAME_RATE_FPS_7">
+            <topicmeta>
+                <keywords>
+           <keyword>FRAME_RATE_FPS_7</keyword>
+                </keywords>
+            </topicmeta>
+                 </keydef>
+                 <keydef keys="FRAME_RATE_FPS_10">
+            <topicmeta>
+                <keywords>
+           <keyword>FRAME_RATE_FPS_10</keyword>
+                </keywords>
+            </topicmeta>
+                 </keydef>
+                 <keydef keys="FRAME_RATE_FPS_15">
+            <topicmeta>
+                <keywords>
+           <keyword>FRAME_RATE_FPS_15</keyword>
+                </keywords>
+            </topicmeta>
+                 </keydef>
+                 <keydef keys="FRAME_RATE_FPS_24">
+            <topicmeta>
+                <keywords>
+           <keyword>FRAME_RATE_FPS_24</keyword>
+                </keywords>
+            </topicmeta>
+                 </keydef>
+                 <keydef keys="FRAME_RATE_FPS_30">
+            <topicmeta>
+                <keywords>
+           <keyword>FRAME_RATE_FPS_30</keyword>
+                </keywords>
+            </topicmeta>
+                 </keydef>
+                 <keydef keys="FRAME_RATE_FPS_60">
+            <topicmeta>
+                <keywords>
+           <keyword>FRAME_RATE_FPS_60</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
@@ -2836,6 +2905,34 @@
                 </keywords>
             </topicmeta>
         </keydef>
+        <keydef keys="ORIENTATION_MODE" href="../API/enum_orientation_mode.dita">
+            <topicmeta>
+                <keywords>
+           <keyword>ORIENTATION_MODE</keyword>
+                </keywords>
+            </topicmeta>
+                 </keydef>
+                 <keydef keys="ORIENTATION_MODE_ADAPTIVE">
+            <topicmeta>
+                <keywords>
+           <keyword>ORIENTATION_MODE_ADAPTIVE</keyword>
+                </keywords>
+            </topicmeta>
+                 </keydef>
+                 <keydef keys="ORIENTATION_MODE_FIXED_LANDSCAPE">
+            <topicmeta>
+                <keywords>
+           <keyword>ORIENTATION_FIXED_LANDSCAPE</keyword>
+                </keywords>
+            </topicmeta>
+                 </keydef>
+                 <keydef keys="ORIENTATION_MODE_FIXED_PORTRAIT">
+            <topicmeta>
+                <keywords>
+           <keyword>ORIENTATION_FIXED_PORTRAIT</keyword>
+                </keywords>
+            </topicmeta>
+                 </keydef>
         <keydef keys="RENDER_MODE_TYPE" href="../API/enum_render_mode_type.dita">
             <topicmeta>
                 <keywords>
@@ -3689,7 +3786,7 @@
                     <keyword>VIDEO_PIXEL_I422</keyword>
                 </keywords>
             </topicmeta>
-        </keydef>  
+        </keydef>
     </topichead>
     <topichead navtitle="Others">
         <keydef keys="true">

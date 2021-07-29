@@ -213,7 +213,6 @@
             <topicref keyref="GetRemoteStreams" toc="no"/>
             <topicref keyref="GetRemoteStreamsByUserId" toc="no"/>
             <topicref keyref="CreateOrUpdateRTCStream" toc="no"/>
-            <topicref keyref="CreateOrUpdateDirectCDNStream" toc="no"/>
             <topicref keyref="DestroyStream" toc="no"/>
             <topicref keyref="SetAudioEncoderConfiguration" toc="no"/>
             <topicref keyref="SetVideoEncoderConfiguration" toc="no"/>

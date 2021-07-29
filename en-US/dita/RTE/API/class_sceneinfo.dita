@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_sceneinfo">
     <title>SceneInfo</title>
-    <shortdesc id="short"><ph id="shortdesc"><?oxy-placeholder content="Provide a short description for this class."?></ph></shortdesc>
+    <shortdesc id="short"><ph>Information of the scene.</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
@@ -41,7 +41,7 @@
                 </plentry>
                 <plentry>
                     <pt>state</pt>
-                    <pd>The scene state. See <xref keyref="SceneState"/></pd>
+                    <pd>The scene state. <apiname>SceneState</apiname> is equivalent to <apiname>ConnectionState</apiname>.See <xref keyref="ConnectionState"/>.</pd>
                 </plentry>
             </parml>
         </section>

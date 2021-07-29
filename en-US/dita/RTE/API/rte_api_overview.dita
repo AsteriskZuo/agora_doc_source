@@ -6,7 +6,7 @@
     <body>
         <ul>
             <li><xref keyref="AgoraRteSdk"/> provides the entry point to the RTE SDK.</li>
-            
+
         </ul>
         <section id="core_methods">
             <title>Core methods</title>
@@ -59,10 +59,6 @@
                 <strow>
                     <stentry><xref keyref="CreateOrUpdateRTCStream"/></stentry>
                     <stentry><ph conkeyref="CreateOrUpdateRTCStream/shortdesc"/></stentry>
-                </strow>
-                <strow>
-                    <stentry><xref keyref="CreateOrUpdateDirectCDNStream"/></stentry>
-                    <stentry><ph conkeyref="CreateOrUpdateDirectCDNStream/shortdesc"/></stentry>
                 </strow>
                 <strow>
                     <stentry><xref keyref="DestroyStream"/></stentry>
@@ -439,6 +435,6 @@
                 </strow>
             </simpletable>
         </section>
-        
+
     </body>
 </topic>

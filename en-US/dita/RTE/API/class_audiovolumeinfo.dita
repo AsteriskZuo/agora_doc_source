@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_audiovolumeinfo">
     <title>AudioVolumeInfo</title>
-    <shortdesc id="short"><ph id="shortdesc"><?oxy-placeholder content="Provide a short description for this class."?></ph></shortdesc>
+    <shortdesc id="short"><ph>The user ID of the speaker and the audio volume.</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">

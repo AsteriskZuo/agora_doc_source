@@ -28,11 +28,6 @@
                     <pd>The source is custom audio.</pd>
                 </plentry>
                 <plentry>
-                    <pt><ph keyref="kAudio_Wrapper"/></pt>
-                    <pd>TODO. The track is for audio from RTC track , this type helps to operator
-                        RTC audio track through RTE interface</pd>
-                </plentry>
-                <plentry>
                     <pt><ph keyref="kVideo_Camera"/></pt>
                     <pd>The source is video captured from a camera.</pd>
                 </plentry>
@@ -47,11 +42,6 @@
                 <plentry>
                     <pt><ph keyref="kVideo_Screen"/></pt>
                     <pd>The source is video of a screen.</pd>
-                </plentry>
-                <plentry>
-                    <pt><ph keyref="kVideo_Wrapper"/></pt>
-                    <pd>TODO. <p>The track is for video from RTC track , this type helps to operator
-                            RTC audio track through RTE interface</p></pd>
                 </plentry>
             </parml>
         </section></refbody>

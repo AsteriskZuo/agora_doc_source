@@ -2,20 +2,14 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_audioobserveroptions">
     <title>AudioObserverOptions</title>
-    <shortdesc id="short"><ph id="shortdesc"><?oxy-placeholder content="Provide a short description for this class."?></ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">Options to configure the audio observer.</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
             <codeblock props="android" outputclass="language-java"></codeblock>
             <codeblock props="ios mac" outputclass="language-objectivec"></codeblock>
             <codeblock props="windows" outputclass="language-cpp">struct AudioObserverOptions {
-  /**
-   * Options for local audio frame data
-   */
   LocalAudioObserverOptions local_option;
-  /**
-   * Options for remote audio frame data
-   */
   RemoteAudioObserverOptions remote_option;
 };</codeblock>
             <codeblock props="electron" outputclass="language-typescript"></codeblock>
@@ -37,8 +31,12 @@
             <title><text conref="../conref/conref_api_metadata.dita#metadata/property"/></title>
             <parml>
                 <plentry>
-                    <pt><?oxy-placeholder content="The name of the attribute or property."?></pt>
-                    <pd><?oxy-placeholder content="The description of the attribute or property."?></pd>
+                    <pt>local_option</pt>
+                    <pd>Options for local audio frames. See <xref keyref="LocalAudioObserverOptions"/>.</pd>
+                </plentry>
+                <plentry>
+                    <pt>remote_option</pt>
+                    <pd>Options for remote audio frames. See <xref keyref="RemoteAudioObserverOptions"/></pd>
                 </plentry>
             </parml>
         </section>

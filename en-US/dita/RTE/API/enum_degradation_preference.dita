@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="enum_degradation_preference">
+    <title>DEGRADATION_PREFERENCE</title>
+    <shortdesc id="short"><ph id="shortdesc">Video degradation preferences when the bandwidth is a constraint.</ph></shortdesc>
+    <refbody>
+        <section id="detailed_desc">
+            <dl outputclass="since">
+                <dlentry>
+                    <dt>Since</dt>
+                    <dd>v</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section id="parameters">
+            <title>Enumerator</title>
+            <parml>
+                <plentry>
+                    <pt><ph keyref="MAINTAIN_QUALITY"/></pt>
+                    <pd><p>0: (Default) Prefers to reduce the video frame rate while maintaining video quality during video encoding under limited bandwidth. This degradation preference is suitable for scenarios where video quality is prioritized.</p>
+                       </pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="MAINTAIN_FRAMERATE"/></pt>
+                    <pd>1: Prefers to reduce the video quality while maintaining the video frame rate during video encoding under limited bandwidth. This degradation preference is suitable for scenarios where smoothness is prioritized and video quality is allowed to be reduced.</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="MAINTAIN_BALANCED"/></pt>
+                    <pd>
+                        <p>2: Reduces the video frame rate and video quality simultaneously during video encoding under limited bandwidth. <ph keyref="MAINTAIN_BALANCED"/> has a lower reduction than <ph
+                            keyref="MAINTAIN_QUALITY"/> and <ph keyref="MAINTAIN_FRAMERATE"/>, and this preference is suitable for scenarios where both smoothness and video quality are a priority.</p>
+                    </pd>
+                </plentry>
+            </parml>
+        </section></refbody>
+</reference>

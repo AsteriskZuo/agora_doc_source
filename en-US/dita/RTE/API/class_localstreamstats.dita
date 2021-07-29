@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_localstreamstats">
     <title>LocalStreamStats</title>
-    <shortdesc id="short"><ph id="shortdesc"><?oxy-placeholder content="Provide a short description for this class."?></ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">Statistics of the local stream.</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
@@ -31,8 +31,12 @@
             <title><text conref="../conref/conref_api_metadata.dita#metadata/property"/></title>
             <parml>
                 <plentry>
-                    <pt><?oxy-placeholder content="The name of the attribute or property."?></pt>
-                    <pd><?oxy-placeholder content="The description of the attribute or property."?></pd>
+                    <pt>audio_stats</pt>
+                    <pd>Audio statistics. See <xref keyhref="RteLocalAudioStats"/>.</pd>
+                </plentry>
+                <plentry>
+                    <pt>video_stats</pt>
+                    <pd>Video statistics. See <xref keyhref="RteLocalVideoStats"/>.</pd>
                 </plentry>
             </parml>
         </section>

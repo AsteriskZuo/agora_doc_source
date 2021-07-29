@@ -11,22 +11,8 @@
             <codeblock props="ios mac" outputclass="language-objectivec"></codeblock>
             <codeblock props="windows" outputclass="language-cpp">struct VideoCanvas {
   view_t view;
-  media::base::RENDER_MODE_TYPE renderMode;
-  VIDEO_MIRROR_MODE_TYPE mirrorMode;
-  uid_t uid;
-  bool isScreenView;
-  void* priv; 
-  size_t priv_size;
-  VIDEO_SOURCE_TYPE sourceType;
-
-  VideoCanvas() : view(NULL), renderMode(media::base::RENDER_MODE_HIDDEN), mirrorMode(VIDEO_MIRROR_MODE_AUTO),
-      uid(0), isScreenView(false), priv(NULL), priv_size(0), sourceType(VIDEO_SOURCE_CAMERA_PRIMARY) {}
-  VideoCanvas(view_t v, media::base::RENDER_MODE_TYPE m, VIDEO_MIRROR_MODE_TYPE mt, uid_t u)
-      : view(v), renderMode(m), mirrorMode(mt), uid(u), isScreenView(false), priv(NULL), priv_size(0),
-        sourceType(VIDEO_SOURCE_CAMERA_PRIMARY) {}
-  VideoCanvas(view_t v, media::base::RENDER_MODE_TYPE m, VIDEO_MIRROR_MODE_TYPE mt, user_id_t)
-      : view(v), renderMode(m), mirrorMode(mt), uid(0), isScreenView(false), priv(NULL), priv_size(0),
-        sourceType(VIDEO_SOURCE_CAMERA_PRIMARY) {}
+  media::base::RENDER_MODE_TYPE render_mode;
+  VIDEO_MIRROR_MODE_TYPE mirror_mode;
 };</codeblock>
             <codeblock props="electron" outputclass="language-typescript"></codeblock>
             <codeblock props="unity" outputclass="language-csharp"></codeblock>
@@ -70,26 +56,6 @@
                                 </ul>
                             </note></p>
                     </pd>
-                </plentry>
-                <plentry>
-                    <pt>uid</pt>
-                    <pd>User ID.</pd>
-                </plentry>
-                <plentry>
-                    <pt>isScreenView</pt>
-                    <pd>TODO</pd>
-                </plentry>
-                <plentry>
-                    <pt>priv</pt>
-                    <pd>TODO</pd>
-                </plentry>
-                <plentry>
-                    <pt>priv_size</pt>
-                    <pd>TODO</pd>
-                </plentry>
-                <plentry>
-                    <pt>sourceType</pt>
-                    <pd>The type of the video source. See <xref keyref="VIDEO_SOURCE_TYPE"/>.</pd>
                 </plentry>
             </parml>
         </section>
