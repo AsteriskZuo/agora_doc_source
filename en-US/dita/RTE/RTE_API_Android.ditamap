@@ -39,7 +39,6 @@
         </topicref>
         <topicref keyref="IAgoraRteCameraVideoTrack" chunk="to-content">
             <topicref keyref="SetCameraAutoFaceFocus" toc="no"/>
-            <topicref keyref="SetCameraDevice" toc="no"/>
             <topicref keyref="SetCameraFaceDetection" toc="no"/>
             <topicref keyref="SetCameraFocus" toc="no"/>
             <topicref keyref="SetCameraSource" toc="no"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-    <title>Keys RTE Objective-C API</title>
+    <title>Keys RTE Java API</title>
     <keydef keys="platform">
         <topicmeta>
             <keywords>
@@ -41,14 +41,14 @@
         <keydef keys="AdjustPlayoutVolume" href="../API/api_adjustplayoutvolume.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>AdjustPlayoutVolume</keyword>
+                    <keyword>adjustPlayoutVolume</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
         <keydef keys="AdjustPublishVolume" href="../API/api_adjustpublishvolume.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>AdjustPublishVolume</keyword>
+                    <keyword>adjustPublishVolume</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
@@ -56,7 +56,7 @@
             href="../API/api_adjustuserplaybacksignalvolume.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>AdjustUserPlaybackSignalVolume</keyword>
+                    <keyword>adjustUserPlaybackSignalVolume</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
@@ -256,7 +256,7 @@
         <keydef keys="GetAttachedStreamId" href="../API/api_getattachedstreamid.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>GetAttachedStreamId</keyword>
+                    <keyword>getAttachedStreamId</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
@@ -356,7 +356,7 @@
         <keydef keys="GetSourceType" href="../API/api_getsourcetype.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>GetSourceType</keyword>
+                    <keyword>getSourceType</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
@@ -1253,14 +1253,14 @@
         <keydef keys="SetCameraAutoFaceFocus" href="../API/api_setcameraautofacefocus.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>SetCameraAutoFaceFocus</keyword>
+                    <keyword>setCameraAutoFaceFocus</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
         <keydef keys="SetCameraFaceDetection" href="../API/api_setcamerafacedetection.dita">
             <topicmeta>
                 <keywords>
-                    <keyword>SetCameraFaceDetection</keyword>
+                    <keyword>setCameraFaceDetection</keyword>
                 </keywords>
             </topicmeta>
         </keydef>
