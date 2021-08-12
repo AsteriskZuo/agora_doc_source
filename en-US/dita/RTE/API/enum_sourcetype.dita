@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="enum_sourcetype">
+    <title><ph keyref="SourceType"/></title>
+    <shortdesc id="short"><ph id="shortdesc">The source type of a track.</ph></shortdesc>
+    <refbody>
+        <section id="detailed_desc">
+            <dl outputclass="since">
+                <dlentry>
+                    <dt>Since</dt>
+                    <dd>v</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section id="parameters">
+            <title>Enumerator</title>
+            <parml>
+                <plentry>
+                    <pt><ph keyref="kNone"/></pt>
+                    <pd>No source type is assigned.</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="kAudio_Microphone"/></pt>
+                    <pd>The source is audio captured from a microphone.</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="kAudio_Custom"/></pt>
+                    <pd>The source is custom audio.</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="kAudio_Wrapper"/></pt>
+                    <pd>TODO. The track is for audio from RTC track , this type helps to operator
+                        RTC audio track through RTE interface</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="kVideo_Camera"/></pt>
+                    <pd>The source is video captured from a camera.</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="kVideo_Custom"/></pt>
+                    <pd>The source is custom video.</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="kVideo_Mix"/></pt>
+                    <pd>The source is mixed video of several video tracks.</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="kVideo_Screen"/></pt>
+                    <pd>The source is video of a screen.</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="kVideo_Wrapper"/></pt>
+                    <pd>TODO. <p>The track is for video from RTC track , this type helps to operator
+                            RTC audio track through RTE interface</p></pd>
+                </plentry>
+            </parml>
+        </section></refbody>
+</reference>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="api_onaudioframe">
+    <title><ph keyref="OnAudioFrame"/></title>
+    <shortdesc id="short"><ph id="shortdesc">Occurs when an audio frame is
+        received.</ph></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm keyref="OnAudioFrame"/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <section id="prototype">
+            <p outputclass="codeblock">
+                <codeblock props="android" outputclass="language-java">void onAudioFrame(AgoraRteFileInfo fileInfo, AgoraRteAudioPcmFrame audioFrame);</codeblock>
+                <codeblock props="ios mac" outputclass="language-objectivec">- (void)AgoraRteMediaPlayer:(id&lt;AgoraRteMediaPlayerProtocol>_Nonnull)playerKit didReceiveAudioFrame:(CMSampleBufferRef _Nullable)audioFrame rteFileInfo:(AgoraRteObjcFileInfo * _Nullable)fileInfo;</codeblock>
+                <codeblock props="windows" outputclass="language-cpp">virtual void OnAudioFrame(const RteFileInfo&amp; current_file_info, const AudioPcmFrame&amp; audio_frame) = 0;</codeblock>
+                <codeblock props="electron" outputclass="language-typescript"/>
+                <codeblock props="unity" outputclass="language-csharp"/>
+                <codeblock props="rn" outputclass="language-typescript"/>
+                <codeblock props="flutter" outputclass="language-dart"/>
+            </p>
+        </section>
+        <section id="detailed_desc">
+            <dl outputclass="since">
+                <dlentry>
+                    <dt>Since</dt>
+                    <dd>v</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section id="parameters"><title>Parameters</title>
+            <parml>
+                <plentry>
+                    <pt>current_file_info</pt>
+                    <pd>The information of the played file. See <xref keyref="RteFileInfo"/>.</pd>
+                </plentry>
+                <plentry>
+                    <pt>audio_frame</pt>
+                    <pd>The audio PCM frame.See <xref keyref="AudioPcmFrame"/>.</pd>
+                </plentry>
+            </parml>
+        </section>
+    </refbody>
+</reference>

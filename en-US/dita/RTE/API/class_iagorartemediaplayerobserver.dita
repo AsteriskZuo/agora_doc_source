@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="class_iagorartemediaplayerobserver">
+    <title><ph keyref="IAgoraRteMediaPlayerObserver"/></title>
+    <shortdesc id="short"><ph id="shortdesc">The IAgoraMediaPlayerObserver class.</ph></shortdesc>
+    <refbody>
+        <section id="detailed_desc">
+            <dl outputclass="since">
+                <dlentry>
+                    <dt>Since</dt>
+                    <dd>v</dd>
+                </dlentry>
+            </dl>
+        </section>
+    </refbody>
+</reference>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="api-title" xml:lang="en-US">
+    <title>API Overview</title>
+    <shortdesc id="short"><ph id="shortdesc">Agora provides ensured quality of experience (QoE) for worldwide Internet-based voice and video communications through a virtual global network optimized for real-time web and mobile-to-mobile applications.</ph></shortdesc>
+    <body>
+        <ul>
+            <li><xref keyref="AgoraRteSdk"/> provides the entry point to the RTE SDK.</li>
+            
+        </ul>
+        <section id="core_methods">
+            <title>Core methods</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Method</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry><xref keyref="Init"/></stentry>
+                    <stentry><ph conkeyref="Init/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="Deinit"/></stentry>
+                    <stentry><ph conkeyref="Deinit/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="CreateRteScene"/></stentry>
+                    <stentry><ph conkeyref="CreateRteScene/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetRteMediaFactory"/></stentry>
+                    <stentry><ph conkeyref="GetRteMediaFactory/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetAudioDeviceManager"/></stentry>
+                    <stentry><ph conkeyref="GetAudioDeviceManager/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetVideoDeviceManager"/></stentry>
+                    <stentry><ph conkeyref="GetVideoDeviceManager/shortdesc"/></stentry>
+                </strow>
+            </simpletable>
+        </section>
+        <section id="scene_methods">
+            <title>Scene methods</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Method</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry><xref keyref="Join"/></stentry>
+                    <stentry><ph conkeyref="Join/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="Leave"/></stentry>
+                    <stentry><ph conkeyref="Leave/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="CreateOrUpdateRTCStream"/></stentry>
+                    <stentry><ph conkeyref="CreateOrUpdateRTCStream/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="CreateOrUpdateDirectCDNStream"/></stentry>
+                    <stentry><ph conkeyref="CreateOrUpdateDirectCDNStream/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="DestroyStream"/></stentry>
+                    <stentry><ph conkeyref="DestroyStream/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="SetAudioEncoderConfiguration"/></stentry>
+                    <stentry><ph conkeyref="SetAudioEncoderConfiguration/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="SetVideoEncoderConfiguration"/></stentry>
+                    <stentry><ph conkeyref="SetVideoEncoderConfiguration/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="PublishLocalAudioTrack"/></stentry>
+                    <stentry><ph conkeyref="PublishLocalAudioTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="PublishLocalVideoTrack"/></stentry>
+                    <stentry><ph conkeyref="PublishLocalVideoTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="UnpublishLocalAudioTrack"/></stentry>
+                    <stentry><ph conkeyref="UnpublishLocalAudioTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="UnpublishLocalVideoTrack"/></stentry>
+                    <stentry><ph conkeyref="UnpublishLocalVideoTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="PublishMediaPlayer"/></stentry>
+                    <stentry><ph conkeyref="PublishMediaPlayer/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="UnpublishLocalVideoTrack"/></stentry>
+                    <stentry><ph conkeyref="UnpublishLocalVideoTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="UnpublishLocalVideoTrack"/></stentry>
+                    <stentry><ph conkeyref="UnpublishLocalVideoTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="SubscribeRemoteAudio"/></stentry>
+                    <stentry><ph conkeyref="SubscribeRemoteAudio/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="SubscribeRemoteVideo"/></stentry>
+                    <stentry><ph conkeyref="SubscribeRemoteVideo/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="SetRemoteVideoCanvas"/></stentry>
+                    <stentry><ph conkeyref="SetRemoteVideoCanvas/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="RegisterEventHandler"/></stentry>
+                    <stentry><ph conkeyref="RegisterEventHandler/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="UnregisterEventHandler"/></stentry>
+                    <stentry><ph conkeyref="UnregisterEventHandler/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="RegisterRemoteVideoFrameObserver"/></stentry>
+                    <stentry><ph conkeyref="RegisterRemoteVideoFrameObserver/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="UnregisterRemoteVideoFrameObserver"/></stentry>
+                    <stentry><ph conkeyref="UnregisterRemoteVideoFrameObserver/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="RegisterAudioFrameObserver"/></stentry>
+                    <stentry><ph conkeyref="RegisterAudioFrameObserver/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="UnregisterAudioFrameObserver"/></stentry>
+                    <stentry><ph conkeyref="UnregisterAudioFrameObserver/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="AdjustUserPlaybackSignalVolume"/></stentry>
+                    <stentry><ph conkeyref="AdjustUserPlaybackSignalVolume/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetUserPlaybackSignalVolume"/></stentry>
+                    <stentry><ph conkeyref="GetUserPlaybackSignalVolume/shortdesc"/></stentry>
+                </strow>
+            </simpletable>
+        </section>
+        <section id="scene_callbacks">
+            <title>Scene callbacks</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Method</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry><xref keyref="OnConnectionStateChanged"/></stentry>
+                    <stentry><ph conkeyref="OnConnectionStateChanged/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnRemoteUserJoined"/></stentry>
+                    <stentry><ph conkeyref="OnRemoteUserJoined/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnRemoteUserLeft"/></stentry>
+                    <stentry><ph conkeyref="OnRemoteUserLeft/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnRemoteStreamAdded"/></stentry>
+                    <stentry><ph conkeyref="OnRemoteStreamAdded/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnRemoteStreamRemoved"/></stentry>
+                    <stentry><ph conkeyref="OnRemoteStreamRemoved/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnLocalStreamStateChanged"/></stentry>
+                    <stentry><ph conkeyref="OnLocalStreamStateChanged/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnRemoteStreamStateChanged"/></stentry>
+                    <stentry><ph conkeyref="OnRemoteStreamStateChanged/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnAudioVolumeIndication"/></stentry>
+                    <stentry><ph conkeyref="OnAudioVolumeIndication/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnSceneTokenWillExpire"/></stentry>
+                    <stentry><ph conkeyref="OnSceneTokenWillExpire/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnRemoteStreamStateChanged"/></stentry>
+                    <stentry><ph conkeyref="OnRemoteStreamStateChanged/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnSceneTokenExpired"/></stentry>
+                    <stentry><ph conkeyref="OnSceneTokenExpired/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnStreamTokenWillExpire"/></stentry>
+                    <stentry><ph conkeyref="OnStreamTokenWillExpire/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnStreamTokenExpired"/></stentry>
+                    <stentry><ph conkeyref="OnStreamTokenExpired/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnSceneStats"/></stentry>
+                    <stentry><ph conkeyref="OnSceneStats/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnLocalStreamStats"/></stentry>
+                    <stentry><ph conkeyref="OnLocalStreamStats/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnRemoteStreamStats"/></stentry>
+                    <stentry><ph conkeyref="OnRemoteStreamStats/shortdesc"/></stentry>
+                </strow>
+            </simpletable>
+        </section>
+        <section id="media_factory">
+            <title>Media factory methods</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Method</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry><xref keyref="CreateCameraVideoTrack"/></stentry>
+                    <stentry><ph conkeyref="CreateCameraVideoTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="CreateScreenVideoTrack"/></stentry>
+                    <stentry><ph conkeyref="CreateScreenVideoTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="CreateMixedVideoTrack"/></stentry>
+                    <stentry><ph conkeyref="CreateMixedVideoTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="CreateCustomVideoTrack"/></stentry>
+                    <stentry><ph conkeyref="CreateCustomVideoTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="CreateMicrophoneAudioTrack"/></stentry>
+                    <stentry><ph conkeyref="CreateMicrophoneAudioTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="CreateCustomAudioTrack"/></stentry>
+                    <stentry><ph conkeyref="CreateCustomAudioTrack/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="CreateMediaPlayer"/></stentry>
+                    <stentry><ph conkeyref="CreateMediaPlayer/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="CreateStreamingSource"/></stentry>
+                    <stentry><ph conkeyref="CreateStreamingSource/shortdesc"/></stentry>
+                </strow>
+            </simpletable>
+        </section>
+        <section id="media_observer">
+            <title>Media observer</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Method</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry><xref keyref="OnRecordAudioFrame"/></stentry>
+                    <stentry><ph conkeyref="OnRecordAudioFrame/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnPlaybackAudioFrame"/></stentry>
+                    <stentry><ph conkeyref="OnPlaybackAudioFrame/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnMixedAudioFrame"/></stentry>
+                    <stentry><ph conkeyref="OnMixedAudioFrame/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnPlaybackAudioFrameBeforeMixing"/></stentry>
+                    <stentry><ph conkeyref="OnPlaybackAudioFrameBeforeMixing/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnFrame"/></stentry>
+                    <stentry><ph conkeyref="OnFrame/shortdesc"/></stentry>
+                </strow>
+            </simpletable>
+        </section>
+        <section id="streaming_source">
+            <title>Streaming source</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Method</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry><xref keyref="CreatePlayList_IAgoraRteStreamingSource"/></stentry>
+                    <stentry><ph conkeyref="CreatePlayList_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetRteVideoTrack_IAgoraRteStreamingSource"/></stentry>
+                    <stentry><ph conkeyref="GetRteVideoTrack_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetRteAudioTrack_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="GetRteAudioTrack_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="Open1_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="Open1_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="Open2_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="Open2_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="Close_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="Close_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="IsVideoValid_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="IsVideoValid_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="IsAudioValid_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="IsAudioValid_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetDuration_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="GetDuration_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetStreamCount_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="GetStreamCount_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetStreamInfo_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="GetStreamInfo_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="SetLoopCount_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="SetLoopCount_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="Play_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="Play_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="Pause_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="Pause_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="Stop_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="Stop_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="Seek_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="Seek_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="SeekToPrev_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="SeekToPrev_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="SeekToNext_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="SeekToNext_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="SeekToFile_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="SeekToFile_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetStreamingSourceStatus_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="GetStreamingSourceStatus_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetCurrPosition_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="GetCurrPosition_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="GetCurrState_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="GetCurrState_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="AppendSeiData_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="AppendSeiData_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="RegisterObserver_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="RegisterObserver_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="UnregisterObserver_IAgoraRteStreamingSource"></xref></stentry>
+                    <stentry><ph conkeyref="UnregisterObserver_IAgoraRteStreamingSource/shortdesc"/></stentry>
+                </strow>
+            </simpletable>
+        </section>
+        <section id="streaming_source_observer">
+            <title>Streaming source observer</title>
+            <simpletable>
+                <sthead>
+                    <stentry>Method</stentry>
+                    <stentry>Description</stentry>
+                </sthead>
+                <strow>
+                    <stentry><xref keyref="OnStateChanged_IAgoraRteStreamingSourceObserver"/></stentry>
+                    <stentry><ph conkeyref="OnStateChanged_IAgoraRteStreamingSourceObserver/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnOpenDone_IAgoraRteStreamingSourceObserver"/></stentry>
+                    <stentry><ph conkeyref="OnOpenDone_IAgoraRteStreamingSourceObserver/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnSeekDone_IAgoraRteStreamingSourceObserver"/></stentry>
+                    <stentry><ph conkeyref="OnSeekDone_IAgoraRteStreamingSourceObserver/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnEofOnce_IAgoraRteStreamingSourceObserver"/></stentry>
+                    <stentry><ph conkeyref="OnEofOnce_IAgoraRteStreamingSourceObserver/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnAllMediasCompleted_IAgoraRteStreamingSourceObserver"/></stentry>
+                    <stentry><ph conkeyref="OnAllMediasCompleted_IAgoraRteStreamingSourceObserver/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnProgress_IAgoraRteStreamingSourceObserver"/></stentry>
+                    <stentry><ph conkeyref="OnProgress_IAgoraRteStreamingSourceObserver/shortdesc"/></stentry>
+                </strow>
+                <strow>
+                    <stentry><xref keyref="OnMetaData_IAgoraRteStreamingSourceObserver"/></stentry>
+                    <stentry><ph conkeyref="OnMetaData_IAgoraRteStreamingSourceObserver/shortdesc"/></stentry>
+                </strow>
+            </simpletable>
+        </section>
+        
+    </body>
+</topic>

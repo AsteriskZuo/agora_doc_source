@@ -1,0 +1,3724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Keys RTE C++ API</title>
+    <keydef keys="platform">
+        <topicmeta>
+            <keywords>
+                <keyword>Windows</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="language">
+        <topicmeta>
+            <keywords>
+                <keyword>C++</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="api-title">
+        <topicmeta>
+            <keywords>
+                <keyword>Agora RTE C++ API Reference for All Platforms</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <topichead navtitle="Classes">
+        <keydef keys="AgoraRteSdk" href="../API/class_agorartesdk.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AgoraRteSdk</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteAudioDeviceCollection"
+            href="../API/class_iagorarteaudiodevicecollection.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteAudioDeviceCollection</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteAudioDeviceManager"
+            href="../API/class_iagorarteaudiodevicemanager.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteAudioDeviceManager</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteAudioFrameObserver"
+            href="../API/class_iagorarteaudioframeobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteAudioFrameObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteAudioTrack" href="../API/class_iagorarteaudiotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteAudioTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteCameraVideoTrack" href="../API/class_iagorartecameravideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteCameraVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteCustomAudioTrack" href="../API/class_iagorartecustomaudiotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteCustomAudioTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteCustomVideoTrack" href="../API/class_iagorartecustomvideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteCustomVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteMediaFactory" href="../API/class_iagorartemediafactory.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteMediaFactory</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteMediaPlayer" href="../API/class_iagorartemediaplayer.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteMediaPlayer</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteMediaPlayerObserver"
+            href="../API/class_iagorartemediaplayerobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteMediaPlayerObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteMicrophoneAudioTrack"
+            href="../API/class_iagorartemicrophoneaudiotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteMicrophoneAudioTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteMixedVideoTrack" href="../API/class_iagorartemixedvideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteMixedVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRtePlayList" href="../API/class_iagorarteplaylist.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRtePlayList</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteScene" href="../API/class_iagorartescene.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteScene</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteSceneEventHandler"
+            href="../API/class_iagorartesceneeventhandler.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteSceneEventHandler</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteScreenVideoTrack" href="../API/class_iagorartescreenvideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteScreenVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteStreamingSource" href="../API/class_iagorartestreamingsource.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteStreamingSource</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteStreamingSourceObserver"
+            href="../API/class_iagorartestreamingsourceobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteStreamingSourceObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteVideoDeviceManager"
+            href="../API/class_iagorartevideodevicemanager.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteVideoDeviceManager</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteVideoFrameObserver"
+            href="../API/class_iagorartevideoframeobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteVideoFrameObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IAgoraRteVideoTrack" href="../API/class_iagorartevideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IAgoraRteVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </topichead>
+    <topichead navtitle="Methods">
+        <keydef keys="AddMediaPlayer" href="../API/api_addmediaplayer.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AddMediaPlayer</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AddTrack" href="../API/api_addtrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AddTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AdjustPlayoutVolume" href="../API/api_adjustplayoutvolume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AdjustPlayoutVolume</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AdjustPublishVolume" href="../API/api_adjustpublishvolume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AdjustPublishVolume</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AdjustUserPlaybackSignalVolume"
+            href="../API/api_adjustuserplaybacksignalvolume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AdjustUserPlaybackSignalVolume</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+
+        <keydef keys="AppendFile" href="../API/api_appendfile.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AppendFile</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AppendSeiData_IAgoraRteStreamingSource" href="../API/api_iagorartestreamingsource_appendseidata.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AppendSeiData</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="ChangePlaybackSpeed" href="../API/api_changeplaybackspeed.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>ChangePlaybackSpeed</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="ClearFileList" href="../API/api_clearfilelist.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>ClearFileList</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreateCameraVideoTrack" href="../API/api_createcameravideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreateCameraVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreateCustomAudioTrack" href="../API/api_createcustomaudiotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreateCustomAudioTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreateCustomVideoTrack" href="../API/api_createcustomvideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreateCustomVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreateMediaPlayer" href="../API/api_createmediaplayer.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreateMediaPlayer</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreateMicrophoneAudioTrack" href="../API/api_createmicrophoneaudiotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreateMicrophoneAudioTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreateMixedVideoTrack" href="../API/api_createmixedvideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreateMixedVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreateOrUpdateDirectCDNStream"
+            href="../API/api_createorupdatedirectcdnstream.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreateOrUpdateDirectCDNStream</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreateOrUpdateRTCStream" href="../API/api_createorupdatertcstream.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreateOrUpdateRTCStream</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreatePlayList" href="../API/api_createplaylist.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreatePlayList</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreatePlayList_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_createplaylist.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreatePlayList</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreateRteScene" href="../API/api_creatertescene.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreateRteScene</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreateScreenVideoTrack" href="../API/api_createscreenvideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreateScreenVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CreateStreamingSource" href="../API/api_createstreamingsource.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CreateStreamingSource</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Close_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_close.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Close</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Deinit" href="../API/api_deinit.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Deinit</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="DestroyStream" href="../API/api_destroystream.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>DestroyStream</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="EnableEarMonitor" href="../API/api_enableearmonitor.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>EnableEarMonitor</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="EnableLocalPlayback" href="../API/api_enablelocalplayback.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>EnableLocalPlayback</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="EnableVideoFilter" href="../API/api_enablevideofilter.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>EnableVideoFilter</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="EnumeratePlaybackDevices" href="../API/api_enumerateplaybackdevices.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>EnumeratePlaybackDevices</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="EnumerateRecordingDevices" href="../API/api_enumeraterecordingdevices.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>EnumerateRecordingDevices</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="EnumerateVideoDevices" href="../API/api_enumeratevideodevices.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>EnumerateVideoDevices</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetApplicationVolume" href="../API/api_getapplicationvolume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetApplicationVolume</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetAttachedStreamId" href="../API/api_getattachedstreamid.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetAttachedStreamId</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetAudioDeviceManager" href="../API/api_getaudiodevicemanager.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetAudioDeviceManager</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetAudioTrack" href="../API/api_getaudiotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetAudioTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetCount" href="../API/api_getcount.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetCount</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetCurrPosition_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_getcurrposition.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetCurrPosition</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetCurrState_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_getcurrstate.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetCurrState</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetFileCount" href="../API/api_getfilecount.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetFileCount</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetFileInfoById" href="../API/api_getfileinfobyid.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetFileInfoById</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetFileInfoByIndex" href="../API/api_getfileinfobyindex.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetFileInfoByIndex</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetFileList" href="../API/api_getfilelist.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetFileList</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetFilterProperty" href="../API/api_getfilterproperty.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetFilterProperty</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetFirstFileInfo" href="../API/api_getfirstfileinfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetFirstFileInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetLastFileInfo" href="../API/api_getlastfileinfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetLastFileInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetLayout" href="../API/api_getlayout.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetLayout</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetSourceType" href="../API/api_getsourcetype.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetSourceType</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetDevice" href="../API/api_getdevice.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetDevice</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetDuration" href="../API/api_getduration.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetDuration</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetDuration_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_getduration.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetDuration</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetLocalStreams" href="../API/api_getlocalstreams.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetLocalStreams</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetLocalUserInfo" href="../API/api_getlocaluserinfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetLocalUserInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetPlayoutVolume" href="../API/api_getplayoutvolume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetPlayoutVolume</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetPlayPosition" href="../API/api_getplayposition.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetPlayPosition</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetPlaybackDevice" href="../API/api_getplaybackdevice.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetPlaybackDevice</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetPlaybackDeviceVolume" href="../API/api_getplaybackdevicevolume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetPlaybackDevice</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetPlayerStatus" href="../API/api_getplayerstatus.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetPlayerStatus</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetPlayerVersion" href="../API/api_getplayerversion.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetPlayerStatus</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetRteAudioTrack_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_getrteaudiotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetRteAudioTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetRteVideoTrack_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_getrtevideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetRteVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetRecordingDevice" href="../API/api_getrecordingdevice.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetRecordingDevice</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetRemoteStreams" href="../API/api_getremotestreams.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetRemoteStreams</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetRemoteStreamsByUserId" href="../API/api_getremotestreamsbyuserid.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetRemoteStreamsByUserId</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetRemoteUsers" href="../API/api_getremoteusers.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetRemoteUsers</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetRecordingDeviceVolume" href="../API/api_getrecordingdevicevolume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetRecordingDeviceVolume</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetRteMediaFactory" href="../API/api_getrtemediafactory.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetRteMediaFactory</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetSceneInfo" href="../API/api_getsceneinfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetSceneInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetState" href="../API/api_getstate.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetState</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetStreamCount" href="../API/api_getstreamcount.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetStreamCount</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetStreamId" href="../API/api_getstreamid.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetStreamId</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetStreamInfo" href="../API/api_getstreaminfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetStreamInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetStreamCount_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_getstreamcount.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetStreamCount</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetStreamInfo_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_getstreaminfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetStreamInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetStreamingSourceStatus_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_getstreamingsourcestatus.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetStreamingSourceStatus</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetTotalDuration" href="../API/api_gettotalduration.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetTotalDuration</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetUserPlaybackSignalVolume" href="../API/api_getuserplaybacksignalvolume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetUserPlaybackSignalVolume</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetVideoDeviceManager" href="../API/api_getvideodevicemanager.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetVideoDeviceManager</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GetVideoTrack" href="../API/api_getvideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>GetVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Init" href="../API/api_init.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Init</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="InsertFile" href="../API/api_insertfile.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>InsertFile</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IsApplicationMuted" href="../API/api_isapplicationmuted.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IsApplicationMuted</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IsAudioMuted" href="../API/api_isaudiomuted.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IsAudioMuted</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IsAudioValid_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_isaudiovalid.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IsAudioValid</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IsMuted" href="../API/api_ismuted.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IsMuted</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IsPlaybackDeviceMuted" href="../API/api_isplaybackdevicemuted.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IsPlaybackDeviceMuted</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IsRecordingDeviceMuted" href="../API/api_isrecordingdevicemuted.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IsRecordingDeviceMuted</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IsVideoMuted" href="../API/api_isvideomuted.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IsVideoMuted</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="IsVideoValid_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_isvideovalid.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>IsVideoValid</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Join" href="../API/api_join.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Join</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Leave" href="../API/api_leave.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Leave</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Mute" href="../API/api_mute.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Mute</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MuteApplication" href="../API/api_muteapplication.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MuteApplication</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MuteAudio" href="../API/api_muteaudio.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MuteAudio</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MutePlaybackDevice" href="../API/api_muteplaybackdevice.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MutePlaybackDevice</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MuteRecordingDevice" href="../API/api_muterecordingdevice.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MuteRecordingDevice</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MuteVideo" href="../API/api_mutevideo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MuteVideo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnAllMediasCompleted" href="../API/api_onallmediascompleted.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnAllMediasCompleted</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnAllMediasCompleted_IAgoraRteStreamingSourceObserver"
+            href="../API/api_iagorartestreamingsourceobserver_onallmediascompleted.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnAllMediasCompleted</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnAudioVolumeIndication" href="../API/api_onaudiovolumeindication.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnAudioVolumeIndication</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnConnectionStateChanged" href="../API/api_onconnectionstatechanged.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnConnectionStateChanged</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnEofOnce_IAgoraRteStreamingSourceObserver"
+            href="../API/api_iagorartestreamingsourceobserver_oneofonce.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnEofOnce</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnLocalStreamStats" href="../API/api_onlocalstreamstats.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnLocalStreamStats</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnLocalStreamStateChanged" href="../API/api_onlocalstreamstatechanged.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnLocalStreamStateChanged</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnFrame" href="../API/api_onframe.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnAudioFrame" href="../API/api_onaudioframe.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnAudioFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnMetadata" href="../API/api_onmetadata.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnMetadata</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnMetaData_IAgoraRteStreamingSourceObserver"
+            href="../API/api_iagorartestreamingsourceobserver_onmetadata.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnMetaData</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnMixedAudioFrame" href="../API/api_onmixedaudioframe.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnMixedAudioFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnOpenDone_IAgoraRteStreamingSourceObserver"
+            href="../API/api_iagorartestreamingsourceobserver_onopendone.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnOpenDone</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnPlaybackAudioFrame" href="../API/api_onplaybackaudioframe.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnPlaybackAudioFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnPlaybackAudioFrameBeforeMixing"
+            href="../API/api_onplaybackaudioframebeforemixing.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnPlaybackAudioFrameBeforeMixing</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnPlayerEvent" href="../API/api_onplayerevent.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnPlayerEvent</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnPlayerBufferUpdated" href="../API/api_onplayerbufferupdated.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnPlayerBufferUpdated</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnPlayerStateChanged" href="../API/api_onplayerstatechanged.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnPlayerStateChanged</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnPositionChanged" href="../API/api_onpositionchanged.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnPositionChanged</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnProgress_IAgoraRteStreamingSourceObserver"
+            href="../API/api_iagorartestreamingsourceobserver_onprogress.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnProgress</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+          <keydef keys="OnRecordAudioFrame" href="../API/api_onrecordaudioframe.dita">  
+          <topicmeta>
+                <keywords>
+                    <keyword>OnRecordAudioFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnRemoteStreamAdded" href="../API/api_onremotestreamadded.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnRemoteStreamAdded</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnRemoteStreamRemoved" href="../API/api_onremotestreamremoved.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnRemoteStreamRemoved</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnRemoteStreamStats" href="../API/api_onremotestreamstats.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnRemoteStreamStats</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnRemoteStreamStateChanged" href="../API/api_onremotestreamstatechanged.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnRemoteStreamStateChanged</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnRemoteUserJoined" href="../API/api_onremoteuserjoined.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnRemoteUserJoined</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnRemoteUserLeft" href="../API/api_onremoteuserleft.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnRemoteUserLeft</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnSceneStats" href="../API/api_onscenestats.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnSceneStats</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnSceneTokenExpired" href="../API/api_onscenetokenexpired.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnSceneTokenExpired</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnSceneTokenWillExpire" href="../API/api_onscenetokenwillexpire.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnSceneTokenWillExpire</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnSeekDone_IAgoraRteStreamingSourceObserver"
+            href="../API/api_iagorartestreamingsourceobserver_onseekdone.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnSeekDone</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnStateChanged_IAgoraRteStreamingSourceObserver"
+            href="../API/api_iagorartestreamingsourceobserver_onstatechanged.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnStateChanged</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnStreamTokenExpired" href="../API/api_onstreamtokenexpired.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnStreamTokenExpired</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnStreamTokenWillExpire" href="../API/api_onstreamtokenwillexpire.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnStreamTokenWillExpire</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OnVideoFrame" href="../API/api_onvideoframe.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OnVideoFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Open1" href="../API/api_open1.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Open[1/2]</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Open2" href="../API/api_open2.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Open[2/2]</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Open1_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_open1.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Open[1/2]</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Open2_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_open2.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Open[2/2]</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Pause" href="../API/api_pause.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Pause</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Pause_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_pause.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Pause</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Play" href="../API/api_play.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Play</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Play_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_play.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Play</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PublishLocalAudioTrack" href="../API/api_publishlocalaudiotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>PublishLocalAudioTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PublishLocalVideoTrack" href="../API/api_publishlocalvideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>PublishLocalVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PublishMediaPlayer" href="../API/api_publishmediaplayer.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>PublishMediaPlayer</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PushAudioFrame" href="../API/api_pushaudioframe.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>PushAudioFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PushVideoFrame" href="../API/api_pushvideoframe.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>PushVideoFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RegisterAudioFrameObserver" href="../API/api_registeraudioframeobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RegisterAudioFrameObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RegisterEventHandler" href="../API/api_registereventhandler.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RegisterEventHandler</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RegisterMediaPlayerObserver"
+            href="../API/api_registermediaplayerobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RegisterMediaPlayerObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RegisterObserver_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_registerobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RegisterObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RegisterRemoteVideoFrameObserver"
+            href="../API/api_registerremotevideoframeobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RegisterRemoteVideoFrameObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RegisterVideoFrameObserver" href="../API/api_registervideoframeobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RegisterVideoFrameObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Release_IAgoraRteAudioDeviceCollection"
+            href="../API/api_iagorarteaudiodevicecollection_release.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Release_IAgoraRteAudioDeviceCollection</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RemoveFileById" href="../API/api_removefilebyid.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RemoveFileById</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RemoveFileByIndex" href="../API/api_removefilebyindex.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RemoveFileByIndex</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RemoveFileByUrl" href="../API/api_removefilebyurl.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RemoveFileByUrl</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RemoveMediaPlayer" href="../API/api_removemediaplayer.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RemoveMediaPlayer</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RemoveTrack" href="../API/api_removetrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RemoveTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RenewSceneToken" href="../API/api_renewscenetoken.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RenewSceneToken</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Resume" href="../API/api_resume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Resume</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Seek" href="../API/api_seek.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Seek</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Seek_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_seek.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Seek</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SeekToFile" href="../API/api_seektofile.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SeekToFile</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SeekToFile_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_seektofile.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SeekToFile</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SeekToNext" href="../API/api_seektonext.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SeekToNext</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SeekToNext_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_seektonext.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SeekToNext</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SeekToPrev" href="../API/api_seektoprev.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SeekToPrev</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SeekToPrev_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_seektoprev.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SeekToPrev</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SelectAudioTrack" href="../API/api_selectaudiotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SelectAudioTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetApplicationVolume" href="../API/api_setapplicationvolume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetApplicationVolume</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetAudioEncoderConfiguration"
+            href="../API/api_setaudioencoderconfiguration.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetAudioEncoderConfiguration</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetAudioReverbPreset" href="../API/api_setaudioreverbpreset.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetAudioReverbPreset</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetCameraAutoFaceFocus" href="../API/api_setcameraautofacefocus.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetCameraAutoFaceFocus</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetCameraFaceDetection" href="../API/api_setcamerafacedetection.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetCameraFaceDetection</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetCameraFocus" href="../API/api_setcamerafocus.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetCameraFocus</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetCameraDevice" href="../API/api_setcameradevice.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetCameraDevice</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetCameraSource" href="../API/api_setcamerasource.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetCameraSource</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetCameraZoom" href="../API/api_setcamerazoom.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetCameraZoom</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetContentHint" href="../API/api_setcontenthint.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetContentHint</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetDeviceOrientation" href="../API/api_setdeviceorientation.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetDeviceOrientation</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetFilterProperty" href="../API/api_setfilterproperty.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetFilterProperty</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetLayout" href="../API/api_setlayout.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetLayout</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetPreviewCanvas" href="../API/api_setpreviewcanvas.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetPreviewCanvas</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetVideoEncoderConfiguration"
+            href="../API/api_setvideoencoderconfiguration.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetVideoEncoderConfiguration</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetVoiceChangerPreset" href="../API/api_setvoicechangerpreset.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetVoiceChangerPreset</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetDevice" href="../API/api_setdevice.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetDevice</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetLoopCount" href="../API/api_setloopcount.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetLoopCount</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetLoopCount_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_setloopcount.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetLoopCount</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetPlaybackDevice" href="../API/api_setplaybackdevice.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetPlaybackDevice</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetPlaybackDeviceVolume" href="../API/api_setplaybackdevicevolume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetPlaybackDeviceVolume</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetPlayerOption" href="../API/api_setplayeroption.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetPlayerOption</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetPlayerOptionString" href="../API/api_setplayeroptionstring.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetPlayerOptionString</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetRecordingDevice" href="../API/api_setrecordingdevice.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetRecordingDevice</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetRecordingDeviceVolume" href="../API/api_setrecordingdevicevolume.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetRecordingDeviceVolume</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetRemoteVideoCanvas" href="../API/api_setremotevideocanvas.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetRemoteVideoCanvas</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetRenderMode" href="../API/api_setrendermode.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetRenderMode</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetStreamId" href="../API/api_setstreamid.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetStreamId</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SetView" href="../API/api_setview.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SetView</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StartCapture" href="../API/api_startcapture.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StartCapture</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StartCaptureScreen_Android" href="../API/api_startcapturescreen_android.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StartCaptureScreen [3/4]</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StartCaptureScreen_iOS" href="../API/api_startcapturescreen_ios.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StartCaptureScreen [4/4]</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StartCaptureScreen_macOS" href="../API/api_startcapturescreen_macos.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StartCaptureScreen [2/4]</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StartCaptureScreen_Windows" href="../API/api_startcapturescreen_windows.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StartCaptureScreen [1/4]</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StartCaptureWindow_macOS" href="../API/api_startcapturewindow_macos.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StartCaptureWindow [2/2]</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StartCaptureWindow_Windows" href="../API/api_startcapturewindow_windows.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StartCaptureWindow [1/2]</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StartDeviceLoopbackTest" href="../API/api_startdeviceloopbacktest.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StartDeviceLoopbackTest</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StartPlaybackDeviceTest" href="../API/api_startplaybackdevicetest.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StartPlaybackDeviceTest</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StartRecording" href="../API/api_startrecording.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StartRecording</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StartRecordingDeviceTest" href="../API/api_startrecordingdevicetest.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StartRecordingDeviceTest</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Stop" href="../API/api_stop.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Stop</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Stop_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_stop.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Stop</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StopCapture_Camera" href="../API/api_stopcapture_camera.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StopCapture</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StopCapture_Screen" href="../API/api_stopcapture_screen.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StopCapture</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StopDeviceLoopbackTest" href="../API/api_stopdeviceloopbacktest.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StopDeviceLoopbackTest</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StopPlaybackDeviceTest" href="../API/api_stopplaybackdevicetest.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StopPlaybackDeviceTest</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StopRecording" href="../API/api_stoprecording.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StopRecording</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StopRecordingDeviceTest" href="../API/api_stoprecordingdevicetest.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StopRecordingDeviceTest</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SubscribeRemoteAudio" href="../API/api_subscriberemoteaudio.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SubscribeRemoteAudio</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SubscribeRemoteVideo" href="../API/api_subscriberemotevideo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SubscribeRemoteVideo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SwitchCamera" href="../API/api_switchcamera.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SwitchCamera</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UpdateScreenCaptureRegion" href="../API/api_updatescreencaptureregion.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UpdateScreenCaptureRegion</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UnpublishLocalAudioTrack" href="../API/api_unpublishlocalaudiotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UnpublishLocalAudioTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UnpublishLocalVideoTrack" href="../API/api_unpublishlocalvideotrack.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UnpublishLocalVideoTrack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UnpublishMediaPlayer" href="../API/api_unpublishmediaplayer.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UnpublishMediaPlayer</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UnregisterEventHandler" href="../API/api_unregistereventhandler.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UnregisterEventHandler</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UnregisterAudioFrameObserver"
+            href="../API/api_unregisteraudioframeobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UnregisterAudioFrameObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UnregisterMediaPlayerObserver"
+            href="../API/api_unregistermediaplayerobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UnregisterMediaPlayerObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UnregisterObserver_IAgoraRteStreamingSource"
+            href="../API/api_iagorartestreamingsource_unregisterobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UnregisterObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UnregisterRemoteVideoFrameObserver"
+            href="../API/api_unregisterremotevideoframeobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UnregisterRemoteVideoFrameObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UnregisterVideoFrameObserver"
+            href="../API/api_unregistervideoframeobserver.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UnregisterVideoFrameObserver</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UnsubscribeRemoteAudio" href="../API/api_unsubscriberemoteaudio.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UnsubscribeRemoteAudio</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UnsubscribeRemoteVideo" href="../API/api_unsubscriberemotevideo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UnsubscribeRemoteVideo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </topichead>
+    <topichead navtitle="Structs">
+        <keydef keys="AudioEncoderConfiguration" href="../API/class_audioencoderconfiguration.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AudioEncoderConfiguration</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AudioFrame" href="../API/class_audioframe.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AudioFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AudioObserverOptions" href="../API/class_audioobserveroptions.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AudioObserverOptions</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AudioPcmFrame" href="../API/class_audiopcmframe.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AudioPcmFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AudioVolumeInfo" href="../API/class_audiovolumeinfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AudioVolumeInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CanvasConfig" href="../API/class_canvasconfig.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CanvasConfig</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="DirectCdnStreamOptions" href="../API/class_directcdnstreamoptions.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>DirectCdnStreamOptions</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="ExternalVideoFrame" href="../API/class_externalvideoframe.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>ExternalVideoFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="InputSeiData" href="../API/class_inputseidata.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>InputSeiData</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="JoinOptions" href="../API/class_joinoptions.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>JoinOptions</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="LayoutConfigs" href="../API/class_layoutconfigs.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>LayoutConfigs</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="LayoutConfig" href="../API/class_layoutconfig.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>LayoutConfig</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="LocalAudioObserverOptions" href="../API/class_localaudioobserveroptions.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>LocalAudioObserverOptions</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="LocalStreamStats" href="../API/class_localstreamstats.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>LocalStreamStats</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="LogConfig" href="../API/class_logconfig.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>LogConfig</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RtePlayerStatus" href="../API/class_rteplayerstatus.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RtePlayerStatus</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PlayerStreamInfo" href="../API/class_playerstreaminfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>PlayerStreamInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Rectangle" href="../API/class_rectangle.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>Rectangle</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RemoteAudioObserverOptions"
+            href="../API/class_remoteaudioobserveroptions.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RemoteObserverOptions</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RemoteStreamStats" href="../API/class_remotestreamstats.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SceneStats</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RteFileInfo" href="../API/class_rtefileinfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RteFileInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RteLocalAudioStats" href="../API/class_rtelocalaudiostats.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SceneStats</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RteLocalVideoStats" href="../API/class_rtelocalvideostats.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SceneStats</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RtePlayerStatus" href="../API/class_rteplayerstatus.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RtePlayerStatus</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RteRemoteAudioStats" href="../API/class_rteremoteaudiostats.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SceneStats</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RteRemoteVideoStats" href="../API/class_rteremotevideostats.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SceneStats</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RteStreamingSourceStatus" href="../API/class_rtestreamingsourcestatus.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RteStreamingSourceStatus</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RtcStreamOptions" href="../API/class_rtcstreamoptions.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RtcStreamOptions</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SceneConfig" href="../API/class_sceneconfig.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SceneConfig</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SceneInfo" href="../API/class_sceneinfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SceneInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SceneStats" href="../API/class_scenestats.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SceneStats</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SdkProfile" href="../API/class_sdkprofile.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SdkProfile</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StreamInfo" href="../API/class_streaminfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StreamInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="UserInfo" href="../API/class_userinfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>UserInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VideoCanvas" href="../API/class_videocanvas.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VideoCanvas</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VideoDeviceInfo" href="../API/class_videodeviceinfo.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VideoDeviceInfo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VideoDimensions" href="../API/class_videodimensions.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VideoDimensions</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VideoEncoderConfiguration" href="../API/class_videoencoderconfiguration.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VideoEncoderConfiguration</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VideoFrame" href="../API/class_videoframe.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VideoFrame</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VideoSubscribeOptions" href="../API/class_videosubscribeoptions.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VideoSubscribeOptions</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </topichead>
+    <topichead navtitle="Enums">
+        <keydef keys="AUDIO_FRAME_TYPE" href="../API/enum_audio_frame_type.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_FRAME_TYPE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="FRAME_TYPE_PCM16">
+            <topicmeta>
+                <keywords>
+                    <keyword>FRAME_TYPE_PCM16</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_PROFILE_TYPE" href="../API/enum_audio_profile_type.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_PROFILE_TYPE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_PROFILE_DEFAULT">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_PROFILE_DEFAULT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_PROFILE_SPEECH_STANDARD">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_PROFILE_SPEECH_STANDARD</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_PROFILE_MUSIC_STANDARD">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_PROFILE_MUSIC_STANDARD</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_PROFILE_MUSIC_STANDARD_STEREO">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_PROFILE_MUSIC_STANDARD_STEREO</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_PROFILE_MUSIC_HIGH_QUALITY">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_PROFILE_MUSIC_HIGH_QUALITY</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_PROFILE_MUSIC_HIGH_QUALITY_STEREO">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_PROFILE_MUSIC_HIGH_QUALITY_STEREO</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_PROFILE_IOT">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_PROFILE_IOT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_PROFILE_NUM">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_PROFILE_NUM</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_REVERB_PRESET" href="../API/enum_audioreverbpreset.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_REVERB_PRESET</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_REVERB_OFF">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_REVERB_OFF</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_REVERB_FX_KTV">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_REVERB_FX_KTV</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_REVERB_FX_VOCAL_CONCERT">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_REVERB_FX_VOCAL_CONCERT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_REVERB_FX_UNCLE">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_REVERB_FX_UNCLE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_REVERB_FX_SISTER">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_REVERB_FX_SISTER</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_REVERB_FX_STUDIO">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_REVERB_FX_STUDIO</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_REVERB_FX_POPULAR">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_REVERB_FX_POPULAR</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_REVERB_FX_RNB">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_REVERB_FX_RNB</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="AUDIO_REVERB_FX_PHONOGRAPH">
+            <topicmeta>
+                <keywords>
+                    <keyword>AUDIO_REVERB_FX_PHONOGRAPH</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="BYTES_PER_SAMPLE" href="../API/enum_bytes_per_sample.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>BYTES_PER_SAMPLE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="TWO_BYTES_PER_SAMPLE">
+            <topicmeta>
+                <keywords>
+                    <keyword>TWO_BYTES_PER_SAMPLE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CameraSource" href="../API/enum_camerasource.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CameraSource</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kBack">
+            <topicmeta>
+                <keywords>
+                    <keyword>kBack</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kFront">
+            <topicmeta>
+                <keywords>
+                    <keyword>kFront</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CameraState" href="../API/enum_camerastate.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>CameraState</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kStarted">
+            <topicmeta>
+                <keywords>
+                    <keyword>kStarted</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kStopped">
+            <topicmeta>
+                <keywords>
+                    <keyword>kStopped</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="ConnectionChangedReason">
+            <topicmeta>
+                <keywords>
+                    <keyword>ConnectionChangedReason</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="ConnectionState">
+            <topicmeta>
+                <keywords>
+                    <keyword>ConnectionState</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="EGL_CONTEXT_TYPE" href="../API/enum_eglcontexttype.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>EGL_CONTEXT_TYPE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="EGL_CONTEXT10">
+            <topicmeta>
+                <keywords>
+                    <keyword>EGL_CONTEXT10</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="EGL_CONTEXT14">
+            <topicmeta>
+                <keywords>
+                    <keyword>EGL_CONTEXT14</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="LayoutType" href="../API/enum_layouttype.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>LayoutType</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Image">
+            <topicmeta>
+                <keywords>
+                    <keyword>Image</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="Track">
+            <topicmeta>
+                <keywords>
+                    <keyword>Track</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MAX_DEVICE_ID_LENGTH_TYPE" href="../API/enum_max_device_id_length_type.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MAX_DEVICE_ID_LENGTH_TYPE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MAX_DEVICE_ID_LENGTH">
+            <topicmeta>
+                <keywords>
+                    <keyword>MAX_DEVICE_ID_LENGTH</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MEDIA_PLAYER_PLAYBACK_SPEED"
+            href="../API/enum_media_player_playback_speed.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MEDIA_PLAYER_PLAYBACK_SPEED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYBACK_SPEED_ORIGINAL">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYBACK_SPEED_ORIGINAL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYBACK_SPEED_50_PERCENT">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYBACK_SPEED_50_PERCENT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYBACK_SPEED_75_PERCENT">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYBACK_SPEED_75_PERCENT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYBACK_SPEED_125_PERCENT">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYBACK_SPEED_125_PERCENT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYBACK_SPEED_150_PERCENT">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYBACK_SPEED_150_PERCENT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYBACK_SPEED_200_PERCENT">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYBACK_SPEED_200_PERCENT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MEDIA_PLAYER_STATE" href="../API/enum_media_player_state.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MEDIA_PLAYER_STATE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_IDLE">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_IDLE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_OPENING">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_OPENING</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_OPEN_COMPLETED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_OPEN_COMPLETED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_PLAYING">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_PLAYING</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_PAUSED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_PAUSED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_PLAYBACK_COMPLETED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_PLAYBACK_COMPLETED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_PLAYBACK_ALL_LOOPS_COMPLETED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_PLAYBACK_ALL_LOOPS_COMPLETED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_STOPPED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_STOPPED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_PAUSING_INTERNAL">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_PAUSING_INTERNAL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_STOPPING_INTERNAL">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_STOPPING_INTERNAL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_SEEKING_INTERNAL">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_SEEKING_INTERNAL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_GETTING_INTERNAL">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_GETTING_INTERNAL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_NONE_INTERNAL">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_NONE_INTERNAL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_DO_NOTHING_INTERNAL">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_DO_NOTHING_INTERNAL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_STATE_FAILED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_STATE_FAILED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MEDIA_PLAYER_ERROR" href="../API/enum_media_player_error.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MEDIA_PLAYER_ERROR</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_NONE">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_NONE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_INVALID_ARGUMENTS">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_INVALID_ARGUMENTS</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_INTERNAL">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_INTERNAL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_NO_RESOURCE">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_NO_RESOURCE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_INVALID_MEDIA_SOURCE">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_INVALID_MEDIA_SOURCE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_UNKNOWN_STREAM_TYPE">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_UNKNOWN_STREAM_TYPE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_OBJ_NOT_INITIALIZED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_OBJ_NOT_INITIALIZED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_CODEC_NOT_SUPPORTED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_CODEC_NOT_SUPPORTED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_VIDEO_RENDER_FAILED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_VIDEO_RENDER_FAILED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_INVALID_STATE">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_INVALID_STATE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_URL_NOT_FOUND">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_URL_NOT_FOUND</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_INVALID_CONNECTION_STATE">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_INVALID_CONNECTION_STATE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_SRC_BUFFER_UNDERFLOW">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_SRC_BUFFER_UNDERFLOW</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_ERROR_INTERRUPTED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_ERROR_INTERRUPTED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MEDIA_PLAYER_EVENT" href="../API/enum_media_player_event.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MEDIA_PLAYER_EVENT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_EVENT_SEEK_BEGIN">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_EVENT_SEEK_BEGIN</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_EVENT_SEEK_COMPLETE">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_EVENT_SEEK_COMPLETE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_EVENT_SEEK_ERROR">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_EVENT_SEEK_ERROR</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_EVENT_VIDEO_PUBLISHED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_EVENT_VIDEO_PUBLISHED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_EVENT_AUDIO_PUBLISHED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_EVENT_AUDIO_PUBLISHED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_EVENT_AUDIO_TRACK_CHANGED">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_EVENT_AUDIO_TRACK_CHANGED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_EVENT_BUFFER_LOW">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_EVENT_BUFFER_LOW</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_EVENT_BUFFER_RECOVER">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_EVENT_BUFFER_RECOVER</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_EVENT_FREEZE_START">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_EVENT_FREEZE_START</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_EVENT_FREEZE_STOP">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_EVENT_FREEZE_STOP</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MEDIA_PLAYER_METADATA_TYPE" href="../API/enum_media_player_metadata_type.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MEDIA_PLAYER_METADATA_TYPE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_METADATA_TYPE_UNKNOWN">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_METADATA_TYPE_UNKNOWN</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="PLAYER_METADATA_TYPE_SEI">
+            <topicmeta>
+                <keywords>
+                    <keyword>PLAYER_METADATA_TYPE_SEI</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MEDIA_STREAM_TYPE" href="../API/enum_media_stream_type.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MEDIA_STREAM_TYPE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAM_TYPE_UNKNOWN">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAM_TYPE_UNKNOWN</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAM_TYPE_VIDEO">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAM_TYPE_VIDEO</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAM_TYPE_AUDIO">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAM_TYPE_AUDIO</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAM_TYPE_SUBTITLE">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAM_TYPE_SUBTITLE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="MediaType" href="../API/enum_mediatype.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>MediaType</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="OPTIONAL_ENUM_SIZE_T" href="../API/enum_optional_enum_size_t.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>OPTIONAL_ENUM_SIZE_T</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kMaxDataSizeSamples">
+            <topicmeta>
+                <keywords>
+                    <keyword/>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kMaxDataSizeBytes">
+            <topicmeta>
+                <keywords>
+                    <keyword/>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kAudio">
+            <topicmeta>
+                <keywords>
+                    <keyword>kAudio</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kVideo">
+            <topicmeta>
+                <keywords>
+                    <keyword>kVideo</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RENDER_MODE_TYPE" href="../API/enum_render_mode_type.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>RENDER_MODE_TYPE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RENDER_MODE_HIDDEN">
+            <topicmeta>
+                <keywords>
+                    <keyword>RENDER_MODE_HIDDEN</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RENDER_MODE_FIT">
+            <topicmeta>
+                <keywords>
+                    <keyword>RENDER_MODE_FIT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="RENDER_MODE_ADAPTIVE">
+            <topicmeta>
+                <keywords>
+                    <keyword>RENDER_MODE_ADAPTIVE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SceneType" href="../API/enum_scenetype.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SceneType</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kAdhoc">
+            <topicmeta>
+                <keywords>
+                    <keyword>kAdhoc</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kCompatible">
+            <topicmeta>
+                <keywords>
+                    <keyword>kCompatible</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="SourceType" href="../API/enum_sourcetype.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>SourceType</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kNone">
+            <topicmeta>
+                <keywords>
+                    <keyword>kNone</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kAudio_Microphone">
+            <topicmeta>
+                <keywords>
+                    <keyword>kAudio_Microphone</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kAudio_Custom">
+            <topicmeta>
+                <keywords>
+                    <keyword>kAudio_Custom</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kAudio_Wrapper">
+            <topicmeta>
+                <keywords>
+                    <keyword>kAudio_Wrapper</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kVideo_Camera">
+            <topicmeta>
+                <keywords>
+                    <keyword>kVideo_Camera</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kVideo_Custom">
+            <topicmeta>
+                <keywords>
+                    <keyword>kVideo_Custom</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kVideo_Mix">
+            <topicmeta>
+                <keywords>
+                    <keyword>kVideo_Mix</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kVideo_Screen">
+            <topicmeta>
+                <keywords>
+                    <keyword>kVideo_Screen</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kVideo_Wrapper">
+            <topicmeta>
+                <keywords>
+                    <keyword>kVideo_Wrapper</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_BUFFER_TYPE" href="../API/enum_videobuffertype.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_BUFFER_TYPE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_BUFFER_RAW_DATA">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_BUFFER_RAW_DATA</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_BUFFER_ARRAY">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_BUFFER_ARRAY</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_BUFFER_TEXTURE">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_BUFFER_TEXTURE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_CONTENT_HINT" href="../API/enum_videocontenthint.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_CONTENT_HINT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CONTENT_HINT_NONE">
+            <topicmeta>
+                <keywords>
+                    <keyword>CONTENT_HINT_NONE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CONTENT_HINT_MOTION">
+            <topicmeta>
+                <keywords>
+                    <keyword>CONTENT_HINT_MOTION</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="CONTENT_HINT_DETAILS">
+            <topicmeta>
+                <keywords>
+                    <keyword>CONTENT_HINT_DETAILS</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_MIRROR_MODE_TYPE" href="../API/enum_videomirrormodetype.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_MIRROR_MODE_TYPE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_MIRROR_MODE_AUTO">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_MIRROR_MODE_AUTO</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_MIRROR_MODE_ENABLED">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_MIRROR_MODE_ENABLED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_MIRROR_MODE_DISABLED">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_MIRROR_MODE_DISABLED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_ORIENTATION" href="../API/enum_videoorientation.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_ORIENTATION</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_ORIENTATION_0">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_ORIENTATION_0</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_ORIENTATION_90">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_ORIENTATION_90</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_ORIENTATION_180">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_ORIENTATION_180</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_ORIENTATION_270">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_ORIENTATION_270</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_TYPE" href="../API/enum_videosourcetype.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_TYPE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_CAMERA_PRIMARY">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_CAMERA_PRIMARY</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_CAMERA">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_CAMERA</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_CAMERA_SECONDARY">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_CAMERA_SECONDARY</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_SCREEN_PRIMARY">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_SCREEN_PRIMARY</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_SCREEN">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_SCREEN</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_SCREEN_SECONDARY">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_SCREEN_SECONDARY</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_CUSTOM">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_CUSTOM</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_MEDIA_PLAYER">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_MEDIA_PLAYER</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_RTC_IMAGE_PNG">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_RTC_IMAGE_PNG</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_RTC_IMAGE_JPEG">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_RTC_IMAGE_JPEG</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_RTC_IMAGE_GIF">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_RTC_IMAGE_GIF</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_REMOTE">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_REMOTE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_TRANSCODED">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_TRANSCODED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_SOURCE_UNKNOWN">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_SOURCE_UNKNOWN</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_CHANGER_PRESET" href="../API/enum_voicechangerpreset.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_CHANGER_PRESET</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_CHANGER_OFF">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_CHANGER_OFF</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_CHANGER_OLDMAN">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_CHANGER_OLDMAN</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_CHANGER_BABYBOY">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_CHANGER_BABYBOY</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_CHANGER_BABYGIRL">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_CHANGER_BABYGIRL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_CHANGER_ZHUBAJIE">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_CHANGER_ZHUBAJIE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_CHANGER_ETHEREAL">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_CHANGER_ETHEREAL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_CHANGER_HULK">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_CHANGER_HULK</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_BEAUTY_VIGOROUS">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_BEAUTY_VIGOROUS</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_BEAUTY_DEEP">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_BEAUTY_DEEP</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_BEAUTY_MELLOW">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_BEAUTY_MELLOW</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_BEAUTY_FALSETTO">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_BEAUTY_FALSETTO</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_BEAUTY_FULL">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_BEAUTY_FULL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_BEAUTY_CLEAR">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_BEAUTY_CLEAR</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_BEAUTY_RESOUNDING">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_BEAUTY_RESOUNDING</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_BEAUTY_RINGING">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_BEAUTY_RINGING</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VOICE_BEAUTY_SPACIAL">
+            <topicmeta>
+                <keywords>
+                    <keyword>VOICE_BEAUTY_SPACIAL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GENERAL_BEAUTY_VOICE_MALE_MAGNETIC">
+            <topicmeta>
+                <keywords>
+                    <keyword>GENERAL_BEAUTY_VOICE_MALE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GENERAL_BEAUTY_VOICE_FEMALE_FRESH">
+            <topicmeta>
+                <keywords>
+                    <keyword>GENERAL_BEAUTY_VOICE_FEMALE_FRESH</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="GENERAL_BEAUTY_VOICE_FEMALE_VITALITY">
+            <topicmeta>
+                <keywords>
+                    <keyword>GENERAL_BEAUTY_VOICE_FEMALE_VITALITY</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StreamMediaState" href="../API/enum_streammediastate.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StreamMediaState</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kIdle">
+            <topicmeta>
+                <keywords>
+                    <keyword>kIdle</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kStreaming">
+            <topicmeta>
+                <keywords>
+                    <keyword>kStreaming </keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StreamStateChangedReason" href="../API/enum_streamstatechangedreason.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StreamStateChangedReason</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kPublished">
+            <topicmeta>
+                <keywords>
+                    <keyword>kPublished</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kUnpublished">
+            <topicmeta>
+                <keywords>
+                    <keyword>kUnpublished</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kSubscribed">
+            <topicmeta>
+                <keywords>
+                    <keyword>kSubscribed</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kUnsubscribed">
+            <topicmeta>
+                <keywords>
+                    <keyword>kUnsubscribed</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR" href="../API/enum_streaming_src_err.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_NONE">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_NONE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_UNKNOWN">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_UNKNOWN</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_INVALID_PARAM">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_INVALID_PARAM</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_BAD_STATE">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_BAD_STATE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_NO_MEM">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_NO_MEM</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_BUFFER_OVERFLOW">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_BUFFER_OVERFLOW</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_BUFFER_UNDERFLOW">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_BUFFER_UNDERFLOW</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_NOT_FOUND">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_NOT_FOUND</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_TIMEOUT">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_TIMEOUT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_EXPIRED">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_EXPIRED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_UNSUPPORTED">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_UNSUPPORTED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_NOT_EXIST">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_NOT_EXIST</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_EXIST">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_EXIST</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_OPEN">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_OPEN</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_CLOSE">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_CLOSE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_READ">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_READ</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_WRITE">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_WRITE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_SEEK">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_SEEK</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_EOF">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_EOF</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_CODECOPEN">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_CODECOPEN</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_CODECCLOSE">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_CODECCLOSE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_ERR_CODECPROC">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_ERR_CODECPROC</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_STATE" href="../API/enum_streaming_src_state.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_STATE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_STATE_CLOSED">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_STATE_CLOSED</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_STATE_OPENING">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_STATE_OPENING</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_STATE_IDLE">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_STATE_IDLE</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_STATE_PLAYING">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_STATE_PLAYING</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_STATE_SEEKING">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_STATE_SEEKING</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_STATE_EOF">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_STATE_EOF</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="STREAMING_SRC_STATE_ERROR">
+            <topicmeta>
+                <keywords>
+                    <keyword>STREAMING_SRC_STATE_ERROR</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="StreamType" href="../API/enum_streamtype.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>StreamType</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kInvalid">
+            <topicmeta>
+                <keywords>
+                    <keyword>kInvalid</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kRtcStream">
+            <topicmeta>
+                <keywords>
+                    <keyword>kRtcStream</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="kCdnStream">
+            <topicmeta>
+                <keywords>
+                    <keyword>kCdnStream</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_PIXEL_FORMAT" href="../API/enum_video_pixel_format.dita">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_PIXEL_FORMAT</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_PIXEL_UNKNOWN">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_PIXEL_UNKNOWN</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_PIXEL_I420">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_PIXEL_I420</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_PIXEL_BGRA">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_PIXEL_BGRA</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_PIXEL_NV21">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_PIXEL_NV21</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_PIXEL_RGBA">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_PIXEL_RGBA</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_PIXEL_NV12">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_PIXEL_NV12</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_TEXTURE_2D">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_TEXTURE_2D</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_TEXTURE_OES">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_TEXTURE_OES</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="VIDEO_PIXEL_I422">
+            <topicmeta>
+                <keywords>
+                    <keyword>VIDEO_PIXEL_I422</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>  
+    </topichead>
+    <topichead navtitle="Others">
+        <keydef keys="true">
+            <topicmeta>
+                <keywords>
+                    <keyword>true</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="false">
+            <topicmeta>
+                <keywords>
+                    <keyword>false</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="null">
+            <topicmeta>
+                <keywords>
+                    <keyword>NULL</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    </topichead>
+</map>

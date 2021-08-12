@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="class_canvasconfig">
+    <title>CanvasConfig</title>
+    <shortdesc id="short"><ph id="shortdesc">Canvas settings for a video frame.</ph></shortdesc>
+    <refbody>
+        <section id="prototype">
+            <p outputclass="codeblock">
+            <codeblock props="android" outputclass="language-java"></codeblock>
+            <codeblock props="ios mac" outputclass="language-objectivec"></codeblock>
+            <codeblock props="windows" outputclass="language-cpp">struct CanvasConfig {
+  int width = 1920;
+  int height = 1080;
+  int fps = 15;
+  std::string image_file_path;
+};</codeblock>
+            <codeblock props="electron" outputclass="language-typescript"></codeblock>
+            <codeblock props="unity" outputclass="language-csharp"></codeblock>
+            <codeblock props="rn" outputclass="language-typescript"></codeblock>
+            <codeblock props="flutter" outputclass="language-dart"></codeblock>
+            </p>
+        </section>
+        <section id="detailed_desc">
+            <dl outputclass="since">
+                <dlentry>
+                    <dt>Since</dt>
+                    <dd>v</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section id="parameters">
+            <title><text conref="../conref/conref_api_metadata.dita#metadata/property"/></title>
+            <parml>
+                <plentry>
+                    <pt>width</pt>
+                    <pd>Width of the canvas (pixel).</pd>
+                </plentry>
+                <plentry>
+                    <pt>height</pt>
+                    <pd>Height of the canvas (pixel).</pd>
+                </plentry>
+                <plentry>
+                    <pt>fps</pt>
+                    <pd>The frame rate (fps) of the mixed video. The value is replaced by the
+                        stream's video encoder configuration  when the video is published to a
+                        stream.</pd>
+                </plentry>
+                <plentry>
+                    <pt>image_file_path</pt>
+                    <pd>The local path of the canvas background image. If the path is invalid or
+                        empty, the background is back.</pd>
+                </plentry>
+            </parml>
+        </section>
+    </refbody>
+</reference>

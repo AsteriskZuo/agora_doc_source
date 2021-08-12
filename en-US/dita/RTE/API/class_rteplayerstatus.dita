@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="class_rteplayerstatus">
+    <title><ph keyref="RtePlayerStatus"/></title>
+    <shortdesc id="short"><ph id="shortdesc">The RTE player status structure.</ph></shortdesc>
+    <refbody>
+        <section id="prototype">
+            <p outputclass="codeblock">
+            <codeblock props="android" outputclass="language-java"></codeblock>
+            <codeblock props="ios mac" outputclass="language-objectivec"></codeblock>
+            <codeblock props="windows" outputclass="language-cpp">struct RtePlayerStatus {
+  int32_t curr_file_id;          
+  std::string curr_file_url;     
+  int64_t curr_file_duration;    
+  int32_t curr_file_index;       
+  int64_t curr_file_begin_time;  
+                                 
+
+  MEDIA_PLAYER_STATE
+  player_state;          
+  int64_t progress_pos; 
+};</codeblock>
+            <codeblock props="electron" outputclass="language-typescript"></codeblock>
+            <codeblock props="unity" outputclass="language-csharp"></codeblock>
+            <codeblock props="rn" outputclass="language-typescript"></codeblock>
+            <codeblock props="flutter" outputclass="language-dart"></codeblock>
+            </p>
+        </section>
+        <section id="detailed_desc">
+            <dl outputclass="since">
+                <dlentry>
+                    <dt>Since</dt>
+                    <dd>v</dd>
+                </dlentry>
+            </dl>
+        </section>
+        <section id="parameters">
+            <title><text conref="../conref/conref_api_metadata.dita#metadata/property"/></title>
+            <parml>
+                <plentry>
+                    <pt>curr_file_id</pt>
+                    <pd>The current file id.</pd>
+                </plentry>
+                <plentry>
+                    <pt>curr_file_url</pt>
+                    <pd>The curent file url.</pd>
+                </plentry>
+                <plentry>
+                    <pt>curr_file_duration</pt>
+                    <pd>The current file duration(ms).</pd>
+                </plentry>
+                <plentry>
+                    <pt>curr_file_index</pt>
+                    <pd>The current file index in the play list.</pd>
+                </plentry>
+                <plentry>
+                    <pt>curr_file_begin_time</pt>
+                    <pd>The beginning timestamp(ms) in the list total timeline.</pd>
+                </plentry>
+                <plentry>
+                    <pt>player_state</pt>
+                    <pd>The player state machine of the current file. See <xref keyref="MEDIA_PLAYER_STATE"/>.</pd>
+                </plentry>
+                <plentry>
+                    <pt>progress_pos</pt>
+                    <pd>The playing progress position(ms) of the current file.</pd>
+                </plentry>
+            </parml>
+        </section>
+    </refbody>
+</reference>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="class_iagorartemicrophoneaudiotrack">
+    <title><ph keyref="IAgoraRteMicrophoneAudioTrack"/></title>
+    <shortdesc id="short"><ph id="shortdesc">Represents an audio track captured from a
+            microphone.</ph></shortdesc>
+    <refbody>
+        <section id="detailed_desc">
+            <dl outputclass="since">
+                <dlentry>
+                    <dt>Since</dt>
+                    <dd>v</dd>
+                </dlentry>
+            </dl>
+            <p>Inherited from <xref keyref="IAgoraRteAudioTrack"/>. You can create a microphone
+                audio track by calling <xref keyref="CreateMicrophoneAudioTrack"/>.</p>
+        </section>
+    </refbody>
+</reference>
