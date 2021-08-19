@@ -100,9 +100,5 @@
             <topicref href="see-also-ios.md" format="markdown" toc="no"/>
         </topicref>
         <topicref href="token.md" format="markdown"/>
-        <topicref href="start_call_web_ng.md" format="markdown"/>
-    </topichead>
-    <topichead navtitle="Reference">
-        <mapref href="RTC_API_Windows.ditamap" processing-role="resource-only"/>
     </topichead>
 </map>
