@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Keys for Video Call</title>
+    <topichead navtitle="Figures">
+        <keydef keys="start-api-sequence-android" href="https://web-cdn.agora.io/docs-files/1626420550447"
+            scope="external" format="png"/>
+        <keydef keys="start-api-sequence-ios" href="https://web-cdn.agora.io/docs-files/1627887317273"
+            scope="external" format="png"/>
+        <keydef keys="start-basic-workflow" href="https://web-cdn.agora.io/docs-files/1627550978702"
+            format="png" scope="external"/>
+    </topichead>
+    <keydef keys="product-name">
+        <topicmeta>
+            <keywords>
+                <keyword>Video Call</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="sdk-name">
+        <topicmeta>
+            <keywords>
+                <keyword>Agora Video SDK</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="host">
+        <topicmeta>
+            <keywords>
+                <keyword>user</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="media-type">
+        <topicmeta>
+            <keywords>
+                <keyword>audio and video</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+    <keydef keys="feature">
+        <topicmeta>
+            <keywords>
+                <keyword>video call</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+</map>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Keys for Live Streaming Premium</title>
+    <topichead navtitle="Figures">
+        <keydef keys="start-api-sequence-android" href="https://web-cdn.agora.io/docs-files/1625208380588" scope="external" format="png"/>
+        <keydef keys="start-api-sequence-ios" href="https://web-cdn.agora.io/docs-files/1617275439875" scope="external" format="png"/>
+        <keydef keys="start-basic-workflow" href="https://web-cdn.agora.io/docs-files/1625465916613" format="png" scope="external"/>
+    </topichead>
+
+        <keydef keys="product-name">
+            <topicmeta>
+                <keywords>
+                    <keyword>Interactive Live Streaming Premium</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="sdk-name">
+            <topicmeta>
+                <keywords>
+                    <keyword>Agora Video SDK</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+    <keydef keys="host">
+        <topicmeta>
+            <keywords>
+                <keyword>host</keyword>
+            </keywords>
+        </topicmeta>
+    </keydef>
+        <keydef keys="media-type">
+            <topicmeta>
+                <keywords>
+                    <keyword>audio and video</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+        <keydef keys="feature">
+            <topicmeta>
+                <keywords>
+                    <keyword>live streaming</keyword>
+                </keywords>
+            </topicmeta>
+        </keydef>
+</map>

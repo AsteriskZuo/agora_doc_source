@@ -26,7 +26,13 @@
             </subjectdef>
             <subjectdef keys="cn"/>
         <subjectdef keys="hide"/>
+            <subjectdef keys="products">
+        <subjectdef keys="voice"/>
+        <subjectdef keys="video"/>
+        <subjectdef keys="live"/>
+    </subjectdef>
         </subjectdef>
+    
     <enumerationdef>
         <attributedef name="props"/>
         <subjectdef keyref="misc"/>

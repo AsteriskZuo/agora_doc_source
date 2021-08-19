@@ -4,7 +4,7 @@ When you make an API call to access an Agora SDK, the SDK may return error codes
 
 This article provides descriptions and troubleshooting tips for common Agora SDK error and warning codes. If you receive a response that is not included here, Agora recommends you [submit a ticket](https://agora-ticket.agora.io/) so that our technical support team can help resolve the issue.
 
-<div class="alert note">An error code can be a negative number. In such a case, it should be read as if it were positive. For example, if the SDK returns error code <code>-2</code>, you should refer to <code>2</code> in the error code table.</div>
+An error code can be a negative number. In such a case, it should be read as if it were positive. For example, if the SDK returns error code <code>-2</code>, you should refer to <code>2</code> in the error code table.
 
 The error and warning codes may be returned in the following ways:
 
@@ -24,14 +24,14 @@ The error and warning codes may be returned in the following ways:
 | `4` | [IRtcEngine] does not support the request. Possible reasons:<ul><li>The [setBeautyEffectOptions] method is called on devices running versions earlier than Android 4.4. Please check the Android version.</li><li>The built-in encryption mode is incorrect or the SDK fails to load the external encryption library. Please check the encryption mode setting or reload the external encryption library.</li></ul> |
 | `5` | The request is rejected. Possible reasons:<ul><li>[IRtcEngine] fails to initialize. Please re-initialize [IRtcEngine].</li><li>The channel name is set as the empty string "" when creating the [IChannel] instance. Please reset the channel name.</li><li>When the [joinChannel2] method is called to join one of multiple channels, the specified channel name is already in use. Please reset the channel name.</li><li>The `joinChannel` method in [IRtcEngine] is called to join another channel after an [IChannel] instance has been created to join a channel and a stream has been published in the channel. The `joinChannel` method in [IRtcEngine] is called to join another channel after an [IChannel] instance has been created to join a channel and a stream has been published in the channel.</li><li>A user whose role is not audience calls the [switchChannel2] method. Ensure that the user role is audience before calling the `switchChannel` method.</li></ul> |
 | `6` | The buffer size is insufficient to store the returned data. |
-| `7` | ]IRtcEngine[ is not initialized. Ensure that the [IRtcEngine] instance is created and initialized before calling the method. |
+| `7` | [IRtcEngine] is not initialized. Ensure that the [IRtcEngine] instance is created and initialized before calling the method. |
 | `9` | Permission to access is not granted. Check whether your app has access to the audio and video device. |
 | `10` | A timeout occurs. Some API calls require the SDK to return the execution result. This error occurs if the SDK takes too long (more than 10 seconds) to return the result. |
 | `17` | The request to join the channel is rejected. Typical reasons include:<ul><li>The user is already in the channel and still calls a method (for example, [joinChannel2]) to join the channel. Stop calling this method to clear this error.</li><li>The user tries to join a channel during a call test started by calling [startEchoTest2]. To join a channel, the call test must be ended by calling [stopEchoTest].</li></ul> |
 | `18` | The request to leave the channel is rejected. Typical reasons include:<ul><li>The user has left the channel but still calls a method (for example, [leaveChannel]) to leave the channel. Stop calling this method to clear this error.</li><li>The user is not in the channel and calls a method to leave the channel. In this case, no extra operation is needed.</li></ul> |
 | `19` | Resources are already in use. |
 | `20` | The request is abandoned by the SDK, possibly because the request has been sent too frequently. |
-| `21` | ]IRtcEngine[ fails to initialize and has crashed because of specific Windows firewall settings. |
+| `21` | [IRtcEngine] fails to initialize and has crashed because of specific Windows firewall settings. |
 | `22` | The SDK fails to allocate resources because your app uses too many system resources or system resources are insufficient. |
 | `101` | The specified App ID is invalid. Please rejoin the channel with a valid App ID. |
 | `102` | The specified channel name is invalid, possibly because the data types of some parameters are incorrect. Please rejoin the channel with a valid channel name. |
