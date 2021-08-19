@@ -10,7 +10,7 @@ This section shows how to use the [sdk-name] to implement [product-name] in your
 
  ```swift
  import UIKit
- class ViewController: UIViewController {
+"start-see-also-ios.md#objective-c-code-sample"
      var localView: UIView!
      var remoteView: UIView!
      
@@ -68,27 +68,9 @@ This section shows how to use the [sdk-name] to implement [product-name] in your
     Call the core methods for initializing the app and joining a channel. In the following sample code, we use an `initializeAndJoinChannel` function to encapsulate these core methods.
 
     In `ViewController.swift`, add the following lines after the `initView` function:
+    <p conref = "conref/get-started-sample-code.dita#get-started-sample-code/init-ios"/>
 
-    ```swift
-     func initializeAndJoinChannel() {
-       // Pass in your App ID here
-       agoraKit = AgoraRtcEngineKit.sharedEngine(withAppId: "Your App ID", delegate: self)
-       // Video is disabled by default. You need to call enableVideo to start a video stream.
-       agoraKit?.enableVideo()
-            // Create a videoCanvas to render the local video
-            let videoCanvas = AgoraRtcVideoCanvas()
-            videoCanvas.uid = 0
-            videoCanvas.renderMode = .hidden
-            videoCanvas.view = localView
-            agoraKit?.setupLocalVideo(videoCanvas)
-       
-       // Join the channel with a token. Pass in your token adn channel name here
-       agoraKit?.joinChannel(byToken: "Your token", channelId: "Channel name", info: nil, uid: 0, joinSuccess: { (channel, uid, elapsed) in
-            })
-        }
-    ```
-
- 3. Add the remote interface when a remote user joins the channel.
+ 3. Add the remote interface when a remote [user] joins the channel.
 
     In `ViewController.swift`, add the following lines after the `ViewController` class:
 

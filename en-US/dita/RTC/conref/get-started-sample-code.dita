@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id="android_sample_code">
-    <title>Android sample code</title>
+<topic id="get-started-sample-code">
+    <title>Get started sample code</title>
     <body>
-        <p id="init">
+        <p id="init-android">
          <codeblock props="video" outputclass="language-java">// Java
 private void initializeAndJoinChannel() {
     try {
@@ -77,5 +77,43 @@ private void initializeAndJoinChannel() {
 }    
    </codeblock>
 </p>
+        <p id="init-ios">
+            <codeblock props="video" outputclass="language-swift">func initializeAndJoinChannel() {
+// Pass in your App ID here
+agoraKit = AgoraRtcEngineKit.sharedEngine(withAppId: "Your App ID", delegate: self)
+// Video is disabled by default. You need to call enableVideo to start a video stream.
+agoraKit?.enableVideo()
+    // Create a videoCanvas to render the local video
+    let videoCanvas = AgoraRtcVideoCanvas()
+    videoCanvas.uid = 0
+    videoCanvas.renderMode = .hidden
+    videoCanvas.view = localView
+    agoraKit?.setupLocalVideo(videoCanvas)
+
+// Join the channel with a token. Pass in your token adn channel name here
+agoraKit?.joinChannel(byToken: "Your token", channelId: "Channel name", info: nil, uid: 0, joinSuccess: { (channel, uid, elapsed) in
+    })
+}</codeblock>
+            <codeblock props="live" outputclass="language-swift">func initializeAndJoinChannel() {
+// Pass in your App ID here
+agoraKit = AgoraRtcEngineKit.sharedEngine(withAppId: "Your App ID", delegate: self)
+// For a live streaming scenario, set the channel profile as liveBroadcasting.
+agoraKit?.setChannelProfile(.liveBroadcasting)
+// Set the client role as broadcaster or audience.
+agoraKit?.setClientRole(.broadcaster)
+// Video is disabled by default. You need to call enableVideo to start a video stream.
+agoraKit?.enableVideo()
+    // Create a videoCanvas to render the local video
+    let videoCanvas = AgoraRtcVideoCanvas()
+    videoCanvas.uid = 0
+    videoCanvas.renderMode = .hidden
+    videoCanvas.view = localView
+    agoraKit?.setupLocalVideo(videoCanvas)
+
+// Join the channel with a token. Pass in your token adn channel name here
+agoraKit?.joinChannel(byToken: "Your token", channelId: "Channel name", info: nil, uid: 0, joinSuccess: { (channel, uid, elapsed) in
+    })
+}</codeblock>
+        </p>
     </body>
 </topic>

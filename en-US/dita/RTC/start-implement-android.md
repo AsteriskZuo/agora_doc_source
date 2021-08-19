@@ -169,12 +169,10 @@ To implement this logic, take the following steps:
     }
    ```
 
-3. Initialize the app and join the channel.
-
-   Call the core methods for joining a channel. In the following sample code, we use an `initializeAndJoinChannel` function to encapsulate these core methods.
+3. Initia"conref/get-started-sample-code.dita#android_sample_code/init"ds for joining a channel. In the following sample code, we use an `initializeAndJoinChannel` function to encapsulate these core methods.
 
    In `/app/java/com.example.<projectname>/MainActivity`, add the following lines after the `onCreate` function:
-   <p conref = "android_sample_code.dita#android_sample_code/init"/>
+   <p conref = "conref/get-started-sample-code.dita#get-started-sample-code/init-android"/>
  
 4. Add the remote interface when a remote [host] joins the channel.
 

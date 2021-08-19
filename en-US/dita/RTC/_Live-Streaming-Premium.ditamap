@@ -7,7 +7,7 @@
         <topicref href="config/subject-scheme-rtc.ditamap" format="ditamap" type="subjectScheme"
             navtitle="Conditional processing attributes"/>
         <mapref href="config/keys-rtc-live-premium.ditamap" format="ditamap"/>
-        <topicref href="android_sample_code.dita" processing-role="resource-only"/>
+        <topicref href="conref/get-started-sample-code.dita" processing-role="resource-only"/>
     </topichead>
     <topichead navtitle="Understand"/>
     <topichead navtitle="Develop">
@@ -47,13 +47,13 @@
                     </keywords>
                 </topicmeta>
             </keydef>
-            <topicref href="understand-the-tech.md" format="markdown" toc="no"/>
-            <topicref href="prerequisites.md" format="markdown" toc="no"/>
-            <topicref href="project-setup-android.md" format="markdown" toc="no"/>
-            <topicref href="implement-android.md" format="markdown" toc="no"/>
-            <topicref href="test-the-app-video.md" format="markdown" toc="no"/>
-            <topicref href="next.md" format="markdown" toc="no"/>
-            <topicref href="see-also-android.md" format="markdown" toc="no"/>
+            <topicref href="start-understand-the-tech.md" format="markdown" toc="no"/>
+            <topicref href="start-prerequisites.md" format="markdown" toc="no"/>
+            <topicref href="start-project-setup-android.md" format="markdown" toc="no"/>
+            <topicref href="start-implement-android.md" format="markdown" toc="no"/>
+            <topicref href="start-test-the-app.md" format="markdown" toc="no"/>
+            <topicref href="start-next.md" format="markdown" toc="no"/>
+            <topicref href="start-see-also-android.md" format="markdown" toc="no"/>
         </topicref>
         <topicref href="get-started.md" format="mdita" chunk="to-content" keyscope="ios" props="ios">
             <keydef keys="platform">
@@ -91,13 +91,13 @@
                     </keywords>
                 </topicmeta>
             </keydef>
-            <topicref href="understand-the-tech.md" format="markdown" toc="no"/>
-            <topicref href="prerequisites.md" format="markdown" toc="no"/>
-            <topicref href="project-setup-ios.md" format="markdown" toc="no"/>
-            <topicref href="implement-ios.md" format="markdown" toc="no"/>
-            <topicref href="test-the-app-video.md" format="markdown" toc="no"/>
-            <topicref href="next.md" format="markdown" toc="no"/>
-            <topicref href="see-also-ios.md" format="markdown" toc="no"/>
+            <topicref href="start-understand-the-tech.md" format="markdown" toc="no"/>
+            <topicref href="start-prerequisites.md" format="markdown" toc="no"/>
+            <topicref href="start-project-setup-ios.md" format="markdown" toc="no"/>
+            <topicref href="start-implement-ios.md" format="markdown" toc="no"/>
+            <topicref href="start-test-the-app.md" format="markdown" toc="no"/>
+            <topicref href="start-next.md" format="markdown" toc="no"/>
+            <topicref href="start-see-also-ios.md" format="markdown" toc="no"/>
         </topicref>
         <topicref href="token.md" format="markdown"/>
     </topichead>

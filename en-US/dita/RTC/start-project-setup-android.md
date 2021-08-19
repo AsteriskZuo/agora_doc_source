@@ -28,7 +28,7 @@
     }
    ```
 
-   This method applies to v3.4.0 or later. For more integration methods, see [Other approaches to integrating the SDK](see-also-android.md#other-approches-to-integrate-the-sdk).
+   This method applies to v3."start-see-also-android.md#other-approches-to-integrate-the-sdk"roaches to integrating the SDK](see-also-android.md#other-approches-to-integrate-the-sdk).
 
 3. Add permissions for network and device access.
 

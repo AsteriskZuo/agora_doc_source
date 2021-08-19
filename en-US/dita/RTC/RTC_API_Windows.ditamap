@@ -29,6 +29,7 @@
             <topicref keyref="adjustUserPlaybackSignalVolume" toc="no"/>
             <topicref keyref="clearVideoWatermarks" toc="no"/>
             <topicref keyref="complain" toc="no"/>
+            <topicref keyref="configRhythmPlayer" toc="no"/>
             <topicref keyref="create2" toc="no"/>
             <topicref keyref="createAgoraRtcEngine" toc="no"/>
             <topicref keyref="createDataStream1" toc="no"/>
@@ -164,6 +165,7 @@
             <topicref keyref="startEchoTest2" toc="no"/>
             <topicref keyref="startLastmileProbeTest" toc="no"/>
             <topicref keyref="startPreview" toc="no"/>
+            <topicref keyref="startRhythmPlayer" toc="no"/>
             <topicref keyref="startScreenCapture" toc="no"/>
             <topicref keyref="startScreenCaptureByDisplayId" toc="no"/>
             <topicref keyref="startScreenCaptureByScreenRect" toc="no"/>
@@ -176,6 +178,7 @@
             <topicref keyref="stopEffect" toc="no"/>
             <topicref keyref="stopLastmileProbeTest" toc="no"/>
             <topicref keyref="stopPreview" toc="no"/>
+            <topicref keyref="stopRhythmPlayer" toc="no"/>
             <topicref keyref="stopScreenCapture" toc="no"/>
             <topicref keyref="switchCamera" toc="no"/>
             <topicref keyref="switchChannel1" toc="no"/>
@@ -471,6 +474,7 @@
             <topicref keyref="AUDIO_MIXING_STATE_TYPE" toc="no"/>
             <topicref keyref="AUDIO_PROFILE_TYPE" toc="no"/>
             <topicref keyref="AUDIO_RECORDING_QUALITY_TYPE" toc="no"/>
+            <topicref keyref="AUDIO_RECORDING_POSITION" toc="no"/>
             <topicref keyref="AUDIO_REVERB_PRESET" toc="no"/>
             <topicref keyref="AUDIO_REVERB_TYPE" toc="no"/>
             <topicref keyref="AUDIO_ROUTE_TYPE" toc="no"/>
