@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_cameracapturerconfiguration">
-    <title> <ph keyref="CameraCapturerConfiguration"/> </title>
-    <shortdesc id="short"> <ph id="shortdesc">摄像头采集配置。</ph> </shortdesc>
+    <title>
+        <ph keyref="CameraCapturerConfiguration"/>
+    </title>
+    <shortdesc id="short">
+        <ph id="shortdesc">摄像头采集配置。</ph>
+    </shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="android" outputclass="language-java">public class CameraCapturerConfiguration {
+                <codeblock props="android" outputclass="language-java">public class CameraCapturerConfiguration {
   public enum CAMERA_DIRECTION {
     CAMERA_REAR(0),
     CAMERA_FRONT(1);
@@ -19,20 +23,20 @@
   }
   public CaptureFormat captureFormat;
 }</codeblock>
-            <codeblock props="ios mac" outputclass="language-objectivec">__attribute__((visibility("default"))) @interface AgoraCameraCapturerConfiguration: NSObject
+                <codeblock props="ios mac" outputclass="language-objectivec">__attribute__((visibility("default"))) @interface AgoraCameraCapturerConfiguration: NSObject
     @property (assign, nonatomic) AgoraCameraDirection cameraDirection;
     @end</codeblock>
-            <codeblock props="cpp" outputclass="language-cpp">struct CameraCapturerConfiguration {
+                <codeblock props="cpp" outputclass="language-cpp">struct CameraCapturerConfiguration {
   CAMERA_DIRECTION cameraDirection;
   char deviceId[MAX_DEVICE_ID_LENGTH];
   VideoFormat format;
 };</codeblock>
-            <codeblock props="electron" outputclass="language-typescript">export class CameraCapturerConfiguration {
+                <codeblock props="electron" outputclass="language-typescript">export class CameraCapturerConfiguration {
   cameraDirection?: CameraDirection
   deviceId?: string
   format?: VideoFormat
 }</codeblock>
-            <codeblock props="unity" outputclass="language-csharp">public class CameraCapturerConfiguration
+                <codeblock props="unity" outputclass="language-csharp">public class CameraCapturerConfiguration
     {
         public CameraCapturerConfiguration()
         {
@@ -53,12 +57,12 @@
         public VideoFormat format { set; get; }
         public CAMERA_DIRECTION cameraDirection { set; get; }
     }</codeblock>
-            <codeblock props="rn" outputclass="language-typescript">export class CameraCapturerConfiguration {
+                <codeblock props="rn" outputclass="language-typescript">export class CameraCapturerConfiguration {
   cameraDirection?: CameraDirection;
   deviceId?: string;
   format?: VideoFormat;
 }</codeblock>
-            <codeblock props="flutter" outputclass="language-dart">class CameraCapturerConfiguration {
+                <codeblock props="flutter" outputclass="language-dart">class CameraCapturerConfiguration {
   const CameraCapturerConfiguration(
       {this.cameraDirection, this.deviceId, this.format});
 
@@ -75,25 +79,31 @@
             </p>
         </section>
         <section id="parameters">
-            <title> <text
-            conref="../conref/conref_api_metadata.dita#conref_api_metadata/property"
-            /> </title>
+            <title>
+                <text conref="../conref/conref_api_metadata.dita#conref_api_metadata/property"/>
+            </title>
             <parml>
-            <plentry>
-                <pt>cameraDirection</pt>
-                <pd>
-                    <note type="attention" props="cpp unity electron rn flutter">该参数仅适用于 Android 和 iOS 平台。</note> <ph>摄像头方向设置。</ph><ph props="ios cpp unity android rn flutter">详见 <xref keyref="CAMERA_DIRECTION" />。</ph></pd>
-            </plentry>
-            <plentry props="cpp android unity electron rn flutter">
-                <pt props="cpp unity electron rn flutter">format</pt>
-                <pt props="android">captureFormat</pt>
-                <pd>详见 <xref keyref="VideoFormat"/>。</pd>
-            </plentry>
-            <plentry props="cpp unity electron rn flutter">
-                <pt>deviceId</pt>
-                <pd>
-                    <note type="attention" props="cpp unity electron">该参数仅适用于 Windows 平台。</note><ph>播放设备的设备 ID。</ph><ph props="cpp electron rn flutter">最大长度为 <xref keyref="MAX_DEVICE_ID_LENGTH_TYPE"/>。</ph></pd>
-            </plentry>
-            </parml> </section>
+                <plentry>
+                    <pt>cameraDirection</pt>
+                    <pd>
+                        <note type="attention" props="cpp unity electron rn flutter">该参数仅适用于 Android
+                            和 iOS 平台。</note>
+                        <ph>摄像头方向设置。</ph><ph props="ios cpp unity android rn flutter">详见 <xref
+                                keyref="CAMERA_DIRECTION"/>。</ph></pd>
+                </plentry>
+                <plentry props="cpp android unity electron rn flutter">
+                    <pt props="cpp unity electron rn flutter">format</pt>
+                    <pt props="android">captureFormat</pt>
+                    <pd>详见 <xref keyref="VideoFormat"/>。</pd>
+                </plentry>
+                <plentry props="cpp unity electron rn flutter">
+                    <pt>deviceId</pt>
+                    <pd>
+                        <note type="attention" props="cpp unity electron">该参数仅适用于 Windows
+                            平台。</note><ph>播放设备的设备 ID。</ph><ph props="cpp electron rn flutter">最大长度为
+                                <xref keyref="MAX_DEVICE_ID_LENGTH_TYPE"/>。</ph></pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

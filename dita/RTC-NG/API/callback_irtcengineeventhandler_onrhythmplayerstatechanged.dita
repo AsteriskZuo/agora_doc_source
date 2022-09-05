@@ -13,17 +13,18 @@
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="android" outputclass="language-java"/>
-            <codeblock props="ios mac" outputclass="language-objectivec"/>
-            <codeblock props="cpp" outputclass="language-cpp"/>
-            <codeblock props="cs" outputclass="language-csharp"/>
-            <codeblock props="electron" outputclass="language-typescript"/>
-            <codeblock props="unity" outputclass="language-csharp"/>
-            <codeblock props="rn" outputclass="language-typescript"/>
-            <codeblock props="flutter" outputclass="language-dart">final void Function(
+                <codeblock props="android" outputclass="language-java"/>
+                <codeblock props="ios mac" outputclass="language-objectivec"/>
+                <codeblock props="cpp" outputclass="language-cpp"/>
+                <codeblock props="cs" outputclass="language-csharp"/>
+                <codeblock props="electron" outputclass="language-typescript"/>
+                <codeblock props="unity" outputclass="language-csharp"/>
+                <codeblock props="rn" outputclass="language-typescript"/>
+                <codeblock props="flutter" outputclass="language-dart">final void Function(
           RhythmPlayerStateType state, RhythmPlayerErrorType errorCode)?
       onRhythmPlayerStateChanged;
-</codeblock> </p>
+</codeblock>
+            </p>
         </section>
         <section id="detailed_desc">
             <p/>
@@ -32,10 +33,11 @@
             <title><ph keyref="callback-section-title"/></title>
             <p conkeyref="onJoinChannelSuccess/callback-desc" props="flutter rn"/>
             <parml>
-            <plentry>
-                <pt/>
-                <pd/>
-            </plentry>
-            </parml> </section>
+                <plentry>
+                    <pt/>
+                    <pd/>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="api_mediaplayercontroller_create">
     <title><ph keyref="create_MediaPlayerController"/></title>
-    <shortdesc id="short"><ph id="shortdesc">创建一个 <apiname keyref="MediaPlayerController"/>。</ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">创建一个 <apiname keyref="MediaPlayerController"
+        />。</ph></shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -13,19 +14,20 @@
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="android" outputclass="language-java"/>
-            <codeblock props="ios mac" outputclass="language-objectivec"/>
-            <codeblock props="cpp" outputclass="language-cpp"/>
-            <codeblock props="cs" outputclass="language-csharp"/>
-            <codeblock props="electron" outputclass="language-typescript"/>
-            <codeblock props="unity" outputclass="language-csharp"/>
-            <codeblock props="rn" outputclass="language-typescript"/>
-            <codeblock props="flutter" outputclass="language-dart">static Future&lt;MediaPlayerController> create({
+                <codeblock props="android" outputclass="language-java"/>
+                <codeblock props="ios mac" outputclass="language-objectivec"/>
+                <codeblock props="cpp" outputclass="language-cpp"/>
+                <codeblock props="cs" outputclass="language-csharp"/>
+                <codeblock props="electron" outputclass="language-typescript"/>
+                <codeblock props="unity" outputclass="language-csharp"/>
+                <codeblock props="rn" outputclass="language-typescript"/>
+                <codeblock props="flutter" outputclass="language-dart">static Future&lt;MediaPlayerController> create({
     required RtcEngine rtcEngine,
     required VideoCanvas canvas,
     bool useFlutterTexture = false,
     bool useAndroidSurfaceView = false,
-  })</codeblock> </p>
+  })</codeblock>
+            </p>
         </section>
         <section id="detailed_desc">
             <p>
@@ -40,7 +42,7 @@
         <section id="parameters">
             <title>参数</title>
             <parml>
-            <plentry conkeyref="VideoViewController/rtcengine">
+                <plentry conkeyref="VideoViewController/rtcengine">
                     <pt/>
                     <pd/>
                 </plentry>
@@ -49,14 +51,15 @@
                     <pd/>
                 </plentry>
                 <plentry conkeyref="VideoViewController/fluttertexture">
-                <pt/>
-                <pd/>
-            </plentry>
+                    <pt/>
+                    <pd/>
+                </plentry>
                 <plentry conkeyref="VideoViewController/androidsurfaceview">
-                <pt/>
-                <pd/>
-            </plentry>
-            </parml> </section>
+                    <pt/>
+                    <pd/>
+                </plentry>
+            </parml>
+        </section>
         <section id="return_values">
             <title>返回值</title>
             <p><xref keyref="MediaPlayerController"/> 对象。</p>

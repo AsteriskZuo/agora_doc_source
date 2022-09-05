@@ -7,14 +7,15 @@
         <section id="parameters">
             <title>枚举值</title>
             <parml>
-            <plentry>
-                <pt><ph keyref="RAW_DATA"/></pt>
-                <pd>以裸数据模式回调。</pd>
-            </plentry>
+                <plentry>
+                    <pt><ph keyref="RAW_DATA"/></pt>
+                    <pd>以裸数据模式回调。</pd>
+                </plentry>
                 <plentry>
                     <pt><ph keyref="INTPTR"/></pt>
                     <pd>以裸数据指针地址回调。</pd>
                 </plentry>
-            </parml> </section>
+            </parml>
+        </section>
     </refbody>
 </reference>

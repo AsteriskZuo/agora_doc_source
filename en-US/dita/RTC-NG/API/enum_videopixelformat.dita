@@ -6,7 +6,8 @@
     <refbody>
         <section id="parameters">
             <title>Enumerator</title>
-            <note type="attention">The SDK does not support the alpha channel. Any alpha value passed to the SDK will be discarded.</note>
+            <note type="attention">The SDK does not support the alpha channel. Any alpha value
+                passed to the SDK will be discarded.</note>
             <parml>
                 <plentry>
                     <pt><ph keyref="VIDEO_PIXEL_DEFAULT"/></pt>
@@ -60,6 +61,7 @@
                     <pt><ph keyref="VIDEO_PIXEL_I422"/></pt>
                     <pd>16: The format is I422.</pd>
                 </plentry>
-            </parml> </section>
+            </parml>
+        </section>
     </refbody>
 </reference>

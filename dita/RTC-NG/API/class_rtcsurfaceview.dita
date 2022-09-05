@@ -7,12 +7,9 @@
         <section id="detailed_desc">
             <p>该类用于渲染：</p>
             <ul>
-            <li>
-                    Android: 对应 Android 系统原生的 SurfaceView。
-                </li>
-            <li>
-                    iOS: 对应 iOS 系统原生的 UIView。
-                </li>
-            </ul> </section>
+                <li> Android: 对应 Android 系统原生的 SurfaceView。 </li>
+                <li> iOS: 对应 iOS 系统原生的 UIView。 </li>
+            </ul>
+        </section>
     </refbody>
 </reference>

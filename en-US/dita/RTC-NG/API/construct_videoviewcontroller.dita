@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="construct_videoviewcontroller">
     <title><ph keyref="VideoViewControllerConstructor"/></title>
-    <shortdesc id="short"><ph id="shortdesc">Constructor for the <apiname keyref="VideoViewController"/> class used to render local video.</ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">Constructor for the <apiname
+                keyref="VideoViewController"/> class used to render local video.</ph></shortdesc>
     <prolog>
         <metadata>
             <keywords>
@@ -13,20 +14,21 @@
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="android" outputclass="language-java"/>
-            <codeblock props="ios mac" outputclass="language-objectivec"/>
-            <codeblock props="cpp" outputclass="language-cpp"/>
-            <codeblock props="cs" outputclass="language-csharp"/>
-            <codeblock props="electron" outputclass="language-typescript"/>
-            <codeblock props="unity" outputclass="language-csharp"/>
-            <codeblock props="rn" outputclass="language-typescript"/>
-            <codeblock props="flutter" outputclass="language-dart">VideoViewController({
+                <codeblock props="android" outputclass="language-java"/>
+                <codeblock props="ios mac" outputclass="language-objectivec"/>
+                <codeblock props="cpp" outputclass="language-cpp"/>
+                <codeblock props="cs" outputclass="language-csharp"/>
+                <codeblock props="electron" outputclass="language-typescript"/>
+                <codeblock props="unity" outputclass="language-csharp"/>
+                <codeblock props="rn" outputclass="language-typescript"/>
+                <codeblock props="flutter" outputclass="language-dart">VideoViewController({
 required this.rtcEngine,
 required this.canvas,
 this.useFlutterTexture = false,
 this.useAndroidSurfaceView = false,
 }) : connection = const RtcConnection();
-</codeblock> </p>
+</codeblock>
+            </p>
         </section>
         <section id="detailed_desc">
             <p/>
@@ -35,8 +37,8 @@ this.useAndroidSurfaceView = false,
             <title>Parameters</title>
             <parml>
                 <plentry conkeyref="VideoViewController/rtcengine">
-                <pt/>
-                <pd/>
+                    <pt/>
+                    <pd/>
                 </plentry>
                 <plentry conkeyref="VideoViewController/canvas">
                     <pt/>
@@ -50,6 +52,7 @@ this.useAndroidSurfaceView = false,
                     <pt/>
                     <pd/>
                 </plentry>
-            </parml> </section>
+            </parml>
+        </section>
     </refbody>
 </reference>
