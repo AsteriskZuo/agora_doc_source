@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_rtctextureview">
-    <title><ph keyref="RtcTextureView" /></title>
+    <title><ph keyref="RtcTextureView"/></title>
     <shortdesc id="short"><ph id="shortdesc">The RtcTextureView class.</ph></shortdesc>
     <refbody>
         <section id="detailed_desc">
-            <p>This class is used to render  and corresponds to the Android native TextureView.</p>
-            <note type="attention">This class is only available for the Android platform, not the iOS platform.</note>
+            <p>This class is used to render and corresponds to the Android native TextureView.</p>
+            <note type="attention">This class is only available for the Android platform, not the
+                iOS platform.</note>
         </section>
     </refbody>
 </reference>

@@ -7,24 +7,27 @@
         <section id="parameters">
             <title>Enumerator</title>
             <parml>
-            <plentry>
-                <pt><ph keyref="EAR_MONITORING_FILTER_NONE"/></pt>
-                <pd>
-                    <p>1&lt;&lt;0: Do not add an audio filter to the in-ear monitor.</p>
-                </pd>
-            </plentry>
-            <plentry>
-                <pt><ph keyref="EAR_MONITORING_FILTER_BUILT_IN_AUDIO_FILTERS"/></pt>
-                <pd>
-                    <p>1&lt;&lt;1: Add an audio filter to the in-ear monitor. If you implement functions such as voice beautifier and audio effect, users can hear the voice after adding these effects.</p>
-                </pd>
-            </plentry>
-            <plentry>
-                <pt><ph keyref="EAR_MONITORING_FILTER_NOISE_SUPPRESSION"/></pt>
-                <pd>
-                    <p>1&lt;&lt;2: Enable noise suppression to the in-ear monitor.</p>
-                </pd>
-            </plentry>
-            </parml> </section>
+                <plentry>
+                    <pt><ph keyref="EAR_MONITORING_FILTER_NONE"/></pt>
+                    <pd>
+                        <p>1&lt;&lt;0: Do not add an audio filter to the in-ear monitor.</p>
+                    </pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="EAR_MONITORING_FILTER_BUILT_IN_AUDIO_FILTERS"/></pt>
+                    <pd>
+                        <p>1&lt;&lt;1: Add an audio filter to the in-ear monitor. If you implement
+                            functions such as voice beautifier and audio effect, users can hear the
+                            voice after adding these effects.</p>
+                    </pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="EAR_MONITORING_FILTER_NOISE_SUPPRESSION"/></pt>
+                    <pd>
+                        <p>1&lt;&lt;2: Enable noise suppression to the in-ear monitor.</p>
+                    </pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

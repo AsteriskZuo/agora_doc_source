@@ -4,23 +4,27 @@
     <title><ph keyref="CLOUD_PROXY_TYPE"/></title>
     <shortdesc id="short"><ph id="shortdesc">The cloud proxy type.</ph></shortdesc>
     <refbody>
-        <section>
-        </section>
+        <section> </section>
         <section id="parameters">
             <title>Enumerator</title>
             <parml>
-            <plentry>
-                <pt><ph keyref="NONE_PROXY"/></pt>
-                <pd>0: The automatic mode. The SDK has this mode enabled by default. In this mode, the SDK attempts a direct connection to SD-RTN™ and automatically switches to TCP/TLS 443 if the attempt fails. </pd>
-            </plentry>
-            <plentry>
-                <pt><ph keyref="UDP_PROXY"/></pt>
-                <pd>1: The cloud proxy for the UDP protocol, that is, the Force UDP cloud proxy mode. In this mode, the SDK always transmits data over UDP.</pd>
-            </plentry>
-            <plentry>
-                <pt><ph keyref="TCP_PROXY"/></pt>
-                <pd>2: The cloud proxy for the TCP (encryption) protocol, that is, the Force TCP cloud proxy mode. In this mode, the SDK always transmits data over TCP/TLS 443.</pd>
-            </plentry>
+                <plentry>
+                    <pt><ph keyref="NONE_PROXY"/></pt>
+                    <pd>0: The automatic mode. The SDK has this mode enabled by default. In this
+                        mode, the SDK attempts a direct connection to SD-RTN™ and automatically
+                        switches to TCP/TLS 443 if the attempt fails. </pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="UDP_PROXY"/></pt>
+                    <pd>1: The cloud proxy for the UDP protocol, that is, the Force UDP cloud proxy
+                        mode. In this mode, the SDK always transmits data over UDP.</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="TCP_PROXY"/></pt>
+                    <pd>2: The cloud proxy for the TCP (encryption) protocol, that is, the Force TCP
+                        cloud proxy mode. In this mode, the SDK always transmits data over TCP/TLS
+                        443.</pd>
+                </plentry>
             </parml></section>
     </refbody>
 </reference>

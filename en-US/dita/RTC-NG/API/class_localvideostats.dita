@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_localvideostats">
-    <title><ph keyref="LocalVideoStats" /></title>
-    <shortdesc id="short"><ph id="shortdesc">The statistics of the local video stream.</ph></shortdesc>
+    <title><ph keyref="LocalVideoStats"/></title>
+    <shortdesc id="short"><ph id="shortdesc">The statistics of the local video
+        stream.</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="android" outputclass="language-java">public static class LocalVideoStats {
+                <codeblock props="android" outputclass="language-java">public static class LocalVideoStats {
   public int uid;
   public int sentBitrate;
   public int sentFrameRate;
@@ -29,7 +30,7 @@
   public int txPacketLossRate;
   public int captureBrightnessLevel;
 }</codeblock>
-            <codeblock props="ios mac" outputclass="language-objectivec">__attribute__((visibility("default"))) @interface AgoraRtcLocalVideoStats : NSObject
+                <codeblock props="ios mac" outputclass="language-objectivec">__attribute__((visibility("default"))) @interface AgoraRtcLocalVideoStats : NSObject
 @property(assign, nonatomic) NSUInteger sentBitrate;
 @property(assign, nonatomic) NSUInteger sentFrameRate;
 @property(assign, nonatomic) NSUInteger uid;
@@ -54,7 +55,7 @@
 @property(assign, nonatomic) NSInteger txPacketLossRate;
 @property(assign, nonatomic) AgoraCaptureBrightnessLevelType captureBrightnessLevel NS_SWIFT_NAME(captureBrightnessLevel);
 @end</codeblock>
-            <codeblock props="cpp" outputclass="language-cpp">struct LocalVideoStats
+                <codeblock props="cpp" outputclass="language-cpp">struct LocalVideoStats
 {
     uid_t uid;
     int sentBitrate;
@@ -78,7 +79,7 @@
     unsigned short txPacketLossRate;
     CAPTURE_BRIGHTNESS_LEVEL_TYPE captureBrightnessLevel;
 };</codeblock>
-            <codeblock props="electron" outputclass="language-typescript">export class LocalVideoStats {
+                <codeblock props="electron" outputclass="language-typescript">export class LocalVideoStats {
   uid?: number
   sentBitrate?: number
   sentFrameRate?: number
@@ -100,7 +101,7 @@
   codecType?: VideoCodecType
   txPacketLossRate?: number
 }</codeblock>
-            <codeblock props="unity" outputclass="language-csharp">public class LocalVideoStats
+                <codeblock props="unity" outputclass="language-csharp">public class LocalVideoStats
     {
         public LocalVideoStats()
         {
@@ -121,7 +122,7 @@
         public VIDEO_CODEC_TYPE codecType { set; get; }
         public ushort txPacketLossRate { set; get; }
     }</codeblock>
-            <codeblock props="rn" outputclass="language-typescript">export class LocalVideoStats {
+                <codeblock props="rn" outputclass="language-typescript">export class LocalVideoStats {
   uid?: number;
   sentBitrate?: number;
   sentFrameRate?: number;
@@ -143,7 +144,7 @@
   codecType?: VideoCodecType;
   txPacketLossRate?: number;
 }</codeblock>
-            <codeblock props="flutter" outputclass="language-dart">class LocalVideoStats {
+                <codeblock props="flutter" outputclass="language-dart">class LocalVideoStats {
   const LocalVideoStats(
       {this.uid,
       this.sentBitrate,
@@ -214,113 +215,152 @@
             </p>
         </section>
         <section id="parameters">
-            <title><text conref="../conref/conref_api_metadata.dita#conref_api_metadata/property" /></title>
+            <title><text conref="../conref/conref_api_metadata.dita#conref_api_metadata/property"
+                /></title>
             <parml>
-            <plentry>
-                <pt>uid</pt>
-                <pd>The user ID of the local user.</pd>
-            </plentry>
-            <plentry>
-                <pt>sentBitrate</pt>
-                <pd>
-                    <p>The actual bitrate (Kbps) while sending the local video stream.<note type="attention">This value does not include the bitrate for resending the video after packet loss.</note></p>
-                </pd>
-            </plentry>
-            <plentry>
-                <pt>sentFrameRate</pt>
-                <pd>The actual frame rate (fps) while sending the local video stream.<note type="attention">This value does not include the frame rate for resending the video after packet loss.</note></pd>
-            </plentry>
-            <plentry>
-                <pt>captureFrameRate</pt>
-                <pd>The frame rate (fps) for capturing the local video stream.</pd>
-            </plentry>
-            <plentry>
-                <pt>captureFrameWidth</pt>
-                <pd>The width (px) for capturing the local video stream.</pd>
-            </plentry>
-            <plentry>
-                <pt>captureFrameHeight</pt>
-                <pd>The height (px) for capturing the local video stream.</pd>
-            </plentry>
-            <plentry>
-                <pt>regulatedCaptureFrameRate</pt>
-                <pd>The frame rate (fps) adjusted by the built-in video capture adapter (regulator) of the SDK for capturing the local video stream. The regulator adjusts the frame rate of the video captured by the camera according to the video encoding configuration.</pd>
-            </plentry>
-            <plentry>
-                <pt>regulatedCaptureFrameWidth</pt>
-                <pd>The width (px) adjusted by the built-in video capture adapter (regulator) of the SDK for capturing the local video stream. The regulator adjusts the height and width of the video captured by the camera according to the video encoding configuration.</pd>
-            </plentry>
-            <plentry>
-                <pt>regulatedCaptureFrameHeight</pt>
-                <pd>The height (px) adjusted by the built-in video capture adapter (regulator) of the SDK for capturing the local video stream. The regulator adjusts the height and width of the video captured by the camera according to the video encoding configuration.</pd>
-            </plentry>
-            <plentry>
-                <pt>encoderOutputFrameRate</pt>
-                <pd>The output frame rate (fps) of the local video encoder.</pd>
-            </plentry>
-            <plentry>
-                <pt>rendererOutputFrameRate</pt>
-                <pd>The output frame rate (fps) of the local video renderer.</pd>
-            </plentry>
-            <plentry>
-                <pt>targetBitrate</pt>
-                <pd>The target bitrate (Kbps) of the current encoder. This is an estimate made by the SDK based on the current network conditions.</pd>
-            </plentry>
-            <plentry>
-                <pt>targetFrameRate</pt>
-                <pd>The target frame rate (fps) of the current encoder.</pd>
-            </plentry>
-            <plentry>
-                <pt>qualityAdaptIndication</pt>
-                <pd><ph>The quality adaption of the local video stream in the reported interval (based on the target frame rate and target bitrate). </ph><ph props="cpp ios mac unity">See <xref keyref="QUALITY_ADAPT_INDICATION" />.</ph><p props="android">
-                    <ul>
-                    <li><ph keyref="ADAPT_NONE" />(0): The local video quality stays the same.</li>
-                    <li><ph keyref="ADAPT_UP_BANDWIDTH" />(1): The local video quality improves because the network bandwidth increases.</li>
-                    <li><ph keyref="ADAPT_DOWN_BANDWIDTH" />(2): The local video quality deteriorates because the network bandwidth decreases.</li>
-                    </ul> </p>
-                </pd>
-            </plentry>
-            <plentry>
-                <pt>encodedBitrate</pt>
-                <pd>
-                    <p>The bitrate (Kbps) while encoding the local video stream.<note type="attention">This value does not include the bitrate for resending the video after packet loss.</note></p>
-                </pd>
-            </plentry>
-            <plentry>
-                <pt>encodedFrameWidth</pt>
-                <pd>The width of the encoded video (px).</pd>
-            </plentry>
-            <plentry>
-                <pt>encodedFrameHeight</pt>
-                <pd>The height of the encoded video (px).</pd>
-            </plentry>
-            <plentry>
-                <pt>encodedFrameCount</pt>
-                <pd>The number of sent video frames, represented by an aggregate value.</pd>
-            </plentry>
-            <plentry>
-                <pt>codecType</pt>
-                <pd><ph>The codec type of the local video. </ph><ph props="ios mac cpp unity electron rn flutter">See <xref keyref="VIDEO_CODEC_TYPE" />.</ph><p props="android">
-                    <ul>
-                    <li><ph keyref="VIDEO_CODEC_VP8" />(1): VP8.</li>
-                    <li><ph keyref="VIDEO_CODEC_H264" />(2): (Default) H.264.</li>
-                    </ul> </p>
-                </pd>
-            </plentry>
-            <plentry>
-                <pt>txPacketLossRate</pt>
-                <pd>The video packet loss rate (%) from the local client to the Agora server before applying the anti-packet loss strategies.</pd>
-            </plentry>
-            <plentry>
-                <pt>captureBrightnessLevel</pt>
-                <pd props="ios mac cpp unity electron rn flutter">The brightness level of the video image captured by the local camera. See <xref keyref="CAPTURE_BRIGHTNESS_LEVEL_TYPE" />.</pd>
-                <pd props="android">The brightness level of the video image captured by the local camera.<ul>
-                    <li><ph keyref="CAPTURE_BRIGHTNESS_LEVEL_INVALID" />(-1): The SDK does not detect the brightness level of the video image. Wait a few seconds to get the brightness level from <parmname>captureBrightnessLevel</parmname> in the next callback.</li>
-                    <li><ph keyref="CAPTURE_BRIGHTNESS_LEVEL_NORMAL" />(0): The brightness level of the video image is normal.</li>
-                    <li><ph keyref="CAPTURE_BRIGHTNESS_LEVEL_BRIGHT" />(1): The brightness level of the video image is too bright.</li>
-                    <li><ph keyref="CAPTURE_BRIGHTNESS_LEVEL_DARK" />(2): The brightness level of the video image is too dark.</li>
-                    </ul></pd>
-            </plentry>
-            </parml> </section>
+                <plentry>
+                    <pt>uid</pt>
+                    <pd>The user ID of the local user.</pd>
+                </plentry>
+                <plentry>
+                    <pt>sentBitrate</pt>
+                    <pd>
+                        <p>The actual bitrate (Kbps) while sending the local video stream.<note
+                                type="attention">This value does not include the bitrate for
+                                resending the video after packet loss.</note></p>
+                    </pd>
+                </plentry>
+                <plentry>
+                    <pt>sentFrameRate</pt>
+                    <pd>The actual frame rate (fps) while sending the local video stream.<note
+                            type="attention">This value does not include the frame rate for
+                            resending the video after packet loss.</note></pd>
+                </plentry>
+                <plentry>
+                    <pt>captureFrameRate</pt>
+                    <pd>The frame rate (fps) for capturing the local video stream.</pd>
+                </plentry>
+                <plentry>
+                    <pt>captureFrameWidth</pt>
+                    <pd>The width (px) for capturing the local video stream.</pd>
+                </plentry>
+                <plentry>
+                    <pt>captureFrameHeight</pt>
+                    <pd>The height (px) for capturing the local video stream.</pd>
+                </plentry>
+                <plentry>
+                    <pt>regulatedCaptureFrameRate</pt>
+                    <pd>The frame rate (fps) adjusted by the built-in video capture adapter
+                        (regulator) of the SDK for capturing the local video stream. The regulator
+                        adjusts the frame rate of the video captured by the camera according to the
+                        video encoding configuration.</pd>
+                </plentry>
+                <plentry>
+                    <pt>regulatedCaptureFrameWidth</pt>
+                    <pd>The width (px) adjusted by the built-in video capture adapter (regulator) of
+                        the SDK for capturing the local video stream. The regulator adjusts the
+                        height and width of the video captured by the camera according to the video
+                        encoding configuration.</pd>
+                </plentry>
+                <plentry>
+                    <pt>regulatedCaptureFrameHeight</pt>
+                    <pd>The height (px) adjusted by the built-in video capture adapter (regulator)
+                        of the SDK for capturing the local video stream. The regulator adjusts the
+                        height and width of the video captured by the camera according to the video
+                        encoding configuration.</pd>
+                </plentry>
+                <plentry>
+                    <pt>encoderOutputFrameRate</pt>
+                    <pd>The output frame rate (fps) of the local video encoder.</pd>
+                </plentry>
+                <plentry>
+                    <pt>rendererOutputFrameRate</pt>
+                    <pd>The output frame rate (fps) of the local video renderer.</pd>
+                </plentry>
+                <plentry>
+                    <pt>targetBitrate</pt>
+                    <pd>The target bitrate (Kbps) of the current encoder. This is an estimate made
+                        by the SDK based on the current network conditions.</pd>
+                </plentry>
+                <plentry>
+                    <pt>targetFrameRate</pt>
+                    <pd>The target frame rate (fps) of the current encoder.</pd>
+                </plentry>
+                <plentry>
+                    <pt>qualityAdaptIndication</pt>
+                    <pd><ph>The quality adaption of the local video stream in the reported interval
+                            (based on the target frame rate and target bitrate). </ph><ph
+                            props="cpp ios mac unity">See <xref keyref="QUALITY_ADAPT_INDICATION"
+                            />.</ph><p props="android">
+                            <ul>
+                                <li><ph keyref="ADAPT_NONE"/>(0): The local video quality stays the
+                                    same.</li>
+                                <li><ph keyref="ADAPT_UP_BANDWIDTH"/>(1): The local video quality
+                                    improves because the network bandwidth increases.</li>
+                                <li><ph keyref="ADAPT_DOWN_BANDWIDTH"/>(2): The local video quality
+                                    deteriorates because the network bandwidth decreases.</li>
+                            </ul>
+                        </p>
+                    </pd>
+                </plentry>
+                <plentry>
+                    <pt>encodedBitrate</pt>
+                    <pd>
+                        <p>The bitrate (Kbps) while encoding the local video stream.<note
+                                type="attention">This value does not include the bitrate for
+                                resending the video after packet loss.</note></p>
+                    </pd>
+                </plentry>
+                <plentry>
+                    <pt>encodedFrameWidth</pt>
+                    <pd>The width of the encoded video (px).</pd>
+                </plentry>
+                <plentry>
+                    <pt>encodedFrameHeight</pt>
+                    <pd>The height of the encoded video (px).</pd>
+                </plentry>
+                <plentry>
+                    <pt>encodedFrameCount</pt>
+                    <pd>The number of sent video frames, represented by an aggregate value.</pd>
+                </plentry>
+                <plentry>
+                    <pt>codecType</pt>
+                    <pd><ph>The codec type of the local video. </ph><ph
+                            props="ios mac cpp unity electron rn flutter">See <xref
+                                keyref="VIDEO_CODEC_TYPE"/>.</ph><p props="android">
+                            <ul>
+                                <li><ph keyref="VIDEO_CODEC_VP8"/>(1): VP8.</li>
+                                <li><ph keyref="VIDEO_CODEC_H264"/>(2): (Default) H.264.</li>
+                            </ul>
+                        </p>
+                    </pd>
+                </plentry>
+                <plentry>
+                    <pt>txPacketLossRate</pt>
+                    <pd>The video packet loss rate (%) from the local client to the Agora server
+                        before applying the anti-packet loss strategies.</pd>
+                </plentry>
+                <plentry>
+                    <pt>captureBrightnessLevel</pt>
+                    <pd props="ios mac cpp unity electron rn flutter">The brightness level of the
+                        video image captured by the local camera. See <xref
+                            keyref="CAPTURE_BRIGHTNESS_LEVEL_TYPE"/>.</pd>
+                    <pd props="android">The brightness level of the video image captured by the
+                        local camera.<ul>
+                            <li><ph keyref="CAPTURE_BRIGHTNESS_LEVEL_INVALID"/>(-1): The SDK does
+                                not detect the brightness level of the video image. Wait a few
+                                seconds to get the brightness level from
+                                    <parmname>captureBrightnessLevel</parmname> in the next
+                                callback.</li>
+                            <li><ph keyref="CAPTURE_BRIGHTNESS_LEVEL_NORMAL"/>(0): The brightness
+                                level of the video image is normal.</li>
+                            <li><ph keyref="CAPTURE_BRIGHTNESS_LEVEL_BRIGHT"/>(1): The brightness
+                                level of the video image is too bright.</li>
+                            <li><ph keyref="CAPTURE_BRIGHTNESS_LEVEL_DARK"/>(2): The brightness
+                                level of the video image is too dark.</li>
+                        </ul></pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>
