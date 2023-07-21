@@ -60,6 +60,7 @@
                     <pt><ph keyref="VIDEO_PIXEL_I422"/></pt>
                     <pd>16: I422 格式。</pd>
                 </plentry>
-            </parml> </section>
+            </parml>
+        </section>
     </refbody>
 </reference>

@@ -15,8 +15,8 @@
                     <ol>
                         <li><ph><b>升级必看的标题</b></ph>
                             <ul>
-                            <li><?oxy-placeholder content="用 list 描述"?></li>
-                            <li><?oxy-placeholder content="用 list 描述"?></li>
+                                <li><?oxy-placeholder content="用 list 描述"?></li>
+                                <li><?oxy-placeholder content="用 list 描述"?></li>
                             </ul></li>
                         <li><ph><b>升级必看的标题</b></ph>
                             <p><?oxy-placeholder content="用段落描述"?></p>
@@ -30,8 +30,8 @@
                     <ol>
                         <li><ph><b>新增特性名称</b></ph>
                             <ul>
-                            <li><?oxy-placeholder content="用 list 描述"?></li>
-                            <li><?oxy-placeholder content="用 list 描述"?></li>
+                                <li><?oxy-placeholder content="用 list 描述"?></li>
+                                <li><?oxy-placeholder content="用 list 描述"?></li>
                             </ul></li>
                         <li><ph><b>新增特性名称</b></ph>
                             <p><?oxy-placeholder content="用段落描述"?></p>
@@ -45,8 +45,8 @@
                     <ol>
                         <li><ph><b>改进名称</b></ph>
                             <ul>
-                            <li><?oxy-placeholder content="用 list 描述"?></li>
-                            <li><?oxy-placeholder content="用 list 描述"?></li>
+                                <li><?oxy-placeholder content="用 list 描述"?></li>
+                                <li><?oxy-placeholder content="用 list 描述"?></li>
                             </ul></li>
                         <li><ph><b>改进名称</b></ph>
                             <p><?oxy-placeholder content="用段落描述"?></p>
@@ -58,7 +58,7 @@
                 <title>问题修复</title>
                 <body>
                     <ul>
-                        <li/> 
+                        <li/>
                         <li/>
                     </ul>
                 </body>
@@ -68,19 +68,19 @@
                 <body>
                     <p><b>新增</b>
                         <ul>
-                        <li><codeph><apiname/></codeph></li>
+                            <li><codeph><apiname/></codeph></li>
                         </ul></p>
                     <p><b>修改</b>
                         <ul>
-                        <li><apiname/></li>
+                            <li><apiname/></li>
                         </ul></p>
                     <p><b>废弃</b>
                         <ul>
-                        <li><apiname/></li>
+                            <li><apiname/></li>
                         </ul></p>
                     <p><b>删除</b>
                         <ul>
-                        <li><apiname/></li>
+                            <li><apiname/></li>
                         </ul></p>
                 </body>
             </topic>

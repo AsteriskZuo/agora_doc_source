@@ -7,19 +7,20 @@
         <section id="parameters">
             <title>枚举值</title>
             <parml>
-            <plentry>
-                <pt><ph keyref="RECORD_AUDIO"/></pt>
-                <pd>0: 音频采集设备的权限。</pd>
-            </plentry>
-            <plentry>
-                <pt><ph keyref="CAMERA"/></pt>
-                <pd>1: 摄像头权限。</pd>
-            </plentry>
-            <plentry props="cpp unreal bp unity flutter rn cs">
-                <pt><ph keyref="SCREEN_CAPTURE"/></pt>
-                <pd props="cpp unreal bp unity flutter rn">(仅适用于 Android) 2: 屏幕共享权限。</pd>
-                <pd props="cs">预留。</pd>
-            </plentry>
-            </parml> </section>
+                <plentry>
+                    <pt><ph keyref="RECORD_AUDIO"/></pt>
+                    <pd>0: 音频采集设备的权限。</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="CAMERA"/></pt>
+                    <pd>1: 摄像头权限。</pd>
+                </plentry>
+                <plentry props="cpp unreal bp unity flutter rn cs">
+                    <pt><ph keyref="SCREEN_CAPTURE"/></pt>
+                    <pd props="cpp unreal bp unity flutter rn">(仅适用于 Android) 2: 屏幕共享权限。</pd>
+                    <pd props="cs">预留。</pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

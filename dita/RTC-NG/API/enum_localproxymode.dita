@@ -7,14 +7,15 @@
         <section id="parameters">
             <title>枚举值</title>
             <parml>
-            <plentry>
-                <pt><ph keyref="ConnectivityFirst"/></pt>
-                <pd>0：SDK 优先尝试连接指定的声网私有媒体服务器；如果无法连接到指定的声网私有媒体服务器，则连接声网 SD-RTN™。</pd>
-            </plentry>
-            <plentry>
-                <pt><ph keyref="LocalOnly"/></pt>
-                <pd>1：SDK 只尝试连接指定的声网私有媒体服务器。</pd>
-            </plentry>
-            </parml> </section>
+                <plentry>
+                    <pt><ph keyref="ConnectivityFirst"/></pt>
+                    <pd>0：SDK 优先尝试连接指定的声网私有媒体服务器；如果无法连接到指定的声网私有媒体服务器，则连接声网 SD-RTN™。</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="LocalOnly"/></pt>
+                    <pd>1：SDK 只尝试连接指定的声网私有媒体服务器。</pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

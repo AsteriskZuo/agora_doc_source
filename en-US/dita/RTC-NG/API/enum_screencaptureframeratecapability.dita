@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="enum_screencaptureframeratecapability">
     <title><ph keyref="SCREEN_CAPTURE_FRAMERATE_CAPABILITY"/></title>
-    <shortdesc id="short"><ph id="shortdesc">The highest frame rate supported by the screen sharing device.</ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">The highest frame rate supported by the screen sharing
+            device.</ph></shortdesc>
     <refbody>
         <section id="detailed_desc">
             <dl outputclass="since">
@@ -28,5 +29,6 @@
                     <pd>2: The device supports the frame rate of up to 60 fps.</pd>
                 </plentry>
             </parml>
-        </section></refbody>
+        </section>
+    </refbody>
 </reference>

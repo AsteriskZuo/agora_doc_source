@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="toc_video_device_management">
     <title>Video Device Management</title>
-    <shortdesc id="short"><ph id="shortdesc">Introduces methods and callbacks related to video device management.</ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">Introduces methods and callbacks related to video
+            device management.</ph></shortdesc>
     <refbody/>
 </reference>

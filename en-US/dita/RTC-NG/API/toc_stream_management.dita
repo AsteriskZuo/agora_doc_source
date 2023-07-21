@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="toc_stream_management">
     <title>Audio and Video Stream Management</title>
-    <shortdesc id="short"><ph id="shortdesc">Introduces methods and callbacks related to the management of audio and video streams.</ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">Introduces methods and callbacks related to the
+            management of audio and video streams.</ph></shortdesc>
     <refbody/>
 </reference>

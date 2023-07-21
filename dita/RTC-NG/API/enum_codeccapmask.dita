@@ -6,19 +6,19 @@
     <refbody>
         <section id="detailed_desc">
             <dl outputclass="since">
-            <dlentry props="native">
-                <dt>自从</dt>
-                <dd>v4.2.0</dd>
-            </dlentry>
+                <dlentry props="native">
+                    <dt>自从</dt>
+                    <dd>v4.2.0</dd>
+                </dlentry>
             </dl>
         </section>
         <section id="parameters">
             <title>枚举值</title>
             <parml>
-            <plentry>
-                <pt><ph keyref="CODEC_CAP_MASK_NONE"/></pt>
-                <pd>(0)：不支持编解码。</pd>
-            </plentry>
+                <plentry>
+                    <pt><ph keyref="CODEC_CAP_MASK_NONE"/></pt>
+                    <pd>(0)：不支持编解码。</pd>
+                </plentry>
                 <plentry>
                     <pt><ph keyref="CODEC_CAP_MASK_HW_DEC"/></pt>
                     <pd>(1 &lt;&lt; 0)：支持硬件解码。</pd>
@@ -35,6 +35,7 @@
                     <pt><ph keyref="CODEC_CAP_MASK_SW_ENC"/></pt>
                     <pd>(1 &lt;&lt; 3)：支持软件编码。</pd>
                 </plentry>
-            </parml> </section>
+            </parml>
+        </section>
     </refbody>
 </reference>

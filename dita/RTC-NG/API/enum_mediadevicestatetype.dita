@@ -7,26 +7,27 @@
         <section id="parameters">
             <title>枚举值</title>
             <parml>
-            <plentry props="cpp unreal bp unity cs">
-                <pt><ph keyref="MEDIA_DEVICE_STATE_IDLE"/></pt>
-                <pd>0: 设备就绪。</pd>
-            </plentry>
-            <plentry>
-                <pt><ph keyref="MEDIA_DEVICE_STATE_ACTIVE"/></pt>
-                <pd>1: 设备正在使用。</pd>
-            </plentry>
-            <plentry>
-                <pt><ph keyref="MEDIA_DEVICE_STATE_DISABLED"/></pt>
-                <pd>2: 设备被禁用。</pd>
-            </plentry>
-            <plentry>
-                <pt><ph keyref="MEDIA_DEVICE_STATE_NOT_PRESENT"/></pt>
-                <pd>4: 没有此设备。</pd>
-            </plentry>
-            <plentry>
-                <pt><ph keyref="MEDIA_DEVICE_STATE_UNPLUGGED"/></pt>
-                <pd>8: 设备被拔出。</pd>
-            </plentry>
-            </parml> </section>
+                <plentry props="cpp unreal bp unity cs">
+                    <pt><ph keyref="MEDIA_DEVICE_STATE_IDLE"/></pt>
+                    <pd>0: 设备就绪。</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="MEDIA_DEVICE_STATE_ACTIVE"/></pt>
+                    <pd>1: 设备正在使用。</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="MEDIA_DEVICE_STATE_DISABLED"/></pt>
+                    <pd>2: 设备被禁用。</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="MEDIA_DEVICE_STATE_NOT_PRESENT"/></pt>
+                    <pd>4: 没有此设备。</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="MEDIA_DEVICE_STATE_UNPLUGGED"/></pt>
+                    <pd>8: 设备被拔出。</pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="callback_irtcengineeventhandler_onvideodevicestatechanged">
-     <title> <ph keyref="onVideoDeviceStateChanged"/> </title>
-     <shortdesc id="short"><ph id="shortdesc">Occurs when the video device state changes.</ph></shortdesc>
+     <title>
+          <ph keyref="onVideoDeviceStateChanged"/>
+     </title>
+     <shortdesc id="short"><ph id="shortdesc">Occurs when the video device state
+          changes.</ph></shortdesc>
      <prolog>
           <metadata>
                <keywords>
@@ -13,54 +16,63 @@
      <refbody>
           <section id="prototype">
                <p outputclass="codeblock">
-               <codeblock props="android" outputclass="language-java"/>
-               <codeblock props="ios mac" outputclass="language-objectivec">- (void)rtcEngine:(AgoraRtcEngineKit * _Nonnull)engine device:(NSString * _Nonnull)deviceId type:(AgoraMediaDeviceType)deviceType stateChanged:(NSInteger)state NS_SWIFT_NAME(rtcEngine(_:device:type:stateChanged:));</codeblock>
-               <codeblock props="cpp unreal bp" outputclass="language-cpp">virtual void onVideoDeviceStateChanged(const char* deviceId, int deviceType, int deviceState) {
+                    <codeblock props="android" outputclass="language-java"/>
+                    <codeblock props="ios mac" outputclass="language-objectivec">- (void)rtcEngine:(AgoraRtcEngineKit * _Nonnull)engine device:(NSString * _Nonnull)deviceId type:(AgoraMediaDeviceType)deviceType stateChanged:(NSInteger)state NS_SWIFT_NAME(rtcEngine(_:device:type:stateChanged:));</codeblock>
+                    <codeblock props="cpp unreal bp" outputclass="language-cpp">virtual void onVideoDeviceStateChanged(const char* deviceId, int deviceType, int deviceState) {
      (void)deviceId;
      (void)deviceType;
      (void)deviceState;
      }</codeblock>
-               <codeblock props="electron" outputclass="language-typescript">  onVideoDeviceStateChanged?(
+                    <codeblock props="electron" outputclass="language-typescript">  onVideoDeviceStateChanged?(
     deviceId: string,
     deviceType: MediaDeviceType,
     deviceState: number
   ): void;</codeblock>
-               <codeblock props="unity cs" outputclass="language-csharp">public virtual void OnVideoDeviceStateChanged(string deviceId, int deviceType, int deviceState)</codeblock>
-               <codeblock props="rn" outputclass="language-typescript">  onVideoDeviceStateChanged?(
+                    <codeblock props="unity cs" outputclass="language-csharp">public virtual void OnVideoDeviceStateChanged(string deviceId, int deviceType, int deviceState)</codeblock>
+                    <codeblock props="rn" outputclass="language-typescript">  onVideoDeviceStateChanged?(
     deviceId: string,
     deviceType: MediaDeviceType,
     deviceState: number
   ): void;</codeblock>
-               <codeblock props="flutter" outputclass="language-dart">final void Function(String deviceId, MediaDeviceType deviceType,
+                    <codeblock props="flutter" outputclass="language-dart">final void Function(String deviceId, MediaDeviceType deviceType,
       MediaDeviceStateType deviceState)? onVideoDeviceStateChanged;</codeblock>
-            <codeblock props="reserve" outputclass="language-cpp"></codeblock></p>
+                    <codeblock props="reserve" outputclass="language-cpp"/></p>
           </section>
           <section id="detailed_desc">
-               <p id="desc">This callback reports the change of system video devices, such as being unplugged or removed. On a Windows device with an external camera for video capturing, the video disables once the external camera is unplugged.</p>
-               <note props="cpp unreal bp unity flutter">This callback is for Windows and macOS only.</note> </section>
+               <p id="desc">This callback reports the change of system video devices, such as being
+                    unplugged or removed. On a Windows device with an external camera for video
+                    capturing, the video disables once the external camera is unplugged.</p>
+               <note props="cpp unreal bp unity flutter">This callback is for Windows and macOS
+                    only.</note>
+          </section>
           <section id="parameters">
-               <title> <ph keyref="callback-section-title"/> </title>
+               <title>
+                    <ph keyref="callback-section-title"/>
+               </title>
                <parml>
-               <plentry>
-                    <pt>deviceId</pt>
-                    <pd>The device ID.</pd>
-               </plentry>
-               <plentry>
-                    <pt>deviceType</pt>
-                    <pd>Media device types. See <xref keyref="MEDIA_DEVICE_TYPE"/>.</pd>
-               </plentry>
-               <plentry id="state">
-                    <pt>deviceState</pt>
-                    <pd>Media device states.</pd>
-                    <pd>
-                         <ul>
-                         <li>On the Windows platform, see <xref keyref="MEDIA_DEVICE_STATE_TYPE"/>.</li>
-                         <li props="cpp unreal bp electron unity flutter">On the macOS platform:<ul>
-                              <li>0: The device is ready for use.</li>
-                              <li>8: The device is unplugged.</li>
-                              </ul></li>
-                         </ul> </pd>
-               </plentry>
-               </parml> </section>
+                    <plentry>
+                         <pt>deviceId</pt>
+                         <pd>The device ID.</pd>
+                    </plentry>
+                    <plentry>
+                         <pt>deviceType</pt>
+                         <pd>Media device types. See <xref keyref="MEDIA_DEVICE_TYPE"/>.</pd>
+                    </plentry>
+                    <plentry id="state">
+                         <pt>deviceState</pt>
+                         <pd>Media device states.</pd>
+                         <pd>
+                              <ul>
+                                   <li>On the Windows platform, see <xref
+                                             keyref="MEDIA_DEVICE_STATE_TYPE"/>.</li>
+                                   <li props="cpp unreal bp electron unity flutter">On the macOS platform:<ul>
+                                             <li>0: The device is ready for use.</li>
+                                             <li>8: The device is unplugged.</li>
+                                        </ul></li>
+                              </ul>
+                         </pd>
+                    </plentry>
+               </parml>
+          </section>
      </refbody>
 </reference>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_contentinspectconfig">
-    <title><ph keyref="ContentInspectConfig" /></title>
-    <shortdesc id="short"><ph id="shortdesc">Configuration of video screenshot and upload.</ph></shortdesc>
+    <title><ph keyref="ContentInspectConfig"/></title>
+    <shortdesc id="short"><ph id="shortdesc">Configuration of video screenshot and
+        upload.</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="android">public class ContentInspectConfig {
+                <codeblock props="android">public class ContentInspectConfig {
   public final static int CONTENT_INSPECT_TYPE_INVALID = 0;
   public final static int CONTENT_INSPECT_TYPE_SUPERVISE = 2;
   public static final int MAX_CONTENT_INSPECT_MODULE_COUNT = 32;
@@ -23,11 +24,11 @@
       interval = 0;
     }
   }&gt;</codeblock>
-            <codeblock props="ios mac">__attribute__((visibility("default"))) @interface AgoraContentInspectConfig: NSObject
+                <codeblock props="ios mac">__attribute__((visibility("default"))) @interface AgoraContentInspectConfig: NSObject
 @property (nonatomic, copy) NSString* _Nullable extraInfo;
 @property(copy, nonatomic) NSArray&lt;AgoraContentInspectModule*&gt;* _Nullable modules;
 @end</codeblock>
-            <codeblock props="cpp unreal bp" outputclass="language-cpp">struct ContentInspectConfig {
+                <codeblock props="cpp unreal bp" outputclass="language-cpp">struct ContentInspectConfig {
   const char* extraInfo;
 
   ContentInspectModule modules[MAX_CONTENT_INSPECT_MODULE_COUNT];
@@ -41,7 +42,7 @@
 	}
   ContentInspectConfig() :extraInfo(NULL), moduleCount(0){}
 };</codeblock>
-            <codeblock props="electron" outputclass="language-typescript">export class ContentInspectConfig {
+                <codeblock props="electron" outputclass="language-typescript">export class ContentInspectConfig {
   
   extraInfo?: string;
   
@@ -49,7 +50,7 @@
   
   moduleCount?: number;
 }</codeblock>
-            <codeblock props="unity cs" outputclass="language-csharp">public class ContentInspectConfig
+                <codeblock props="unity cs" outputclass="language-csharp">public class ContentInspectConfig
     {
         public ContentInspectModule[] modules { set; get; }
 
@@ -61,7 +62,7 @@
             moduleCount = 0;
         }
     };</codeblock>
-            <codeblock props="rn" outputclass="language-typescript">export class ContentInspectConfig {
+                <codeblock props="rn" outputclass="language-typescript">export class ContentInspectConfig {
   
   extraInfo?: string;
   
@@ -69,7 +70,7 @@
   
   moduleCount?: number;
 }</codeblock>
-            <codeblock props="flutter" outputclass="language-dart">class ContentInspectConfig {
+                <codeblock props="flutter" outputclass="language-dart">class ContentInspectConfig {
 
   const ContentInspectConfig({this.extraInfo, this.modules, this.moduleCount});
   @JsonKey(name: 'extraInfo')
@@ -86,43 +87,63 @@
 
   Map&lt;String, dynamic&gt; toJson() =&gt; _$ContentInspectConfigToJson(this);
 }</codeblock>
-            <codeblock props="reserve" outputclass="language-cpp" /></p>
+                <codeblock props="reserve" outputclass="language-cpp"/></p>
         </section>
         <section id="parameters">
             <title>Parameters</title>
             <parml>
-            <plentry props="android">
-                <pt>CONTENT_INSPECT_TYPE_INVALID</pt>
-                <pd>(Default) No actual function. Do not set <parmname>type</parmname> to this value.</pd>
-            </plentry>
-            <plentry props="hide">
-                <pt>CONTENT_INSPECT_TYPE_MODERATION</pt>
-                <pd>Video content moderation. The SDK takes screenshots and inspect videos sent by local users, and uploads the screenshots and moderation results.</pd>
-            </plentry>
-            <plentry props="android">
-                <pt>CONTENT_INSPECT_SUPERVISE</pt>
-                <pd>Video screenshot and upload. The SDK takes screenshots of videos sent by local users and upload them.</pd>
-            </plentry>
-            <plentry props="native unreal bp electron rn flutter">
-                <pt>extraInfo</pt>
-                <pd>
-                    <p>Additional information on the video content (maximum length: 1024 Bytes).</p>
-                    <p>The SDK sends the screenshots and additional information on the video content to the Agora server. Once the video screenshot and upload process is completed, the Agora server sends the additional information and the callback notification to your server.</p>
-                    <p props="hide">The SDK sends the screenshots and additional information on the video content to the Agora content moderation server. Once the content moderation process is completed, the Agora content moderation server sends the additional information and the content moderation results to your server.</p>
-                </pd>
-            </plentry>
-            <plentry>
-                <pt>modules</pt>
-                <pd>
-                    <p>Functional module. See <xref keyref="ContentInspectModule" />.</p>
-                    <p>A maximum of 32 <apiname keyref="ContentInspectModule" /> instances can be configured, and the value range of <parmname>MAX_CONTENT_INSPECT_MODULE_COUNT</parmname> is an integer in [1,32].</p>
-                    <note type="attention">A function module can only be configured with one instance at most. Currently only the video screenshot and upload function is supported.</note>
-                </pd>
-            </plentry>
-            <plentry>
-                <pt>moduleCount</pt>
-                <pd>The number of functional modules, that is,the number of configured <apiname keyref="ContentInspectModule" /> instances, must be the same as the number of instances configured in <parmname>modules</parmname>. The maximum number is 32.</pd>
-            </plentry>
-            </parml> </section>
+                <plentry props="android">
+                    <pt>CONTENT_INSPECT_TYPE_INVALID</pt>
+                    <pd>(Default) No actual function. Do not set <parmname>type</parmname> to this
+                        value.</pd>
+                </plentry>
+                <plentry props="hide">
+                    <pt>CONTENT_INSPECT_TYPE_MODERATION</pt>
+                    <pd>Video content moderation. The SDK takes screenshots and inspect videos sent
+                        by local users, and uploads the screenshots and moderation results.</pd>
+                </plentry>
+                <plentry props="android">
+                    <pt>CONTENT_INSPECT_SUPERVISE</pt>
+                    <pd>Video screenshot and upload. The SDK takes screenshots of videos sent by
+                        local users and upload them.</pd>
+                </plentry>
+                <plentry props="native unreal bp electron rn flutter">
+                    <pt>extraInfo</pt>
+                    <pd>
+                        <p>Additional information on the video content (maximum length: 1024
+                            Bytes).</p>
+                        <p>The SDK sends the screenshots and additional information on the video
+                            content to the Agora server. Once the video screenshot and upload
+                            process is completed, the Agora server sends the additional information
+                            and the callback notification to your server.</p>
+                        <p props="hide">The SDK sends the screenshots and additional information on
+                            the video content to the Agora content moderation server. Once the
+                            content moderation process is completed, the Agora content moderation
+                            server sends the additional information and the content moderation
+                            results to your server.</p>
+                    </pd>
+                </plentry>
+                <plentry>
+                    <pt>modules</pt>
+                    <pd>
+                        <p>Functional module. See <xref keyref="ContentInspectModule"/>.</p>
+                        <p>A maximum of 32 <apiname keyref="ContentInspectModule"/> instances can be
+                            configured, and the value range of
+                                <parmname>MAX_CONTENT_INSPECT_MODULE_COUNT</parmname> is an integer
+                            in [1,32].</p>
+                        <note type="attention">A function module can only be configured with one
+                            instance at most. Currently only the video screenshot and upload
+                            function is supported.</note>
+                    </pd>
+                </plentry>
+                <plentry>
+                    <pt>moduleCount</pt>
+                    <pd>The number of functional modules, that is,the number of configured <apiname
+                            keyref="ContentInspectModule"/> instances, must be the same as the
+                        number of instances configured in <parmname>modules</parmname>. The maximum
+                        number is 32.</pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

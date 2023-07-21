@@ -13,22 +13,23 @@
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="ios mac" outputclass="language-objectivec">- (int)pushExternalAudioFrameSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer;</codeblock>
-            <codeblock props="reserve" outputclass="language-cpp"></codeblock></p>
+                <codeblock props="ios mac" outputclass="language-objectivec">- (int)pushExternalAudioFrameSampleBuffer:(CMSampleBufferRef _Nonnull)sampleBuffer;</codeblock>
+                <codeblock props="reserve" outputclass="language-cpp"/></p>
         </section>
         <section id="parameters">
             <title>参数</title>
             <parml>
-            <plentry id="samplebuffer">
-                <pt>sampleBuffer</pt>
-                <pd>采样缓冲区。</pd>
-            </plentry>
-            </parml> </section>
+                <plentry id="samplebuffer">
+                    <pt>sampleBuffer</pt>
+                    <pd>采样缓冲区。</pd>
+                </plentry>
+            </parml>
+        </section>
         <section id="return_values">
             <title>返回值</title>
             <ul>
-            <li>0：方法调用成功。</li>
-            <li>&lt; 0：方法调用失败。</li>
+                <li>0：方法调用成功。</li>
+                <li>&lt; 0：方法调用失败。</li>
             </ul>
         </section>
     </refbody>

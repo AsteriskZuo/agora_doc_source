@@ -6,23 +6,24 @@
     <refbody>
         <section id="detailed_desc">
             <dl outputclass="since">
-            <dlentry props="native">
-                <dt>自从</dt>
-                <dd>v4.1.1</dd>
-            </dlentry>
+                <dlentry props="native">
+                    <dt>自从</dt>
+                    <dd>v4.1.1</dd>
+                </dlentry>
             </dl>
         </section>
         <section id="parameters">
             <title>枚举值</title>
             <parml>
-            <plentry>
-                <pt><ph keyref="MEDIA_TRACE_EVENT_VIDEO_RENDERED"/></pt>
-                <pd>0：视频帧已被渲染。</pd>
-            </plentry>
+                <plentry>
+                    <pt><ph keyref="MEDIA_TRACE_EVENT_VIDEO_RENDERED"/></pt>
+                    <pd>0：视频帧已被渲染。</pd>
+                </plentry>
                 <plentry>
                     <pt><ph keyref="MEDIA_TRACE_EVENT_VIDEO_DECODED"/></pt>
                     <pd>1：视频帧已被解码。</pd>
                 </plentry>
-            </parml> </section>
+            </parml>
+        </section>
     </refbody>
 </reference>

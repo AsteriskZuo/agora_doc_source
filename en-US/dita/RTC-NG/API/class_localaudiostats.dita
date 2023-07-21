@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_localaudiostats">
-    <title><ph keyref="LocalAudioStats" /></title>
+    <title><ph keyref="LocalAudioStats"/></title>
     <shortdesc id="short"><ph id="shortdesc">Local audio statistics.</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="android" outputclass="language-java">public static class LocalAudioStats {
+                <codeblock props="android" outputclass="language-java">public static class LocalAudioStats {
   public int numChannels;
   public int sentSampleRate;
   public int sentBitrate;
@@ -14,7 +14,7 @@
   public int txPacketLossRate;
   public int audioDeviceDelay;
 };</codeblock>
-            <codeblock props="ios mac" outputclass="language-objectivec">__attribute__((visibility("default"))) @interface AgoraRtcLocalAudioStats : NSObject
+                <codeblock props="ios mac" outputclass="language-objectivec">__attribute__((visibility("default"))) @interface AgoraRtcLocalAudioStats : NSObject
 @property(assign, nonatomic) NSUInteger numChannels;
 @property(assign, nonatomic) NSUInteger sentSampleRate;
 @property(assign, nonatomic) NSUInteger sentBitrate;
@@ -23,7 +23,7 @@
 @property(assign, nonatomic) NSUInteger audioDeviceDelay;
 
 @end</codeblock>
-            <codeblock props="cpp unreal bp" outputclass="language-cpp">struct LocalAudioStats
+                <codeblock props="cpp unreal bp" outputclass="language-cpp">struct LocalAudioStats
 {
   int numChannels;
   int sentSampleRate;
@@ -32,7 +32,7 @@
   unsigned short txPacketLossRate;
   int audioDeviceDelay;
 };</codeblock>
-            <codeblock props="electron" outputclass="language-typescript">export class LocalAudioStats {
+                <codeblock props="electron" outputclass="language-typescript">export class LocalAudioStats {
   
   numChannels?: number;
   
@@ -46,7 +46,7 @@
   
   audioDeviceDelay?: number;
 }</codeblock>
-            <codeblock props="unity cs" outputclass="language-csharp">public LocalAudioStats(int numChannels, int sentSampleRate, int sentBitrate, int internalCodec, ushort txPacketLossRate, int audioDeviceDelay)
+                <codeblock props="unity cs" outputclass="language-csharp">public LocalAudioStats(int numChannels, int sentSampleRate, int sentBitrate, int internalCodec, ushort txPacketLossRate, int audioDeviceDelay)
         {
             this.numChannels = numChannels;
             this.sentSampleRate = sentSampleRate;
@@ -69,7 +69,7 @@
         public int audioDeviceDelay { set; get; }
     }
 </codeblock>
-            <codeblock props="rn" outputclass="language-typescript">export class LocalAudioStats {
+                <codeblock props="rn" outputclass="language-typescript">export class LocalAudioStats {
   
   numChannels?: number;
   
@@ -83,7 +83,7 @@
   
   audioDeviceDelay?: number;
 }</codeblock>
-            <codeblock props="flutter" outputclass="language-dart">class LocalAudioStats {
+                <codeblock props="flutter" outputclass="language-dart">class LocalAudioStats {
   const LocalAudioStats(
       {this.numChannels,
       this.sentSampleRate,
@@ -109,32 +109,35 @@
             </p>
         </section>
         <section id="parameters">
-            <title><text conref="../conref/conref_api_metadata.dita#conref_api_metadata/property" /></title>
+            <title><text conref="../conref/conref_api_metadata.dita#conref_api_metadata/property"
+                /></title>
             <parml>
-            <plentry>
-                <pt>numChannels</pt>
-                <pd>The number of audio channels.</pd>
-            </plentry>
-            <plentry>
-                <pt>sentSampleRate</pt>
-                <pd>The sampling rate (Hz) of sending the local user's audio stream.</pd>
-            </plentry>
-            <plentry>
-                <pt>sentBitrate</pt>
-                <pd>The average bitrate (Kbps) of sending the local user's audio stream.</pd>
-            </plentry>
-            <plentry>
-                <pt>txPacketLossRate</pt>
-                <pd>The packet loss rate (%) from the local client to the Agora server before applying the anti-packet loss strategies.</pd>
-            </plentry>
-            <plentry>
-                <pt>internalCodec</pt>
-                <pd>The internal payload codec.</pd>
-            </plentry>
-            <plentry>
-                <pt>audioDeviceDelay</pt>
-                <pd>The delay of the audio device module when playing or recording audio.</pd>
-            </plentry>                
-            </parml> </section>
+                <plentry>
+                    <pt>numChannels</pt>
+                    <pd>The number of audio channels.</pd>
+                </plentry>
+                <plentry>
+                    <pt>sentSampleRate</pt>
+                    <pd>The sampling rate (Hz) of sending the local user's audio stream.</pd>
+                </plentry>
+                <plentry>
+                    <pt>sentBitrate</pt>
+                    <pd>The average bitrate (Kbps) of sending the local user's audio stream.</pd>
+                </plentry>
+                <plentry>
+                    <pt>txPacketLossRate</pt>
+                    <pd>The packet loss rate (%) from the local client to the Agora server before
+                        applying the anti-packet loss strategies.</pd>
+                </plentry>
+                <plentry>
+                    <pt>internalCodec</pt>
+                    <pd>The internal payload codec.</pd>
+                </plentry>
+                <plentry>
+                    <pt>audioDeviceDelay</pt>
+                    <pd>The delay of the audio device module when playing or recording audio.</pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

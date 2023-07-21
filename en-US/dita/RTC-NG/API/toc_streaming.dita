@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="toc_streaming">
     <title>Streaming</title>
-    <shortdesc id="short"><ph id="shortdesc">Introduces methods and callbacks related to streaming.</ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">Introduces methods and callbacks related to
+            streaming.</ph></shortdesc>
     <refbody/>
 </reference>

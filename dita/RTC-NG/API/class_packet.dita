@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_packet">
-    <title><ph keyref="Packet" /></title>
-    <shortdesc id="short"><ph id="shortdesc"><apiname keyref="Packet" /> 定义。</ph></shortdesc>
+    <title><ph keyref="Packet"/></title>
+    <shortdesc id="short"><ph id="shortdesc"><apiname keyref="Packet"/> 定义。</ph></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="cpp unreal bp" outputclass="language-cpp">struct Packet {
+                <codeblock props="cpp unreal bp" outputclass="language-cpp">struct Packet {
                     const unsigned char* buffer;
                     unsigned int size;
 
                     Packet() : buffer(NULL), size(0) {}
                     };</codeblock>
-            <codeblock props="electron" outputclass="language-typescript">export class Packet {
+                <codeblock props="electron" outputclass="language-typescript">export class Packet {
   buffer?: Uint8Array
   size?: number
 }</codeblock>
-            <codeblock props="unity cs" outputclass="language-csharp">public class Packet
+                <codeblock props="unity cs" outputclass="language-csharp">public class Packet
     {
         public Packet()
         {
@@ -33,8 +33,8 @@
         public uint size { set; get; }
     }
     </codeblock>
-            <codeblock props="rn" outputclass="language-typescript" />
-            <codeblock props="flutter" outputclass="language-dart">class Packet {
+                <codeblock props="rn" outputclass="language-typescript"/>
+                <codeblock props="flutter" outputclass="language-dart">class Packet {
   const Packet({this.buffer, this.size});
 
   @JsonKey(name: 'buffer', ignore: true)
@@ -48,19 +48,22 @@
             </p>
         </section>
         <section id="parameters">
-            <title><text conref="../conref/conref_api_metadata.dita#conref_api_metadata/property" /></title>
+            <title><text conref="../conref/conref_api_metadata.dita#conref_api_metadata/property"
+                /></title>
             <parml>
-            <plentry>
-                <pt>buffer</pt>
-                <pd>
-                    <p>需要发送或接收的数据的缓存地址。</p>
-                    <note type="attention">建议 <parmname>buffer</parmname> 值不要小于 2048 字节，否则有可能会出现未定义行为（例如崩溃）。</note>
-                </pd>
-            </plentry>
-            <plentry>
-                <pt>size</pt>
-                <pd>将要发送或接收的数据的缓存大小。</pd>
-            </plentry>
-            </parml> </section>
+                <plentry>
+                    <pt>buffer</pt>
+                    <pd>
+                        <p>需要发送或接收的数据的缓存地址。</p>
+                        <note type="attention">建议 <parmname>buffer</parmname> 值不要小于 2048
+                            字节，否则有可能会出现未定义行为（例如崩溃）。</note>
+                    </pd>
+                </plentry>
+                <plentry>
+                    <pt>size</pt>
+                    <pd>将要发送或接收的数据的缓存大小。</pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

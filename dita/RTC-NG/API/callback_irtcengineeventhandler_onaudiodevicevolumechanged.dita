@@ -13,27 +13,27 @@
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="android" outputclass="language-java"/>
-            <codeblock props="ios mac" outputclass="language-objectivec"/>
-            <codeblock props="cpp unreal bp" outputclass="language-cpp">virtual void onAudioDeviceVolumeChanged(MEDIA_DEVICE_TYPE deviceType, int volume, bool muted) {
+                <codeblock props="android" outputclass="language-java"/>
+                <codeblock props="ios mac" outputclass="language-objectivec"/>
+                <codeblock props="cpp unreal bp" outputclass="language-cpp">virtual void onAudioDeviceVolumeChanged(MEDIA_DEVICE_TYPE deviceType, int volume, bool muted) {
     (void)deviceType;
     (void)volume;
     (void)muted;
   }</codeblock>
-            <codeblock props="electron" outputclass="language-typescript">  onAudioDeviceVolumeChanged?(
+                <codeblock props="electron" outputclass="language-typescript">  onAudioDeviceVolumeChanged?(
     deviceType: MediaDeviceType,
     volume: number,
     muted: boolean
   ): void;</codeblock>
-            <codeblock props="unity cs" outputclass="language-csharp">public virtual void OnAudioDeviceVolumeChanged(MEDIA_DEVICE_TYPE deviceType, int volume, bool muted)</codeblock>
-            <codeblock props="rn" outputclass="language-typescript">  onAudioDeviceVolumeChanged?(
+                <codeblock props="unity cs" outputclass="language-csharp">public virtual void OnAudioDeviceVolumeChanged(MEDIA_DEVICE_TYPE deviceType, int volume, bool muted)</codeblock>
+                <codeblock props="rn" outputclass="language-typescript">  onAudioDeviceVolumeChanged?(
     deviceType: MediaDeviceType,
     volume: number,
     muted: boolean
   ): void;</codeblock>
-            <codeblock props="flutter" outputclass="language-dart">final void Function(MediaDeviceType deviceType, int volume, bool muted)?
+                <codeblock props="flutter" outputclass="language-dart">final void Function(MediaDeviceType deviceType, int volume, bool muted)?
       onAudioDeviceVolumeChanged;</codeblock>
-            <codeblock props="reserve" outputclass="language-cpp"></codeblock></p>
+                <codeblock props="reserve" outputclass="language-cpp"/></p>
         </section>
         <section id="detailed_desc">
             <p>当音频播放、采集设备或 app 的音量发生改变时，会触发该回调。</p>
@@ -42,25 +42,24 @@
         <section id="parameters">
             <title><ph keyref="callback-section-title"/></title>
             <parml>
-            <plentry>
-                <pt>deviceType</pt>
-                <pd>设备类型定义。详见 <xref keyref="MEDIA_DEVICE_TYPE"/>。</pd>
-            </plentry>
-            <plentry>
-                <pt>volume</pt>
-                <pd>音量。范围为 [0,255]。</pd>
-            </plentry>
-            <plentry>
-                <pt>muted</pt>
-                <pd>
-                    <p>音频设备是否为静音状态：
-                    
-                    <ul>
-                    <li><codeph><ph keyref="true"/></codeph>: 音频设备已静音。</li>
-                    <li><codeph><ph keyref="false"/></codeph>: 音频设备未被静音。</li>
-                    </ul></p>
-                </pd>
-            </plentry>
-            </parml> </section>
+                <plentry>
+                    <pt>deviceType</pt>
+                    <pd>设备类型定义。详见 <xref keyref="MEDIA_DEVICE_TYPE"/>。</pd>
+                </plentry>
+                <plentry>
+                    <pt>volume</pt>
+                    <pd>音量。范围为 [0,255]。</pd>
+                </plentry>
+                <plentry>
+                    <pt>muted</pt>
+                    <pd>
+                        <p>音频设备是否为静音状态： <ul>
+                                <li><codeph><ph keyref="true"/></codeph>: 音频设备已静音。</li>
+                                <li><codeph><ph keyref="false"/></codeph>: 音频设备未被静音。</li>
+                            </ul></p>
+                    </pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

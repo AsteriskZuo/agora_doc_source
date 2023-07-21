@@ -1,36 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="api_irtcengine_setcameraautoexposurefacemodeenabled">
-    <title><ph keyref="setCameraAutoExposureFaceModeEnabled" /></title>
+    <title><ph keyref="setCameraAutoExposureFaceModeEnabled"/></title>
     <shortdesc id="short"><ph id="shortdesc">Sets whether to enable auto exposure.</ph></shortdesc>
     <prolog>
         <metadata>
             <keywords>
-                <indexterm keyref="setCameraAutoExposureFaceModeEnabled" />
+                <indexterm keyref="setCameraAutoExposureFaceModeEnabled"/>
             </keywords>
         </metadata>
     </prolog>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="android" outputclass="language-java" />
-            <codeblock props="ios mac" outputclass="language-objectivec" />
-            <codeblock props="cpp unreal bp" outputclass="language-cpp">virtual int setCameraAutoExposureFaceModeEnabled(bool enabled) = 0;
+                <codeblock props="android" outputclass="language-java"/>
+                <codeblock props="ios mac" outputclass="language-objectivec"/>
+                <codeblock props="cpp unreal bp" outputclass="language-cpp">virtual int setCameraAutoExposureFaceModeEnabled(bool enabled) = 0;
 </codeblock>
-            <codeblock props="electron" outputclass="language-typescript">abstract setCameraAutoExposureFaceModeEnabled(enabled: boolean): number;</codeblock>
-            <codeblock props="unity cs" outputclass="language-csharp">public abstract int SetCameraAutoExposureFaceModeEnabled(bool enabled);</codeblock>
-            <codeblock props="rn" outputclass="language-typescript">abstract setCameraAutoExposureFaceModeEnabled(enabled: boolean): number;</codeblock>
-            <codeblock props="flutter" outputclass="language-dart">Future&lt;void&gt; setCameraAutoExposureFaceModeEnabled(bool enabled);</codeblock>
-            <codeblock props="reserve" outputclass="language-cpp" /></p>
+                <codeblock props="electron" outputclass="language-typescript">abstract setCameraAutoExposureFaceModeEnabled(enabled: boolean): number;</codeblock>
+                <codeblock props="unity cs" outputclass="language-csharp">public abstract int SetCameraAutoExposureFaceModeEnabled(bool enabled);</codeblock>
+                <codeblock props="rn" outputclass="language-typescript">abstract setCameraAutoExposureFaceModeEnabled(enabled: boolean): number;</codeblock>
+                <codeblock props="flutter" outputclass="language-dart">Future&lt;void&gt; setCameraAutoExposureFaceModeEnabled(bool enabled);</codeblock>
+                <codeblock props="reserve" outputclass="language-cpp"/></p>
         </section>
         <section id="detailed_desc">
             <title>Details</title>
             <p>
-            <note type="attention">
-            <ul>
-            <li props="cpp unreal bp unity flutter rn cs">This method applies to iOS only.</li>
-            <li conkeyref="setCameraExposureFactor/sequence" />
-            </ul> </note> </p>
+                <note type="attention">
+                    <ul>
+                        <li props="cpp unreal bp unity flutter rn cs">This method applies to iOS
+                            only.</li>
+                        <li conkeyref="setCameraExposureFactor/sequence"/>
+                    </ul>
+                </note>
+            </p>
         </section>
         <section id="parameters">
             <title>Parameters</title>
@@ -39,18 +42,23 @@
                     <pt props="cpp unreal bp flutter rn unity electron cs">enabled</pt>
                     <pd>
                         <p>Whether to enable auto exposure:<ul>
-                        <li><codeph><ph keyref="true" /></codeph>: Enable auto exposure.</li>
-                        <li><codeph><ph keyref="false" /></codeph>: Disable auto exposure.</li>
-                        </ul></p>
+                                <li><codeph><ph keyref="true"/></codeph>: Enable auto exposure.</li>
+                                <li><codeph><ph keyref="false"/></codeph>: Disable auto
+                                    exposure.</li>
+                            </ul></p>
                     </pd>
                 </plentry>
-                </parml> </section>
+            </parml>
+        </section>
         <section id="return_values">
-            <title><ph keyref="return-section-title" /></title>
-            <p props="flutter">When the method call succeeds, there is no return value; when fails, the <xref keyref="AgoraRtcException" /> exception is thrown; and you need to catch the exception and handle it accordingly.</p>
+            <title><ph keyref="return-section-title"/></title>
+            <p props="flutter">When the method call succeeds, there is no return value; when fails,
+                the <xref keyref="AgoraRtcException"/> exception is thrown; and you need to catch
+                the exception and handle it accordingly.</p>
             <ul>
-            <li props="cpp unreal bp unity rn electron cs">0: Success.</li>
-            <li>&lt; 0: Failure.</li>
-            </ul> </section>
+                <li props="cpp unreal bp unity rn electron cs">0: Success.</li>
+                <li>&lt; 0: Failure.</li>
+            </ul>
+        </section>
     </refbody>
 </reference>

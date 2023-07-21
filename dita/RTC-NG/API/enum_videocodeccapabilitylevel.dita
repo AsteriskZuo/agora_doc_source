@@ -36,5 +36,6 @@
                     <pd>30：最高支持对 4K、30 fps 的视频进行编解码。</pd>
                 </plentry>
             </parml>
-        </section></refbody>
+        </section>
+    </refbody>
 </reference>

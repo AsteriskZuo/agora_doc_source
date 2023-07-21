@@ -17,7 +17,9 @@
             <parml>
                 <plentry>
                     <pt><ph keyref="CODEC_CAPABILITY_LEVEL_UNSPECIFIED"/></pt>
-                    <pd>-1: Unsupported video type. Currently, only H.264 and H.265 formats are supported. If the video is in another format, this value will be returned.</pd>
+                    <pd>-1: Unsupported video type. Currently, only H.264 and H.265 formats are
+                        supported. If the video is in another format, this value will be
+                        returned.</pd>
                 </plentry>
                 <plentry>
                     <pt><ph keyref="CODEC_CAPABILITY_LEVEL_BASIC_SUPPORT"/></pt>
@@ -36,5 +38,6 @@
                     <pd>30: Support encoding and decoding videos up to 4K and 30 fps.</pd>
                 </plentry>
             </parml>
-        </section></refbody>
+        </section>
+    </refbody>
 </reference>

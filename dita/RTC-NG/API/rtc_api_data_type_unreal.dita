@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="rtc_api_data_type_unreal">
     <title><ph keyref="typedef"/></title>
-    <shortdesc id="short"><ph id="shortdesc">本页列出 <ph keyref="platform"/> 所有 <ph keyref="class"/> 和 Enum 的定义。</ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">本页列出 <ph keyref="platform"/> 所有 <ph keyref="class"/> 和
+            Enum 的定义。</ph></shortdesc>
     <refbody>
         <section>
             <title><ph keyref="class"/></title>
@@ -98,7 +99,7 @@
                         <li><xref keyref="ScreenAudioParameters"/></li>
                         <li><xref keyref="ScreenVideoParameters"/></li>
                     </ul></li>
-                    <li><xref keyref="ScreenCaptureSourceInfo"/></li>
+                <li><xref keyref="ScreenCaptureSourceInfo"/></li>
                 <li><xref keyref="SegmentationProperty"/></li>
                 <li><xref keyref="SimulcastStreamConfig"/></li>
                 <li props="hide"><xref keyref="SIZE"/></li>
@@ -269,7 +270,7 @@
                 <li><xref keyref="VOICE_CHANGER_PRESET"/></li>
                 <li><xref keyref="VOICE_CONVERSION_PRESET"/></li>
                 <li><xref keyref="WATERMARK_FIT_MODE"/></li>
-                </ul>
+            </ul>
         </section>
     </refbody>
 </reference>

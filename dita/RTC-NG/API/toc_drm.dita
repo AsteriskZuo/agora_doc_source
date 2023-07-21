@@ -3,6 +3,5 @@
 <reference id="toc_drm">
     <title>版权音乐</title>
     <shortdesc id="short"><ph id="shortdesc">介绍版权音乐的相关方法和回调。</ph></shortdesc>
-    <refbody>
-    </refbody>
+    <refbody> </refbody>
 </reference>

@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_audiopcmframe">
-    <title> <ph keyref="AudioPcmFrame" /> </title>
-    <shortdesc id="short"> <ph id="shortdesc">外部 PCM 格式音频帧的信息。</ph> </shortdesc>
+    <title>
+        <ph keyref="AudioPcmFrame"/>
+    </title>
+    <shortdesc id="short">
+        <ph id="shortdesc">外部 PCM 格式音频帧的信息。</ph>
+    </shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="android" outputclass="language-java" />
-            <codeblock props="ios mac" outputclass="language-objectivec">__attribute__((visibility("default"))) @interface AgoraAudioPcmFrame: NSObject
+                <codeblock props="android" outputclass="language-java"/>
+                <codeblock props="ios mac" outputclass="language-objectivec">__attribute__((visibility("default"))) @interface AgoraAudioPcmFrame: NSObject
                 @property (assign, nonatomic) uint32_t captureTimestamp;
                 @property (assign, nonatomic) size_t samplesPerChannel;
                 @property (assign, nonatomic) int sampleRateHz;
@@ -16,7 +20,7 @@
                 @property (assign, nonatomic) BytesPerSampleType bytesPerSample;
                @end
             </codeblock>
-            <codeblock props="cpp unreal bp" outputclass="language-cpp">struct AudioPcmFrame {
+                <codeblock props="cpp unreal bp" outputclass="language-cpp">struct AudioPcmFrame {
                 OPTIONAL_ENUM_SIZE_T {
                   kMaxDataSizeSamples = 3840,
                   kMaxDataSizeBytes = kMaxDataSizeSamples * sizeof(int16_t),
@@ -30,7 +34,7 @@
                 int16_t data_[kMaxDataSizeSamples];
               };
             </codeblock>
-            <codeblock props="electron" outputclass="language-typescript">export class AudioPcmFrame {
+                <codeblock props="electron" outputclass="language-typescript">export class AudioPcmFrame {
   capture_timestamp?: number;
   samples_per_channel_?: number;
   sample_rate_hz_?: number;
@@ -38,7 +42,7 @@
   bytes_per_sample?: BytesPerSample;
   data_?: number[];
 }</codeblock>
-            <codeblock props="unity cs" outputclass="language-csharp">
+                <codeblock props="unity cs" outputclass="language-csharp">
         public struct AudioPcmFrame {
         public UInt32 capture_timestamp;
         public UInt64 samples_per_channel_;
@@ -47,7 +51,7 @@
         public BYTES_PER_SAMPLE bytes_per_sample;
         public Int16[] data_;
     };</codeblock>
-            <codeblock props="rn" outputclass="language-typescript">export class AudioPcmFrame {
+                <codeblock props="rn" outputclass="language-typescript">export class AudioPcmFrame {
   capture_timestamp?: number;
   samples_per_channel_?: number;
   sample_rate_hz_?: number;
@@ -55,7 +59,7 @@
   bytes_per_sample?: BytesPerSample;
   data_?: number[];
 }</codeblock>
-            <codeblock props="flutter" outputclass="language-dart">class AudioPcmFrame {
+                <codeblock props="flutter" outputclass="language-dart">class AudioPcmFrame {
   const AudioPcmFrame(
       {this.captureTimestamp,
       this.samplesPerChannel,
@@ -86,51 +90,54 @@
       _$AudioPcmFrameFromJson(json);
 
   Map&lt;String, dynamic> toJson() => _$AudioPcmFrameToJson(this);
-}</codeblock>            
-            <codeblock props="reserve" outputclass="language-cpp"></codeblock></p>
+}</codeblock>
+                <codeblock props="reserve" outputclass="language-cpp"/></p>
         </section>
         <section id="parameters">
-            <title> <text conref="../conref/conref_api_metadata.dita#conref_api_metadata/property" /> </title>
+            <title>
+                <text conref="../conref/conref_api_metadata.dita#conref_api_metadata/property"/>
+            </title>
             <parml>
-            <plentry props="cpp unreal bp">
-                <pt>OPTIONAL_ENUM_SIZE_T</pt>
-                <pd>PCM 格式音频帧缓冲大小。初始值为 3840。</pd>
-            </plentry>                
-            <plentry>
-                <pt props="cpp unreal bp unity rn electron cs">capture_timestamp</pt>
-                <pt props="ios mac flutter">captureTimestamp</pt>
-                <pd>音频帧的时间戳 (ms)。</pd>
-            </plentry>
-            <plentry>
-                <pt props="cpp unreal bp unity rn electron cs">samples_per_channel_</pt>
-                <pt props="ios mac flutter">samplesPerChannel</pt>
-                <pd>每个声道的采样点数。</pd>
-            </plentry>
-            <plentry>
-                <pt props="cpp unreal bp unity rn electron cs">sample_rate_hz_</pt>
-                <pt props="ios mac flutter">sampleRateHz</pt>
-                <pd>音频采样率 (Hz)。</pd>
-            </plentry>
-            <plentry>
-                <pt props="cpp unreal bp unity rn electron cs">num_channels_</pt>
-                <pt props="ios mac">channelNumbers</pt>
-                <pt props="flutter">numChannels</pt>
-                <pd>音频声道数。</pd>
-            </plentry>
-            <plentry>
-                <pt props="cpp unreal bp unity rn electron cs">bytes_per_sample</pt>
-                <pt props="ios mac flutter">bytesPerSample</pt>
-                <pd>音频数据的字节数。</pd>
-            </plentry>
-            <plentry>
-                <pt props="cpp unreal bp unity rn electron cs">data_</pt>
-                <pt props="flutter">data</pt>
-                <pd>音频帧数据。</pd>
-            </plentry>
-            <plentry props="ios mac">
-                <pt>pcmBuffer</pt>
-                <pd>缓存中的音频帧数量。</pd>
-            </plentry>
-            </parml> </section>
+                <plentry props="cpp unreal bp">
+                    <pt>OPTIONAL_ENUM_SIZE_T</pt>
+                    <pd>PCM 格式音频帧缓冲大小。初始值为 3840。</pd>
+                </plentry>
+                <plentry>
+                    <pt props="cpp unreal bp unity rn electron cs">capture_timestamp</pt>
+                    <pt props="ios mac flutter">captureTimestamp</pt>
+                    <pd>音频帧的时间戳 (ms)。</pd>
+                </plentry>
+                <plentry>
+                    <pt props="cpp unreal bp unity rn electron cs">samples_per_channel_</pt>
+                    <pt props="ios mac flutter">samplesPerChannel</pt>
+                    <pd>每个声道的采样点数。</pd>
+                </plentry>
+                <plentry>
+                    <pt props="cpp unreal bp unity rn electron cs">sample_rate_hz_</pt>
+                    <pt props="ios mac flutter">sampleRateHz</pt>
+                    <pd>音频采样率 (Hz)。</pd>
+                </plentry>
+                <plentry>
+                    <pt props="cpp unreal bp unity rn electron cs">num_channels_</pt>
+                    <pt props="ios mac">channelNumbers</pt>
+                    <pt props="flutter">numChannels</pt>
+                    <pd>音频声道数。</pd>
+                </plentry>
+                <plentry>
+                    <pt props="cpp unreal bp unity rn electron cs">bytes_per_sample</pt>
+                    <pt props="ios mac flutter">bytesPerSample</pt>
+                    <pd>音频数据的字节数。</pd>
+                </plentry>
+                <plentry>
+                    <pt props="cpp unreal bp unity rn electron cs">data_</pt>
+                    <pt props="flutter">data</pt>
+                    <pd>音频帧数据。</pd>
+                </plentry>
+                <plentry props="ios mac">
+                    <pt>pcmBuffer</pt>
+                    <pd>缓存中的音频帧数量。</pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="class_metadata">
-    <title><ph keyref="Metadata" /></title>
-    <shortdesc id="short">Media metadata.<ph id="shortdesc" /></shortdesc>
+    <title><ph keyref="Metadata"/></title>
+    <shortdesc id="short">Media metadata.<ph id="shortdesc"/></shortdesc>
     <refbody>
         <section id="prototype">
             <p outputclass="codeblock">
-            <codeblock props="android" outputclass="language-java" />
-            <codeblock props="ios mac" outputclass="language-objectivec" />
-            <codeblock props="cpp unreal bp" outputclass="language-cpp">struct Metadata {
+                <codeblock props="android" outputclass="language-java"/>
+                <codeblock props="ios mac" outputclass="language-objectivec"/>
+                <codeblock props="cpp unreal bp" outputclass="language-cpp">struct Metadata {
     unsigned int uid;
     unsigned int size;
     unsigned char *buffer;
     long long timeStampMs;
     };</codeblock>
-            <codeblock props="unity cs" outputclass="language-csharp">public class Metadata
+                <codeblock props="unity cs" outputclass="language-csharp">public class Metadata
     {
         public uint uid;
         public uint size;
@@ -35,7 +35,7 @@
 
         public long timeStampMs;
     };</codeblock>
-            <codeblock props="electron" outputclass="language-typescript">export class Metadata {
+                <codeblock props="electron" outputclass="language-typescript">export class Metadata {
   
   uid?: number;
   
@@ -45,7 +45,7 @@
   
   timeStampMs?: number;
 }</codeblock>
-            <codeblock props="rn" outputclass="language-typescript">export class Metadata {
+                <codeblock props="rn" outputclass="language-typescript">export class Metadata {
   
   uid?: number;
   
@@ -55,7 +55,7 @@
   
   timeStampMs?: number;
 }</codeblock>
-            <codeblock props="flutter" outputclass="language-dart">class Metadata {
+                <codeblock props="flutter" outputclass="language-dart">class Metadata {
   const Metadata({this.uid, this.size, this.buffer, this.timeStampMs});
 
   @JsonKey(name: 'uid')
@@ -70,32 +70,36 @@
       _$MetadataFromJson(json);
   Map&lt;String, dynamic&gt; toJson() =&gt; _$MetadataToJson(this);
 }</codeblock>
-            <codeblock props="reserve" outputclass="language-cpp" /></p>
+                <codeblock props="reserve" outputclass="language-cpp"/></p>
         </section>
         <section id="parameters">
-            <title><text conref="../conref/conref_api_metadata.dita#conref_api_metadata/property" /></title>
+            <title><text conref="../conref/conref_api_metadata.dita#conref_api_metadata/property"
+                /></title>
             <parml>
-            <plentry>
-                <pt>uid</pt>
-                <pd>
-                    <p>The user ID.<ul id="ul_c1t_3wg_s4b">
-                    <li>For the recipient:the ID of the remote user who sent the <apiname keyref="Metadata" />.</li>
-                    <li>Ignore it for sender.</li>
-                    </ul></p>
-                </pd>
-            </plentry>
-            <plentry>
-                <pt>size</pt>
-                <pd>Buffer size for received or sent <apiname keyref="Metadata" />.</pd>
-            </plentry>
-            <plentry>
-                <pt>buffer</pt>
-                <pd>The buffer address of the received or sent <apiname keyref="Metadata" />.</pd>
-            </plentry>
-            <plentry>
-                <pt>timeStampMs</pt>
-                <pd>The timestamp (ms) of <apiname keyref="Metadata" />.</pd>
-            </plentry>
-            </parml> </section>
+                <plentry>
+                    <pt>uid</pt>
+                    <pd>
+                        <p>The user ID.<ul id="ul_c1t_3wg_s4b">
+                                <li>For the recipient:the ID of the remote user who sent the
+                                        <apiname keyref="Metadata"/>.</li>
+                                <li>Ignore it for sender.</li>
+                            </ul></p>
+                    </pd>
+                </plentry>
+                <plentry>
+                    <pt>size</pt>
+                    <pd>Buffer size for received or sent <apiname keyref="Metadata"/>.</pd>
+                </plentry>
+                <plentry>
+                    <pt>buffer</pt>
+                    <pd>The buffer address of the received or sent <apiname keyref="Metadata"
+                        />.</pd>
+                </plentry>
+                <plentry>
+                    <pt>timeStampMs</pt>
+                    <pd>The timestamp (ms) of <apiname keyref="Metadata"/>.</pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

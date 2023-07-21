@@ -2,7 +2,8 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="enum_hwencoderaccelerating">
     <title><ph keyref="hwEncoderAccelerating"/></title>
-    <shortdesc id="short"><ph id="shortdesc">The local video encoding acceleration type.</ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">The local video encoding acceleration
+        type.</ph></shortdesc>
     <refbody>
         <section id="detailed_desc">
             <dl outputclass="since">
@@ -24,5 +25,6 @@
                     <pd>1: Hardware encoding is applied for acceleration.</pd>
                 </plentry>
             </parml>
-        </section></refbody>
+        </section>
+    </refbody>
 </reference>

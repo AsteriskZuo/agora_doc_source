@@ -7,14 +7,16 @@
         <section id="parameters">
             <title>Enumerator</title>
             <parml>
-            <plentry>
-                <pt><ph keyref="RAW_DATA"/></pt>
-                <pd>Raw data mode, which means the SDK sends you raw data.</pd>
-            </plentry>
+                <plentry>
+                    <pt><ph keyref="RAW_DATA"/></pt>
+                    <pd>Raw data mode, which means the SDK sends you raw data.</pd>
+                </plentry>
                 <plentry>
                     <pt><ph keyref="INTPTR"/></pt>
-                    <pd>Pointer mode, which means the SDK sends you the pointer to the raw data.</pd>
+                    <pd>Pointer mode, which means the SDK sends you the pointer to the raw
+                        data.</pd>
                 </plentry>
-            </parml> </section>
+            </parml>
+        </section>
     </refbody>
 </reference>

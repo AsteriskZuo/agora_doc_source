@@ -6,26 +6,27 @@
     <refbody>
         <section id="detailed_desc">
             <dl outputclass="since">
-            <dlentry props="native">
-                <dt>Since</dt>
-                <dd>v4.2.0</dd>
-            </dlentry>
+                <dlentry props="native">
+                    <dt>Since</dt>
+                    <dd>v4.2.0</dd>
+                </dlentry>
             </dl>
         </section>
         <section id="parameters">
             <title>Enumerator</title>
             <parml>
-            <plentry>
-                <pt><ph keyref="APPLICATION_SCENARIO_GENERAL"/></pt>
-                <pd>0: (Default) The general scenario.</pd>
-            </plentry>
-            <plentry>
-                <pt><ph keyref="APPLICATION_SCENARIO_MEETING"/></pt>
-                <pd>
-                    <p>1: The meeting scenario.</p>
-                    <p conkeyref="setVideoScenario/meeting"/>
-                </pd>
-            </plentry>
-            </parml> </section>
+                <plentry>
+                    <pt><ph keyref="APPLICATION_SCENARIO_GENERAL"/></pt>
+                    <pd>0: (Default) The general scenario.</pd>
+                </plentry>
+                <plentry>
+                    <pt><ph keyref="APPLICATION_SCENARIO_MEETING"/></pt>
+                    <pd>
+                        <p>1: The meeting scenario.</p>
+                        <p conkeyref="setVideoScenario/meeting"/>
+                    </pd>
+                </plentry>
+            </parml>
+        </section>
     </refbody>
 </reference>

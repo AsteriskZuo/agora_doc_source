@@ -2,6 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="toc_video_process">
     <title>Video Processing</title>
-    <shortdesc id="short"><ph id="shortdesc">Introduces methods and callbacks related to video processing.</ph></shortdesc>
+    <shortdesc id="short"><ph id="shortdesc">Introduces methods and callbacks related to video
+            processing.</ph></shortdesc>
     <refbody/>
 </reference>
